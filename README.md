@@ -6,8 +6,6 @@
 
 **[三地测试验证 →](docs/validation/README.md)** · [技术设计](docs/TECHNICAL_DESIGN.md) · [API](docs/API.md) · [项目审查](docs/PROJECT_AUDIT.md) · [MIT许可](LICENSE)
 
-![武汉真实记录运行界面](docs/assets/wuhan-dashboard.png)
-![南昌某社区](docs/images/overview_nanchang.png)
 ![杭州某社区](docs/images/overview_%E6%9D%AD%E5%B7%9E.png)
 ![初始界面](docs/images/overview.png)
 ![分析界面](docs/images/analyse.png)
