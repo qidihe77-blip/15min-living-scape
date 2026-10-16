@@ -1,0 +1,792 @@
+{
+  "version": "facility-categories-v5",
+  "coordinateSystem": "BD-09LL",
+  "scope": {
+    "mode": "walking",
+    "minutes": 15,
+    "subtypeScope": "all"
+  },
+  "classificationVersion": "six-group-rule-evidence-v3",
+  "specialtySubtypeIds": [
+    "market",
+    "pharmacy",
+    "primary_school"
+  ],
+  "categories": [
+    {
+      "id": "education",
+      "label": "教育",
+      "color": "#649EFF",
+      "iconKey": "education",
+      "subtypes": [
+        {
+          "id": "kindergarten",
+          "label": "幼儿园",
+          "iconKey": "school",
+          "searchQueries": [
+            "幼儿园"
+          ],
+          "namePatterns": [
+            "幼儿园"
+          ],
+          "rawCategoryHints": [
+            "幼儿园"
+          ],
+          "excludeNamePatterns": [
+            "培训",
+            "玩具",
+            "用品",
+            "便利店",
+            "超市",
+            "酒店",
+            "售楼处",
+            "大学",
+            "学院",
+            "职校",
+            "职业学校",
+            "中专",
+            "早教",
+            "托育"
+          ],
+          "excludeCategoryPatterns": [
+            "便利店",
+            "超市",
+            "商场",
+            "药店",
+            "酒店",
+            "住宅区",
+            "住宅小区",
+            "房地产",
+            "公交车站",
+            "地铁站",
+            "高等院校",
+            "大学",
+            "培训",
+            "职业教育"
+          ],
+          "specialtyTags": []
+        },
+        {
+          "id": "primary_school",
+          "label": "小学",
+          "iconKey": "school",
+          "searchQueries": [
+            "小学",
+            "小学部"
+          ],
+          "namePatterns": [
+            "小学",
+            "小学部"
+          ],
+          "rawCategoryHints": [
+            "小学",
+            "小学部"
+          ],
+          "excludeNamePatterns": [
+            "培训",
+            "辅导",
+            "补习",
+            "用品",
+            "招生咨询",
+            "便利店",
+            "超市",
+            "酒店",
+            "售楼处",
+            "大学",
+            "学院",
+            "职校",
+            "职业学校",
+            "中专",
+            "早教",
+            "托育"
+          ],
+          "excludeCategoryPatterns": [
+            "培训机构",
+            "便利店",
+            "超市",
+            "商场",
+            "药店",
+            "酒店",
+            "住宅区",
+            "住宅小区",
+            "房地产",
+            "公交车站",
+            "地铁站",
+            "高等院校",
+            "大学",
+            "培训",
+            "职业教育"
+          ],
+          "specialtyTags": [
+            "primary_school"
+          ]
+        },
+        {
+          "id": "secondary_school",
+          "label": "中学",
+          "iconKey": "school",
+          "searchQueries": [
+            "中学",
+            "初级中学",
+            "高级中学",
+            "普通高中",
+            "完全中学",
+            "初中",
+            "高中",
+            "学校"
+          ],
+          "namePatterns": [
+            "中学",
+            "初中",
+            "高中"
+          ],
+          "rawCategoryHints": [
+            "中学",
+            "初中",
+            "高中"
+          ],
+          "excludeNamePatterns": [
+            "培训",
+            "辅导",
+            "补习",
+            "便利店",
+            "超市",
+            "酒店",
+            "售楼处",
+            "大学",
+            "学院",
+            "职校",
+            "职业学校",
+            "中专",
+            "早教",
+            "托育"
+          ],
+          "excludeCategoryPatterns": [
+            "培训机构",
+            "便利店",
+            "超市",
+            "商场",
+            "药店",
+            "酒店",
+            "住宅区",
+            "住宅小区",
+            "房地产",
+            "公交车站",
+            "地铁站",
+            "高等院校",
+            "大学",
+            "培训",
+            "职业教育"
+          ],
+          "specialtyTags": []
+        }
+      ]
+    },
+    {
+      "id": "medical",
+      "label": "医疗",
+      "color": "#28D9F5",
+      "iconKey": "medical",
+      "subtypes": [
+        {
+          "id": "hospital",
+          "label": "医院",
+          "iconKey": "hospital",
+          "searchQueries": [
+            "医院",
+            "综合医院",
+            "专科医院"
+          ],
+          "namePatterns": [
+            "医院"
+          ],
+          "rawCategoryHints": [
+            "医院"
+          ],
+          "excludeNamePatterns": [
+            "宠物",
+            "兽医",
+            "动物",
+            "药店",
+            "药房",
+            "科室",
+            "住院部",
+            "门诊楼",
+            "医院停车",
+            "便利店",
+            "超市",
+            "酒店",
+            "售楼处"
+          ],
+          "excludeCategoryPatterns": [
+            "便利店",
+            "超市",
+            "商场",
+            "酒店",
+            "住宅区",
+            "住宅小区",
+            "房地产"
+          ],
+          "specialtyTags": []
+        },
+        {
+          "id": "community_health",
+          "label": "基层医疗",
+          "iconKey": "medical",
+          "searchQueries": [
+            "社区卫生服务中心",
+            "社区卫生服务站",
+            "卫生院"
+          ],
+          "namePatterns": [
+            "社区卫生服务中心",
+            "社区卫生服务站",
+            "卫生院"
+          ],
+          "rawCategoryHints": [
+            "社区卫生服务",
+            "卫生院"
+          ],
+          "excludeNamePatterns": [
+            "用品",
+            "停车场"
+          ],
+          "excludeCategoryPatterns": [
+            "便利店",
+            "超市",
+            "商场",
+            "酒店",
+            "住宅区",
+            "住宅小区",
+            "房地产"
+          ],
+          "specialtyTags": []
+        },
+        {
+          "id": "clinic",
+          "label": "诊所",
+          "iconKey": "medical",
+          "searchQueries": [
+            "诊所",
+            "门诊部"
+          ],
+          "namePatterns": [
+            "诊所",
+            "门诊部"
+          ],
+          "rawCategoryHints": [
+            "诊所",
+            "门诊部"
+          ],
+          "excludeNamePatterns": [
+            "宠物",
+            "兽医",
+            "动物",
+            "用品",
+            "便利店",
+            "超市",
+            "酒店",
+            "售楼处"
+          ],
+          "excludeCategoryPatterns": [
+            "便利店",
+            "超市",
+            "商场",
+            "酒店",
+            "住宅区",
+            "住宅小区",
+            "房地产"
+          ],
+          "specialtyTags": []
+        },
+        {
+          "id": "pharmacy",
+          "label": "药店",
+          "iconKey": "pharmacy",
+          "searchQueries": [
+            "药店",
+            "药房",
+            "大药房"
+          ],
+          "namePatterns": [
+            "药店",
+            "药房"
+          ],
+          "rawCategoryHints": [
+            "药店",
+            "药房"
+          ],
+          "excludeNamePatterns": [
+            "医院药房",
+            "医院内部",
+            "住院部",
+            "药品批发",
+            "医药公司",
+            "制药",
+            "器械",
+            "中药材市场"
+          ],
+          "excludeCategoryPatterns": [
+            "便利店",
+            "超市",
+            "商场",
+            "酒店",
+            "住宅区",
+            "住宅小区",
+            "房地产"
+          ],
+          "specialtyTags": [
+            "pharmacy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commerce",
+      "label": "商业",
+      "color": "#F2AE52",
+      "iconKey": "commerce",
+      "subtypes": [
+        {
+          "id": "market",
+          "label": "菜市场",
+          "iconKey": "market",
+          "searchQueries": [
+            "菜市场",
+            "菜场",
+            "农贸市场",
+            "菜店"
+          ],
+          "namePatterns": [
+            "菜市场",
+            "菜场",
+            "农贸市场",
+            "菜店"
+          ],
+          "rawCategoryHints": [
+            "菜市场",
+            "农贸市场",
+            "菜店"
+          ],
+          "excludeNamePatterns": [
+            "批发物流",
+            "市场管理",
+            "招商",
+            "海鲜酒楼"
+          ],
+          "excludeCategoryPatterns": [],
+          "specialtyTags": [
+            "market"
+          ]
+        },
+        {
+          "id": "supermarket",
+          "label": "超市",
+          "iconKey": "shop",
+          "searchQueries": [
+            "超市",
+            "生鲜超市"
+          ],
+          "namePatterns": [
+            "超市"
+          ],
+          "rawCategoryHints": [
+            "超市"
+          ],
+          "excludeNamePatterns": [
+            "汽车超市",
+            "家居超市",
+            "建材超市",
+            "家具超市",
+            "招聘",
+            "用品批发"
+          ],
+          "excludeCategoryPatterns": [],
+          "specialtyTags": []
+        },
+        {
+          "id": "convenience_store",
+          "label": "便利店",
+          "iconKey": "shop",
+          "searchQueries": [
+            "便利店",
+            "便利商店"
+          ],
+          "namePatterns": [
+            "便利店",
+            "便利商店"
+          ],
+          "rawCategoryHints": [
+            "便利店",
+            "便利商店"
+          ],
+          "excludeNamePatterns": [
+            "加盟",
+            "招商"
+          ],
+          "excludeCategoryPatterns": [],
+          "specialtyTags": []
+        },
+        {
+          "id": "shopping_mall",
+          "label": "商场",
+          "iconKey": "mall",
+          "searchQueries": [
+            "商场",
+            "购物中心",
+            "百货商店"
+          ],
+          "namePatterns": [
+            "商场",
+            "购物中心",
+            "百货"
+          ],
+          "rawCategoryHints": [
+            "商场",
+            "购物中心",
+            "百货商店"
+          ],
+          "excludeNamePatterns": [
+            "楼盘售楼",
+            "招商办公室"
+          ],
+          "excludeCategoryPatterns": [],
+          "specialtyTags": []
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "label": "交通",
+      "color": "#6CD1F0",
+      "iconKey": "transport",
+      "subtypes": [
+        {
+          "id": "bus_stop",
+          "label": "公交站",
+          "iconKey": "bus",
+          "searchQueries": [
+            "公交站",
+            "公交车站"
+          ],
+          "namePatterns": [
+            "公交站",
+            "公交车站",
+            "公交站台"
+          ],
+          "rawCategoryHints": [
+            "公交车站",
+            "公交站"
+          ],
+          "excludeNamePatterns": [
+            "公交公司",
+            "公交调度",
+            "停车场",
+            "保养场"
+          ],
+          "excludeCategoryPatterns": [],
+          "specialtyTags": []
+        },
+        {
+          "id": "metro_station",
+          "label": "地铁站",
+          "iconKey": "metro",
+          "searchQueries": [
+            "地铁站",
+            "地铁出入口"
+          ],
+          "namePatterns": [
+            "地铁站",
+            "地铁口",
+            "地铁出入口"
+          ],
+          "rawCategoryHints": [
+            "地铁站",
+            "地铁出入口"
+          ],
+          "excludeNamePatterns": [
+            "地铁公司",
+            "施工",
+            "售楼"
+          ],
+          "excludeCategoryPatterns": [],
+          "specialtyTags": []
+        }
+      ]
+    },
+    {
+      "id": "eldercare",
+      "label": "养老",
+      "color": "#A786F0",
+      "iconKey": "eldercare",
+      "subtypes": [
+        {
+          "id": "residential_eldercare",
+          "label": "养老院",
+          "iconKey": "eldercare",
+          "searchQueries": [
+            "养老院",
+            "敬老院",
+            "养护院"
+          ],
+          "namePatterns": [
+            "养老院",
+            "敬老院",
+            "养护院"
+          ],
+          "rawCategoryHints": [
+            "养老院",
+            "敬老院",
+            "养老机构",
+            "养护院"
+          ],
+          "excludeNamePatterns": [
+            "设备",
+            "用品",
+            "加盟",
+            "招聘"
+          ],
+          "excludeCategoryPatterns": [
+            "便利店",
+            "超市",
+            "商场",
+            "酒店",
+            "住宅区",
+            "住宅小区",
+            "房地产"
+          ],
+          "specialtyTags": []
+        },
+        {
+          "id": "convalescent_home",
+          "label": "疗养院",
+          "iconKey": "eldercare",
+          "searchQueries": [
+            "疗养院",
+            "休养院",
+            "康复疗养院"
+          ],
+          "namePatterns": [
+            "疗养院",
+            "休养院"
+          ],
+          "rawCategoryHints": [
+            "疗养院",
+            "休养院"
+          ],
+          "excludeNamePatterns": [
+            "设备",
+            "用品",
+            "加盟",
+            "招聘"
+          ],
+          "excludeCategoryPatterns": [
+            "便利店",
+            "超市",
+            "商场",
+            "酒店",
+            "住宅区",
+            "住宅小区",
+            "房地产"
+          ],
+          "specialtyTags": []
+        }
+      ]
+    },
+    {
+      "id": "leisure",
+      "label": "休闲",
+      "color": "#62C995",
+      "iconKey": "leisure",
+      "subtypes": [
+        {
+          "id": "park_green",
+          "label": "公园",
+          "iconKey": "park",
+          "searchQueries": [
+            "公园",
+            "街心公园",
+            "城市绿地"
+          ],
+          "namePatterns": [
+            "公园",
+            "街心绿地",
+            "城市绿地",
+            "街头绿地"
+          ],
+          "rawCategoryHints": [
+            "公园",
+            "城市绿地"
+          ],
+          "excludeNamePatterns": [
+            "公园壹号",
+            "公园一号",
+            "售楼",
+            "楼盘",
+            "公园路",
+            "公园酒店",
+            "公园小区"
+          ],
+          "excludeCategoryPatterns": [],
+          "specialtyTags": []
+        },
+        {
+          "id": "public_square",
+          "label": "广场",
+          "iconKey": "square",
+          "searchQueries": [
+            "公共广场",
+            "健身广场",
+            "市民广场"
+          ],
+          "namePatterns": [
+            "公共广场",
+            "健身广场",
+            "市民广场",
+            "文化广场",
+            "休闲广场"
+          ],
+          "rawCategoryHints": [
+            "公共广场",
+            "健身广场",
+            "广场"
+          ],
+          "excludeNamePatterns": [
+            "写字楼",
+            "购物中心",
+            "商场",
+            "百货",
+            "小区",
+            "售楼",
+            "楼盘"
+          ],
+          "excludeCategoryPatterns": [],
+          "specialtyTags": []
+        },
+        {
+          "id": "entertainment",
+          "label": "娱乐",
+          "iconKey": "culture",
+          "searchQueries": [
+            "电影院",
+            "影院",
+            "KTV",
+            "桌游",
+            "足浴",
+            "剧本杀",
+            "娱乐场所"
+          ],
+          "namePatterns": [
+            "电影院",
+            "影院",
+            "KTV",
+            "ktv",
+            "桌游",
+            "足浴",
+            "足疗",
+            "剧本杀"
+          ],
+          "rawCategoryHints": [
+            "电影院",
+            "KTV",
+            "ktv",
+            "桌游",
+            "足浴",
+            "足疗",
+            "剧本杀",
+            "娱乐场所"
+          ],
+          "excludeNamePatterns": [
+            "设备",
+            "器材",
+            "用品",
+            "培训",
+            "传媒公司"
+          ],
+          "excludeCategoryPatterns": [
+            "设备销售",
+            "培训机构"
+          ],
+          "specialtyTags": []
+        },
+        {
+          "id": "sports",
+          "label": "运动",
+          "iconKey": "sports",
+          "searchQueries": [
+            "体育馆",
+            "运动场",
+            "社区体育活动中心",
+            "体育场",
+            "健身房",
+            "公共健身场地",
+            "健身广场",
+            "游泳馆",
+            "篮球场"
+          ],
+          "namePatterns": [
+            "体育馆",
+            "体育场",
+            "运动场",
+            "体育活动中心",
+            "健身房",
+            "健身中心",
+            "健身场地",
+            "健身广场",
+            "游泳馆",
+            "篮球场",
+            "羽毛球馆"
+          ],
+          "rawCategoryHints": [
+            "体育场馆",
+            "体育馆",
+            "体育场",
+            "运动场",
+            "健身房",
+            "健身中心",
+            "公共健身",
+            "健身场地",
+            "游泳馆",
+            "篮球场",
+            "羽毛球馆"
+          ],
+          "excludeNamePatterns": [
+            "用品",
+            "器材",
+            "商店",
+            "批发",
+            "加盟"
+          ],
+          "excludeCategoryPatterns": [],
+          "specialtyTags": []
+        }
+      ]
+    }
+  ],
+  "supersedes": "facility-categories-v4",
+  "retiredSubtypeIds": [
+    "junior_school",
+    "senior_school",
+    "childcare_early_education",
+    "community_eldercare",
+    "day_care",
+    "senior_activity",
+    "sports_venue",
+    "fitness",
+    "culture_venue",
+    "reading_exhibition"
+  ],
+  "migration": {
+    "junior_school": "secondary_school",
+    "senior_school": "secondary_school",
+    "childcare_early_education": null,
+    "policy": "historical_snapshots_keep_original_mapping",
+    "sports_venue": "sports",
+    "fitness": "sports",
+    "culture_venue": null,
+    "reading_exhibition": null,
+    "community_eldercare": null,
+    "day_care": null,
+    "senior_activity": null
+  }
+}

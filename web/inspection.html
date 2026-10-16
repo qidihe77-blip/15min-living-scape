@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f4f7f8" />
+  <meta name="description" content="文锦社区单点设施检索与生活圈可视化评估" />
+  <title>文锦社区 · 15分钟生活圈评估</title>
+  <link rel="stylesheet" href="/inspection.css" />
+  <script type="module" src="/display-frame.js?v=a52"></script>
+  <script type="module" src="/inspection.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="邻里智检首页"><span class="brand-icon">邻</span><span><strong>邻里智检</strong><small>COMMUNITY ACCESS LAB</small></span></a>
+    <div class="topbar-center"><span>单点评估</span><b>/</b><strong>文锦社区 · 西湖区</strong></div>
+    <div id="connection" class="connection" data-ready="false">正在连接服务</div>
+  </header>
+  <main class="layout">
+    <section class="intro"><div><div class="eyebrow">COMMUNITY ACCESS · FIELD INSPECTION</div><h1>文锦社区 · 15分钟生活圈</h1><p>以西溪街道文锦社区文二路 27 号为中心点，接管取点、分类检索和单点评估报告链路。</p></div><div class="step-chip"><span>01</span> 取点 <b>→</b><span>02</span> 分类检索 <b>→</b><span>03</span> 可视化评估</div></section>
+    <section class="workbench">
+      <aside class="sidebar">
+        <div class="sidebar-heading"><div class="pin-icon">⌖</div><div><span class="eyebrow">ANALYSIS POINT</span><h2>文锦社区中心点</h2></div></div>
+        <p class="instruction">西溪街道文锦社区 · 杭州市西湖区文二路 27 号。点击地图重新选点；滚轮缩放、拖动平移。</p>
+        <div class="coordinate-card"><div class="field-head"><label>当前中心点</label><span class="coord-tag">BD-09LL</span></div><div class="coordinate-value"><span>经度</span><strong id="longitude">加载中</strong></div><div class="coordinate-value"><span>纬度</span><strong id="latitude">加载中</strong></div></div>
+        <div class="form-block"><label>检索类别</label><div class="category-chips"><span>医疗健康</span><span>教育服务</span><span>菜场与购物</span><span>养老与社区</span></div><small>四类并行检索；每类最多展示 20 个 POI</small></div>
+        <div class="form-block"><div class="field-head"><label>步行时间圈（估算）</label><span>70 米 / 分钟</span></div><div class="circle-options"><label><input id="circle-15" type="checkbox" checked /> 15 分钟</label><label><input id="circle-10" type="checkbox" checked /> 10 分钟</label><label><input id="circle-5" type="checkbox" checked /> 5 分钟</label></div></div>
+        <button id="run-inspection" class="primary-button" type="button" disabled><span class="button-icon">↻</span> 开始单点评估</button>
+        <div class="status-line"><span id="status" data-tone="">正在初始化…</span></div>
+        <div class="scope-note"><span class="note-icon">i</span><p>估算圆不是实际路网等时圈；结果数量不是社区边界内的设施覆盖率。行政社区边界仍需另行确认。</p></div>
+        <div class="phase-note"><span class="phase-number">NEXT</span><p><strong>接续目标：真实可达性</strong><br />补充研究范围、步行路线采样与网格覆盖后，再生成正式盲区判断。</p></div>
+      </aside>
+      <section class="map-column">
+        <div class="map-toolbar"><div class="map-title"><span class="live-mark"></span><strong>百度地图 · 西溪街道文锦社区</strong><span class="map-subtitle">缩放 / 平移 / 点击取点</span></div><button id="map-home" class="icon-button" type="button" aria-label="地图回到默认视图" title="回到文锦社区中心">⌖</button></div>
+        <div id="map" class="map" role="application" aria-label="百度地图，可点击地图获取经纬度"><div id="map-loading" class="map-loading"><span class="spinner"></span><strong>正在加载百度地图…</strong></div></div>
+        <div class="map-foot"><span><i class="legend-pin"></i>分析中心点</span><span><i class="legend-ring"></i>估算步行圆</span><span class="coordinate-hint">坐标系：百度 BD-09LL</span></div>
+        <section class="results" aria-labelledby="results-title">
+          <div class="results-heading"><div><span class="eyebrow">SINGLE-POINT REPORT</span><h2 id="results-title">生活圈可视化评估</h2></div></div>
+          <div class="summary-grid"><article><span>候选设施</span><strong id="facility-total">—</strong></article><article><span>类别数量达标</span><strong id="coverage-total">—</strong></article><article><span>演示覆盖率</span><strong id="coverage-score">—</strong></article></div>
+          <div class="report-columns"><section><h3>分类检索结果</h3><div id="category-results" class="category-results"><p class="empty-state">等待检索。</p></div><h3>服务盲区提示</h3><div id="blind-zone" class="blind-zone"><p class="empty-state">等待检索。</p></div></section><section><h3>周边设施 · 按直线距离排序</h3><div id="reachable-list" class="reachable-list"><p class="empty-state">等待检索。</p></div></section></div>
+          <div id="report-note" class="results-footnote">报告基于当前单点周边分类检索。</div>
+        </section>
+      </section>
+    </section>
+    <footer class="page-footer"><span>邻里智检 · 西溪街道文锦社区样例</span><span>地图由百度 JSAPI GL 渲染 · POI 由服务端代理检索</span></footer>
+  </main>
+</body>
+</html>

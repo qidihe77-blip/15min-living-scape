@@ -1,0 +1,872 @@
+{
+  "source": "Baidu direction/v2/walking, one real request on 2026-10-15 Asia/Shanghai",
+  "analysisId": "fa-7f6f794b-25bd-46d6-a03d-3d8983d50169",
+  "origin": {
+    "id": "944ded0737b2a7ac17c8f628",
+    "source": "baidu_poi",
+    "uid": "944ded0737b2a7ac17c8f628",
+    "name": "绿梦隆和青岚书院",
+    "address": "江西省南昌市新建区黄家湖西路299号",
+    "location": {
+      "lat": 28.722082834218497,
+      "lng": 115.82686707870968
+    }
+  },
+  "facility": {
+    "categoryMappingVersion": "facility-categories-v8",
+    "uid": "86d8533fc53ccf58c03644d4",
+    "name": "龙潭足球公园",
+    "address": "南昌市新建区黄家湖西路和正智汇谷南侧约40米",
+    "location": {
+      "lat": 28.720313539017607,
+      "lng": 115.82056330962604
+    },
+    "naviLocation": {
+      "lat": 28.72076703905913,
+      "lng": 115.82307365401692
+    },
+    "rawCategory": "运动健身;足球场",
+    "rawCategoryTags": [
+      "运动健身;足球场",
+      "运动健身;体育场馆"
+    ],
+    "classifiedPoiTag": "运动健身;足球场",
+    "categoryId": "leisure",
+    "queriedSubtypeIds": [
+      "park_green",
+      "sports_venue",
+      "culture_venue"
+    ],
+    "matchedQueries": [
+      "体育馆$运动场$社区体育活动中心$体育场$健身房$公共健身场地$健身广场$游泳馆$篮球场$羽毛球馆"
+    ],
+    "parentUid": null,
+    "entranceCandidates": [],
+    "entranceStatus": "navigation_hint_unverified",
+    "identityStatus": "provider_uid",
+    "classification": {
+      "candidateStatus": "pending_review",
+      "reason": "group_recall_then_subtype_classification"
+    },
+    "classificationEvidence": [
+      {
+        "name": "龙潭足球公园",
+        "rawCategoryTags": [
+          "运动健身;足球场",
+          "运动健身;体育场馆"
+        ],
+        "query": "体育馆$运动场$社区体育活动中心$体育场$健身房$公共健身场地$健身广场$游泳馆$篮球场$羽毛球馆",
+        "retrievedAt": "2026-10-14T16:16:15.664Z"
+      }
+    ],
+    "retrievalEvidence": [
+      {
+        "query": "体育馆$运动场$社区体育活动中心$体育场$健身房$公共健身场地$健身广场$游泳馆$篮球场$羽毛球馆",
+        "subtypeId": null,
+        "shardId": "root",
+        "pageNum": 0,
+        "retrievedAt": "2026-10-14T16:16:15.664Z"
+      }
+    ],
+    "destinationVariants": [
+      {
+        "location": {
+          "lat": 28.720313539017607,
+          "lng": 115.82056330962604
+        },
+        "naviLocation": {
+          "lat": 28.72076703905913,
+          "lng": 115.82307365401692
+        }
+      }
+    ],
+    "businessEvidence": [
+      {
+        "source": "baidu_place_around",
+        "uid": "86d8533fc53ccf58c03644d4",
+        "field": "detail_info.classified_poi_tag",
+        "value": "运动健身;足球场",
+        "retrievedAt": "2026-10-14T16:16:15.664Z",
+        "scope": "branch"
+      },
+      {
+        "source": "baidu_place_around",
+        "uid": "86d8533fc53ccf58c03644d4",
+        "field": "detail_info.tag",
+        "value": "运动健身;体育场馆",
+        "retrievedAt": "2026-10-14T16:16:15.664Z",
+        "scope": "branch"
+      }
+    ],
+    "retrievedAt": "2026-10-14T16:16:15.664Z",
+    "coordinateSystem": "BD-09LL",
+    "recalledCategoryId": "leisure",
+    "classificationVersion": "six-group-public-services-v8.3",
+    "categoryIds": [
+      "leisure"
+    ],
+    "subtypeIds": [
+      "park_green",
+      "sports_venue"
+    ],
+    "memberships": [
+      {
+        "categoryId": "education",
+        "subtypeId": "kindergarten",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "education",
+        "subtypeId": "primary_school",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "education",
+        "subtypeId": "secondary_school",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "medical",
+        "subtypeId": "hospital",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "medical",
+        "subtypeId": "community_clinic",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "medical",
+        "subtypeId": "pharmacy",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "commerce",
+        "subtypeId": "market",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "commerce",
+        "subtypeId": "supermarket",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "commerce",
+        "subtypeId": "convenience_store",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "commerce",
+        "subtypeId": "shopping_mall",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "transport",
+        "subtypeId": "bus_stop",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "transport",
+        "subtypeId": "metro_station",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "eldercare",
+        "subtypeId": "residential_eldercare",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "eldercare",
+        "subtypeId": "day_care",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "eldercare",
+        "subtypeId": "senior_activity",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      {
+        "categoryId": "leisure",
+        "subtypeId": "park_green",
+        "subtypeIds": [
+          "park_green"
+        ],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "confirmed_by_rule",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [
+            "公园"
+          ],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "name_or_raw_tag_match"
+      },
+      {
+        "categoryId": "leisure",
+        "subtypeId": "sports_venue",
+        "subtypeIds": [
+          "sports_venue"
+        ],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "confirmed_by_rule",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [
+            "体育场馆",
+            "体育场"
+          ],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "name_or_raw_tag_match"
+      },
+      {
+        "categoryId": "leisure",
+        "subtypeId": "culture_venue",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v8",
+        "classificationVersion": "six-group-public-services-v8.3",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      }
+    ],
+    "identityKey": "uid:86d8533fc53ccf58c03644d4",
+    "pendingSubtypeIds": [
+      "culture_venue"
+    ],
+    "candidateStatus": "confirmed_by_rule",
+    "circleRouteEvidence": {
+      "evidenceId": "route-4395c8d023236a0928e90b05",
+      "facilityUid": "86d8533fc53ccf58c03644d4",
+      "identityKey": "uid:86d8533fc53ccf58c03644d4",
+      "categoryId": null,
+      "subtypeId": null,
+      "name": "龙潭足球公园",
+      "address": "南昌市新建区黄家湖西路和正智汇谷南侧约40米",
+      "location": {
+        "lat": 28.720313539017607,
+        "lng": 115.82056330962604
+      },
+      "destination": {
+        "lat": 28.72076703905913,
+        "lng": 115.82307365401692
+      },
+      "origin": {
+        "lat": 28.722082834218497,
+        "lng": 115.82686707870968
+      },
+      "originUid": "944ded0737b2a7ac17c8f628",
+      "destinationUid": "86d8533fc53ccf58c03644d4",
+      "entranceVerification": {
+        "knownTargets": 1,
+        "attempted": 1,
+        "reachableWitness": true,
+        "complete": true
+      },
+      "entranceStatus": "navigation_hint_unverified",
+      "destinationConflict": false,
+      "straightLineMeters": 645,
+      "durationSeconds": 814,
+      "distanceMeters": 955,
+      "routeStatus": "ok",
+      "walkingModelId": "walking80-v1",
+      "modelDurationSeconds": 716.25,
+      "source": "direction_v2",
+      "mode": "walking",
+      "coordinateSystem": "BD-09LL",
+      "retrievedAt": "2026-10-14T16:16:32.003Z",
+      "observedAt": "2026-10-14T16:16:24.649Z",
+      "apiStatus": null,
+      "httpStatus": null,
+      "geometry": null,
+      "geometryStatus": "endpoint_geometry_mismatch",
+      "geometryCompleteness": "continuous_provider_steps",
+      "providerOrigin": {
+        "lat": 28.722078795489,
+        "lng": 115.82686564142
+      },
+      "providerDestination": {
+        "lat": 28.720764220386,
+        "lng": 115.82306580911
+      },
+      "originNavigation": "coordinates",
+      "requestOriginUidApplied": false,
+      "requestedOrigin": {
+        "location": {
+          "lat": 28.722083,
+          "lng": 115.826867
+        },
+        "uid": "944ded0737b2a7ac17c8f628"
+      },
+      "requestedDestination": {
+        "location": {
+          "lat": 28.720767,
+          "lng": 115.823074
+        },
+        "uid": "86d8533fc53ccf58c03644d4"
+      },
+      "classification": {
+        "candidateStatus": "confirmed_by_rule",
+        "subtypeIds": [
+          "park_green",
+          "sports_venue"
+        ]
+      },
+      "cached": false
+    }
+  },
+  "previous": {
+    "evidenceId": "route-4395c8d023236a0928e90b05",
+    "facilityUid": "86d8533fc53ccf58c03644d4",
+    "identityKey": "uid:86d8533fc53ccf58c03644d4",
+    "categoryId": "leisure",
+    "subtypeId": "park_green",
+    "name": "龙潭足球公园",
+    "address": "南昌市新建区黄家湖西路和正智汇谷南侧约40米",
+    "location": {
+      "lat": 28.720313539017607,
+      "lng": 115.82056330962604
+    },
+    "destination": {
+      "lat": 28.72076703905913,
+      "lng": 115.82307365401692
+    },
+    "origin": {
+      "lat": 28.722082834218497,
+      "lng": 115.82686707870968
+    },
+    "originUid": "944ded0737b2a7ac17c8f628",
+    "destinationUid": "86d8533fc53ccf58c03644d4",
+    "entranceVerification": {
+      "knownTargets": 1,
+      "attempted": 1,
+      "reachableWitness": true,
+      "complete": true
+    },
+    "entranceStatus": "navigation_hint_unverified",
+    "destinationConflict": false,
+    "straightLineMeters": 645,
+    "durationSeconds": 814,
+    "distanceMeters": 955,
+    "routeStatus": "ok",
+    "walkingModelId": "walking80-v1",
+    "modelDurationSeconds": 716.25,
+    "source": "direction_v2",
+    "mode": "walking",
+    "coordinateSystem": "BD-09LL",
+    "retrievedAt": "2026-10-14T16:16:32.003Z",
+    "observedAt": "2026-10-14T16:16:24.649Z",
+    "apiStatus": null,
+    "httpStatus": null,
+    "geometry": null,
+    "geometryStatus": "endpoint_geometry_mismatch",
+    "geometryCompleteness": "continuous_provider_steps",
+    "providerOrigin": {
+      "lat": 28.722078795489,
+      "lng": 115.82686564142
+    },
+    "providerDestination": {
+      "lat": 28.720764220386,
+      "lng": 115.82306580911
+    },
+    "originNavigation": "coordinates",
+    "requestOriginUidApplied": false,
+    "requestedOrigin": {
+      "location": {
+        "lat": 28.722083,
+        "lng": 115.826867
+      },
+      "uid": "944ded0737b2a7ac17c8f628"
+    },
+    "requestedDestination": {
+      "location": {
+        "lat": 28.720767,
+        "lng": 115.823074
+      },
+      "uid": "86d8533fc53ccf58c03644d4"
+    },
+    "classification": {
+      "categoryId": "leisure",
+      "subtypeId": "park_green",
+      "subtypeIds": [
+        "park_green"
+      ],
+      "categoryMappingVersion": "facility-categories-v8",
+      "classificationVersion": "six-group-public-services-v8.3",
+      "candidateStatus": "confirmed_by_rule",
+      "excludedBy": null,
+      "ruleEvidence": {
+        "nameMatches": [
+          "公园"
+        ],
+        "tagMatches": [],
+        "excludedName": null,
+        "excludedTag": null
+      },
+      "reason": "name_or_raw_tag_match"
+    },
+    "cached": true
+  },
+  "raw": {
+    "mode": "walking",
+    "source": "direction_v2",
+    "routeStatus": "ok",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          115.827379,
+          28.721744
+        ],
+        [
+          115.827429,
+          28.721733
+        ],
+        [
+          115.82753,
+          28.721702
+        ],
+        [
+          115.82754,
+          28.721611
+        ],
+        [
+          115.82756,
+          28.721381
+        ],
+        [
+          115.82756,
+          28.721161
+        ],
+        [
+          115.82756,
+          28.720961
+        ],
+        [
+          115.827279,
+          28.720956
+        ],
+        [
+          115.827209,
+          28.720957
+        ],
+        [
+          115.827118,
+          28.720958
+        ],
+        [
+          115.827018,
+          28.72096
+        ],
+        [
+          115.826968,
+          28.720981
+        ],
+        [
+          115.826606,
+          28.720986
+        ],
+        [
+          115.826064,
+          28.720985
+        ],
+        [
+          115.825914,
+          28.720977
+        ],
+        [
+          115.825924,
+          28.720687
+        ],
+        [
+          115.825864,
+          28.720298
+        ],
+        [
+          115.825442,
+          28.720364
+        ],
+        [
+          115.825362,
+          28.720456
+        ],
+        [
+          115.82498,
+          28.720491
+        ],
+        [
+          115.82494,
+          28.720832
+        ],
+        [
+          115.82493,
+          28.720932
+        ],
+        [
+          115.82492,
+          28.720952
+        ],
+        [
+          115.824619,
+          28.720937
+        ],
+        [
+          115.824197,
+          28.720903
+        ],
+        [
+          115.824187,
+          28.720703
+        ],
+        [
+          115.824177,
+          28.720673
+        ],
+        [
+          115.823846,
+          28.720708
+        ],
+        [
+          115.823354,
+          28.720735
+        ],
+        [
+          115.823284,
+          28.720736
+        ],
+        [
+          115.823224,
+          28.720757
+        ],
+        [
+          115.823194,
+          28.720757
+        ],
+        [
+          115.823134,
+          28.720768
+        ],
+        [
+          115.822993,
+          28.72058
+        ],
+        [
+          115.822963,
+          28.72054
+        ],
+        [
+          115.822923,
+          28.720521
+        ],
+        [
+          115.822823,
+          28.720462
+        ],
+        [
+          115.822782,
+          28.720433
+        ],
+        [
+          115.822722,
+          28.720414
+        ],
+        [
+          115.822622,
+          28.720395
+        ],
+        [
+          115.822481,
+          28.720367
+        ],
+        [
+          115.822411,
+          28.720358
+        ],
+        [
+          115.822321,
+          28.720349
+        ],
+        [
+          115.822241,
+          28.72035
+        ],
+        [
+          115.82215,
+          28.720351
+        ],
+        [
+          115.82209,
+          28.720352
+        ],
+        [
+          115.82206,
+          28.720353
+        ],
+        [
+          115.82198,
+          28.720374
+        ],
+        [
+          115.82192,
+          28.720394
+        ],
+        [
+          115.821869,
+          28.720405
+        ],
+        [
+          115.821799,
+          28.720446
+        ],
+        [
+          115.821689,
+          28.720527
+        ],
+        [
+          115.821639,
+          28.720548
+        ],
+        [
+          115.821598,
+          28.720569
+        ],
+        [
+          115.821518,
+          28.72058
+        ],
+        [
+          115.821448,
+          28.72059
+        ],
+        [
+          115.821127,
+          28.720615
+        ],
+        [
+          115.821007,
+          28.720626
+        ],
+        [
+          115.820926,
+          28.720627
+        ],
+        [
+          115.820525,
+          28.720612
+        ]
+      ]
+    },
+    "geometryStatus": "provider_path",
+    "geometryCompleteness": "continuous_provider_steps",
+    "durationSeconds": 814,
+    "distanceMeters": 955,
+    "coordinateSystem": "BD-09LL",
+    "retrievedAt": "2026-10-14T16:43:56.322Z",
+    "cached": false,
+    "requestedOrigin": {
+      "location": {
+        "lat": 28.722083,
+        "lng": 115.826867
+      },
+      "uid": "944ded0737b2a7ac17c8f628"
+    },
+    "requestedDestination": {
+      "location": {
+        "lat": 28.720767,
+        "lng": 115.823074
+      },
+      "uid": "86d8533fc53ccf58c03644d4"
+    },
+    "providerOrigin": {
+      "lat": 28.722078795489,
+      "lng": 115.82686564142
+    },
+    "providerDestination": {
+      "lat": 28.720764220386,
+      "lng": 115.82306580911
+    },
+    "evidenceId": "route-48cf1895e7a0a5d1c1641bb3",
+    "endpoint": "/direction/v2/walking",
+    "originNavigation": "coordinates",
+    "requestOriginUidApplied": false,
+    "walkingRequestAttempts": 1
+  }
+}

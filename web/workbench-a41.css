@@ -1,0 +1,53 @@
+/* All sizes come from the module font table in report-typography.js. */
+.topbar .brand-copy{align-items:baseline!important;gap:12px}
+.topbar .brand-copy strong{font-size:var(--font-header-brand)!important;line-height:1.2!important}
+.topbar #weather-main,.topbar .brand-copy>small,.topbar .weather-card small,.topbar .analysis-time time,.topbar .report-actions .download-report{font-size:var(--font-header-info)!important;line-height:1.2!important}
+.topbar .brand-copy>small{margin:0!important}.weather-card small:empty{display:none!important}
+.analysis-controls .input-title{font-size:var(--font-input-title)!important}
+body[data-map-theme=light] .analysis-controls .search-box input{font-size:var(--font-input-text)!important}
+body[data-map-theme=light] .analysis-controls #run-analysis{font-size:var(--font-action)!important}
+.priority-card>strong,.priority-drag-ghost strong{font-size:var(--font-priority-category)!important}
+.input-heading>.priority-instruction{font-size:var(--font-priority-hint)!important}
+.input-heading .reset-priorities{font-size:var(--font-priority-reset)!important}
+.map-legend-panel .facility-filter-title,.map-legend-panel .map-analysis-controls>strong,.map-legend-panel .legend-specialty-title{font-size:var(--font-legend-title)!important}
+.map-legend-panel #category-options .category-option .category-label,.map-legend-panel #heat-toggle span,.map-legend-panel #range-toggle span,.map-legend-panel .specialty-layer-menu button{font-size:var(--font-legend-label)!important}
+.map-legend-panel .map-global-view{font-size:var(--font-legend-restore)!important}
+.heat-legend strong{font-size:var(--font-heat-title)!important}.poi-heat-labels,.heat-opacity-control,.heat-opacity-control output{font-size:var(--font-heat-text)!important}
+.map-scale-labels span,#map-coordinates{font-size:var(--font-map-coordinate)!important}.map-attribution{font-size:var(--font-map-attribution)!important}
+#report-drawer .report-chart-pair .report-section-head h2:before{display:none!important}
+#report-drawer #score-grade{font-size:var(--font-score-grade)!important;background:#DDF3FF!important;border:0!important;border-radius:11px;padding:5px 12px}
+#report-drawer #score-community,#report-drawer #score-conclusion{font-size:var(--font-score-body)!important}
+.score-dashboard .score-summary-content{gap:10px;max-width:560px;justify-self:center;width:100%}
+.score-dashboard .score-summary-lead{padding:0 20px;gap:10px;align-items:center}
+.score-dashboard .score-summary{padding:10px 12px!important;background:#FFFFFFEB!important;border:1px solid #FFFFFF!important;box-shadow:0 2px 10px #5186B50A;gap:0!important;border-radius:13px;align-self:center;width:100%}
+.score-dashboard .score-summary>div{padding:0 8px!important;column-gap:6px;grid-template-columns:30px minmax(0,1fr)}
+#report-drawer .score-summary strong{font-size:var(--font-score-metric)!important}
+#report-drawer .score-summary small{font-size:var(--font-score-auxiliary)!important}
+#report-drawer .facility-detail-group>summary>strong{font-size:var(--font-detail-category)!important}
+#report-drawer .facility-detail-count{font-size:var(--font-detail-metric)!important}
+#report-drawer .facility-details-section .report-section-head small{font-size:var(--font-detail-hint)!important}
+#report-drawer .facility-subtype-details h3{font-size:var(--font-detail-subtype)!important}
+#report-drawer .facility-subtype-details table,#report-drawer .facility-subtype-details button{font-size:var(--font-detail-body)!important}
+#report-drawer .detail-status,#report-drawer .detail-empty{font-size:var(--font-detail-auxiliary)!important}
+#report-drawer .facility-detail-group>summary{grid-template-columns:26px 48px minmax(0,1fr) 57px 16px!important}
+#report-drawer .diagnosis-heading>strong{font-size:var(--font-specialty-category)!important}
+#report-drawer .diagnosis-count>b{font-size:var(--font-specialty-metric)!important}
+#report-drawer .diagnosis-distance,#report-drawer .diagnosis-poi{font-size:var(--font-specialty-body)!important}
+#report-drawer .specialty-section .report-section-head>span,#report-drawer .diagnosis-nearest,#report-drawer .diagnosis-count>small{font-size:var(--font-specialty-auxiliary)!important}
+#report-drawer .diagnosis-heading .diagnosis-icon{width:34px!important;height:34px!important;flex:0 0 34px!important;border-radius:9px;border:1px solid #FFFFFFB3;background:linear-gradient(140deg,color-mix(in srgb,var(--diagnostic-color) 80%,white),var(--diagnostic-color))!important;box-shadow:0 3px 9px color-mix(in srgb,var(--diagnostic-color) 20%,transparent)}
+#report-drawer .diagnosis-heading .diagnosis-icon img{width:24px;height:24px}
+#report-drawer .report-empty>strong,#report-drawer #loading-title{font-size:var(--font-state-title)!important}
+#report-drawer .report-empty p,#report-drawer .report-idle-badge,#report-drawer #loading-counter,#report-drawer #loading-detail,#report-drawer .report-process-steps strong,#report-drawer .report-process-steps span{font-size:var(--font-state-body)!important}
+#report-drawer #loading-percent{font-size:var(--font-state-metric)!important}
+.poi-info{width:288px!important;max-width:100%;border:0!important;box-shadow:none!important;background:#fff}
+.facility-popup-header{display:grid!important;grid-template-columns:24px minmax(0,1fr) 24px;align-items:center;gap:4px 8px;padding:8px 6px 5px!important;background:transparent!important;border:0!important}
+.facility-popup-header>.category-icon{grid-area:1/1;width:24px;height:24px;margin:0}
+.facility-popup-header>strong{grid-area:1/2;font-size:var(--font-popup-title)!important;line-height:1.4;font-weight:600;color:var(--facility-accent);overflow-wrap:anywhere}
+.facility-popup-header>.facility-popup-meta{grid-area:2/2/3/4;font-size:var(--font-popup-category)!important;line-height:1.4;margin:0;color:#7094A9}
+.facility-popup-close{grid-area:1/3;display:grid;place-items:center;width:24px;height:24px;padding:0;line-height:1;font-size:20px;border:0;background:transparent;border-radius:6px;color:#7A93A8;cursor:pointer}
+.facility-popup-close:hover{background:#EAF3FA;color:#315C7C}
+.facility-popup-body{padding:4px 6px 8px!important;display:grid;gap:4px}
+.facility-popup-body small{font-size:var(--font-popup-body)!important;line-height:1.45!important;color:#5D7E95}
+.BMap_bubble_pop:has(.poi-info){transform:translateY(var(--facility-popup-shift,0px))}
+.BMap_bubble_pop:has(.poi-info)>.BMap_bubble_top{display:none!important;height:0!important}
+.BMap_bubble_pop:has(.poi-info)>img{top:100%!important}

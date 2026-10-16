@@ -1,0 +1,31 @@
+/* This round changes the popup and the requested labels; all other type roles remain A41. */
+.BMap_bubble_pop:has(.poi-info){border:1px solid #D4E3F0!important;border-radius:16px!important;padding:0 6px!important;background:#FFFFFFF5!important;box-shadow:0 6px 24px #3B668E20!important}
+.poi-info{width:308px!important;background:transparent;border-radius:14px;overflow:hidden;font-family:var(--report-font-family);font-variant-numeric:tabular-nums}
+.facility-popup-header{padding:12px!important;grid-template-columns:30px minmax(0,1fr) 20px;gap:5px 9px;background:color-mix(in srgb,var(--facility-accent) 9%,white)!important;border-bottom:1px solid #E5EDF4!important}
+.facility-popup-header>.category-icon{width:30px;height:30px;align-self:start;padding:5px;border-radius:8px;background:color-mix(in srgb,var(--facility-accent) 13%,white)!important}
+.facility-popup-header>.category-icon svg{width:20px;height:20px}
+.facility-popup-header>strong{font-size:var(--font-popup-title)!important;font-weight:600;line-height:1.45;color:#244C6C}
+.facility-popup-header>.facility-popup-meta{font-size:var(--font-popup-category)!important;display:flex;gap:7px;align-items:center;flex-wrap:wrap;color:#6F889B}
+.facility-popup-header .facility-popup-meta>span{margin:0;font:inherit}
+.facility-popup-header .facility-popup-status{display:inline-flex;align-items:center;gap:4px;padding:2px 7px;border-radius:12px;background:#DFF5EC;color:#0C946E}
+.facility-popup-status svg{width:11px;height:11px;stroke-width:2.4}
+.poi-info[data-facility-status]:not([data-facility-status=reachable]) .facility-popup-status{background:#FFF1DE;color:#BA8747}
+.poi-info .facility-popup-close{align-self:start;width:20px;height:20px;padding:0;border:0;background:transparent;color:#698093}
+.facility-popup-body{padding:12px!important;display:block}
+.facility-popup-address{display:flex!important;align-items:flex-start;gap:7px;color:#668397!important;line-height:1.5!important;font-size:var(--font-popup-body)!important}
+.facility-popup-address svg{width:14px;height:14px;flex:0 0 14px;margin-top:2px;stroke:#6E91A9}
+.facility-popup-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px;padding-top:11px;border-top:1px solid #E3EBF2}
+.facility-popup-metric{display:grid;grid-template-columns:17px minmax(0,1fr);gap:3px 7px;align-items:center}
+.facility-popup-metric svg{grid-row:1/3;width:17px;height:17px;color:#358FD9}
+.facility-popup-metric small{font-size:var(--font-popup-label)!important;line-height:1.4!important;color:#7D91A1!important}
+.facility-popup-metric strong{font:600 var(--font-popup-metric)/1.4 var(--report-font-family);color:#274F70;font-variant-numeric:tabular-nums;white-space:nowrap}
+
+#report-drawer .diagnosis-card{min-height:210px!important;padding:14px!important;gap:12px!important;grid-template-areas:'heading status' 'count status' 'distance distance'!important;align-content:start}
+#report-drawer .diagnosis-nearest{color:#2684CE!important;background:#EDF6FF!important;border:1px solid #BBD9F6!important}
+#report-drawer .diagnosis-card>.diagnosis-distance{align-items:flex-start;gap:7px;flex-wrap:nowrap}
+#report-drawer .diagnosis-card>.diagnosis-distance .diagnosis-poi{min-width:0;flex:1;overflow-wrap:anywhere;line-height:1.5!important}
+.score-dashboard .score-summary-lead{padding:0!important}
+.score-dashboard #overall-ring{transform:translateX(6px)}
+/* Pulse and route particles now share the one canvas animation loop. */
+#origin-pulse{display:none!important}
+#route-flow-canvas{z-index:4;pointer-events:none}

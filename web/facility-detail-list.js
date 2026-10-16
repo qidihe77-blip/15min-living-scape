@@ -1,0 +1,13 @@
+import{hasCategoryOnlyMembership}from'./facility-membership.js';
+import{boundPoiScore}from'./report-accessibility.js';
+import{searchCompleteness}from'./search-completeness.js';
+import{productText}from'./presentation-copy.js';
+const esc=s=>productText(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+export function facilityDetailList(view,rows,origin,icon,opened=new Set(['education'])){
+ const maxCount=Math.max(0,...view.groups.map(g=>g.reachablePoiCount));
+ return view.groups.map(g=>'<details class="facility-detail-group" data-detail-category="'+g.id+'" style="--group-color:'+g.color+'"'+(opened.has(g.id)?' open':'')+'><summary>'+icon(g)+'<strong>'+g.label+'</strong><span class="facility-detail-track" role="img" data-chart-tip="'+esc(JSON.stringify({title:g.label,rows:[['确认可达设施数',g.reachablePoiCount+'处']]}))+'" aria-label="'+esc(g.label)+'确认可达设施数'+g.reachablePoiCount+'处"><i style="width:'+(maxCount>0?g.reachablePoiCount/maxCount*100:0)+'%"></i></span><span class="facility-detail-count">'+g.reachablePoiCount+'处</span><b class="detail-chevron">›</b></summary><div class="facility-subtype-details">'+g.subtypes.map(s=>{
+ const found=rows.filter(p=>p.subtypeIds?.includes(s.id)&&boundPoiScore(p,origin).score===5),retrieval=s.evidence?.retrieval??searchCompleteness(s.evidence);
+ return'<section data-detail-subtype="'+s.id+'" data-retrieval-state="'+retrieval.state+'"><h3><span>'+esc(s.label)+'</span><span class="detail-status '+s.status+'">'+esc(found.length?s.statusText:'无该设施')+'</span></h3>'+(found.length?'<table><thead><tr><th>设施名称</th><th>步行时间</th><th>距离</th></tr></thead><tbody>'+found.map(p=>{const r=boundPoiScore(p,origin);return'<tr><td><button type="button" data-detail-poi="'+esc(p.identityKey)+'">'+esc(p.name)+'</button></td><td>'+Number((r.seconds/60).toFixed(1))+'分钟</td><td>'+p.routeEvidence.distanceMeters+'米</td></tr>';}).join('')+'</tbody></table>':'')+'</section>';}).join('')+(g.id==='eldercare'?categoryOnlyTable(rows,origin):'')+'</div></details>').join('');
+}
+
+function categoryOnlyTable(rows,origin){const found=rows.filter(p=>hasCategoryOnlyMembership(p)&&boundPoiScore(p,origin).score===5);return found.length?'<table class="category-only-facilities"><caption>养老服务（小类未明确）</caption><thead><tr><th>设施名称</th><th>步行时间</th><th>距离</th></tr></thead><tbody>'+found.map(p=>'<tr><td><button type="button" data-detail-poi="'+esc(p.identityKey)+'">'+esc(p.name)+'</button></td><td>'+Number((p.routeEvidence.distanceMeters/80).toFixed(1))+'分钟</td><td>'+p.routeEvidence.distanceMeters+'米</td></tr>').join('')+'</tbody></table>':'';}

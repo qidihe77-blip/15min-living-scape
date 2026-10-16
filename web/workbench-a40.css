@@ -1,0 +1,12 @@
+/* Chart presentation only; shared report type scale stays unchanged. */
+.report-chart-pair{gap:12px!important;align-items:stretch}
+#report-drawer .report-chart-pair>.report-section{
+ padding:14px!important;border:1px solid #D8E7F5!important;border-radius:20px!important;
+ background:linear-gradient(145deg,#FFFFFFE8,#F5FAFFD9)!important;
+ box-shadow:0 4px 18px #3C79B50D,inset 0 1px 0 #FFFFFFE6!important;
+ backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)
+}
+.report-chart-pair .report-section-head{align-items:center;min-height:26px;margin-bottom:8px!important}
+.report-chart-pair .report-section-head h2{display:flex;align-items:center;gap:8px;letter-spacing:.01em;color:#244F7B}
+.report-chart-pair .report-section-head h2:before{content:'';display:block!important;flex:0 0 3px;width:3px;height:18px;border-radius:3px;background:linear-gradient(#75B8FF,#3467F4);box-shadow:0 0 5px #548DFF26}
+.report-chart-pair #report-main-chart,.report-chart-pair #report-contribution-chart{background:transparent!important}

@@ -1,0 +1,31 @@
+# Private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+# Generated and local files
+node_modules/
+package-lock.json
+dist/
+output/
+tmp/
+release/
+*.log
+.DS_Store
+Thumbs.db
+# Provider responses, quota state, private caches
+data/runtime/
+data/validation-runs/
+data/map-resource-cache/
+data/map-style-cache/
+data/service-functions/
+data/time-fields/
+data/verification/
+data/isochrone*-studies/
+# Agent and local development configuration
+.agents/
+.codex/
+.clawhub/

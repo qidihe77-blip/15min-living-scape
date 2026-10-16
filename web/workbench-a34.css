@@ -1,0 +1,14 @@
+/* Current desktop refinement; category and scoring data are unchanged. */
+#priority-options.p123-priorities{padding:14px 8px 8px!important;gap:6px}
+#priority-options.p123-priorities>.priority-card{height:calc(var(--card-height) - 22px)!important}
+#priority-options.p123-priorities>.priority-card[data-group-start=true]{margin-left:20px!important}
+.priority-outer-group .priority-group-handle{top:1px;left:50%;right:auto;bottom:auto;transform:translateX(-50%);display:flex;align-items:center;justify-content:center;gap:3px;width:28px;height:10px;padding:0;background:transparent}
+.priority-group-handle i{width:3px;height:3px;flex:none;border-radius:50%;background:currentColor}
+.map-stage #map-diagnostic-legend{left:10px!important;right:auto!important;top:var(--specialty-legend-top,390px)!important;width:150px!important;max-width:150px!important}
+.facility-detail-track{cursor:help;transition:filter .18s,box-shadow .18s}
+.facility-detail-track:hover{filter:saturate(1.16);box-shadow:0 0 0 3px #77BAE91A}
+.specialty-section .diagnosis-card{width:calc(100% - var(--specialty-inset-left,124px) - var(--specialty-inset-right,110px));margin-left:var(--specialty-inset-left,124px);grid-template-columns:minmax(0,1fr) 40px 56px!important;grid-template-areas:'heading status count' 'service service count';gap:8px 10px!important;min-height:132px;padding:12px!important}
+.diagnosis-card .diagnosis-heading{grid-area:heading}.diagnosis-card .diagnosis-status-symbol{grid-area:status;width:40px;height:40px;font-size:32px;font-weight:900}
+.diagnosis-status-symbol svg{width:29px;height:29px;fill:none;stroke:currentColor;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.diagnosis-card .diagnosis-service{grid-area:service}.diagnosis-card .diagnosis-count{grid-area:count;height:100%}
+.diagnosis-card .diagnosis-distance{font-size:14px}.diagnosis-card .diagnosis-distance b{display:block}

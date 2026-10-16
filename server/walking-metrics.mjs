@@ -1,0 +1,1 @@
+export function walkingMetric(options,key,value=1){const allowance=options?.walkingAllowance;if(!allowance)return;allowance.phases??={};const name=options.telemetryPhase??'poiRouting',phase=allowance.phases[name]??={};phase[key]=(phase[key]??0)+value;}

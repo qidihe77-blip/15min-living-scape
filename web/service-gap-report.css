@@ -1,0 +1,22 @@
+#service-gap-toggle{justify-content:flex-start!important;text-align:left!important}
+#service-gap-toggle span{text-align:left}
+.service-gap-report-section{margin-top:var(--report-card-gap,12px)!important}
+.gap-report-body{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);align-items:center;gap:18px;padding:2px 8px 0}
+.gap-bubble-view{position:relative;min-width:0;text-align:center;padding:0 0 24px}
+.gap-bubble-view svg{display:block;width:100%;height:214px;overflow:visible;font-family:var(--report-font-family);stroke:none;fill:none}
+.gap-scope-label{position:absolute;bottom:2px;left:0;right:0;color:#7995A7;font:400 var(--font-chart-tooltip)/1.45 var(--report-font-family)}
+.gap-bubble{outline:none;cursor:default}
+.gap-bubble>text{pointer-events:none;fill:#F6FCFF;font-size:var(--report-font-body);font-weight:600;paint-order:stroke;stroke:#2C617A22;stroke-width:2}
+.gap-bubble:focus-visible>circle:first-of-type,.gap-bubble:hover>circle:first-of-type{stroke:#478DAF;stroke-width:2}
+.gap-covered text{fill:#188C68;font-size:var(--font-detail-category);font-weight:600}
+.gap-unknown{fill:#728B9D;font-size:var(--font-state-body)}
+.gap-report-metrics{display:grid;gap:14px;margin:0;padding:0;min-width:0}
+.gap-report-metrics>div{margin:0;padding:0}
+.gap-report-metrics dt{color:#7D93A4;font:400 var(--report-font-auxiliary)/1.45 var(--report-font-family);margin:0 0 2px}
+.gap-report-metrics dd{margin:0;color:#245575;font:600 var(--font-score-metric)/1.45 var(--report-font-family);font-variant-numeric:tabular-nums;white-space:nowrap}
+.gap-report-metrics small{font-size:var(--report-font-auxiliary);font-weight:400;margin-left:5px;color:#7691A4}
+.gap-report-readout{min-height:28px;display:flex;align-items:center;justify-content:center;text-align:center;padding:6px 10px 0;color:#5E7F95;font:400 var(--font-chart-tooltip)/1.45 var(--report-font-family);overflow-wrap:anywhere}
+body[data-state=default] #report-empty p{display:none}
+#report-empty>strong{max-width:390px;padding:0 18px;box-sizing:border-box;text-wrap:balance}
+#report-empty>strong span{display:inline-block;white-space:nowrap}
+@media(pointer:coarse) and (max-width:767px){.gap-report-body{gap:8px;padding:0}.gap-bubble-view svg{height:218px}.gap-report-metrics{gap:12px}}

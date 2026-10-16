@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f7f8" />
+    <meta name="description" content="基于百度地图的社区设施取点与分类检索 WebGIS 起步项目" />
+    <title>邻里智检 · WebGIS 工作台</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/display-frame.js?v=a52"></script>
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="邻里智检首页">
+        <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 3.5 28.5 10.7v10.6L16 28.5 3.5 21.3V10.7L16 3.5Z"/><path d="M16 9v14M9 16h14"/><circle cx="16" cy="16" r="2.5"/></svg></span>
+        <span><strong>邻里智检</strong><small>COMMUNITY ACCESS LAB</small></span>
+      </a>
+      <div class="topbar-center"><span class="crumb">工作台</span><span class="slash">/</span><strong>设施检索与空间定位</strong></div>
+      <div class="connection"><i id="connection-dot"></i><span id="connection-label">正在连接服务</span></div>
+    </header>
+
+    <main class="layout">
+      <section class="intro">
+        <div><div class="eyebrow">WEBGIS · LOCATION &amp; POI</div><h1>把社区服务，放回地图上</h1><p>选择一个位置，搜索周边民生设施；坐标、类别与距离排序一目了然。</p></div>
+        <div class="step-chip"><span>01</span> 取点 <b>→</b><span>02</span> 分类检索 <b>→</b><span>03</span> 距离排序</div>
+      </section>
+
+      <section class="workbench" aria-label="地图与设施检索">
+        <aside class="sidebar">
+          <div class="sidebar-heading"><div class="icon-pin"><svg viewBox="0 0 24 24"><path d="M19 10c0 5-7 10.3-7 10.3S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.2"/></svg></div><div><span class="eyebrow">ANALYSIS POINT</span><h2>分析位置</h2></div></div>
+          <p class="instruction">点击地图任意位置设置中心点。可用鼠标滚轮缩放，拖动地图平移。</p>
+
+          <div class="coordinate-card">
+            <div class="field-head"><label>当前中心点 <span class="coord-tag">BD-09LL</span></label><button id="copy-coordinate" class="text-action" type="button" disabled>复制坐标</button></div>
+            <div class="coordinate-value"><span>经度</span><strong id="longitude">等待取点</strong></div>
+            <div class="coordinate-value"><span>纬度</span><strong id="latitude">点击地图选择</strong></div>
+          </div>
+
+          <div class="form-block"><label for="category">设施类别</label><select id="category"><option value="health">医疗健康</option><option value="pharmacy">药店</option><option value="education">教育服务</option><option value="grocery">菜场与购物</option><option value="eldercare">养老与社区服务</option></select><small>每次查询最多展示 20 个结果</small></div>
+          <div class="form-block"><div class="field-head"><label for="radius">直线搜索半径</label><output id="radius-output">1,000 米</output></div><input id="radius" type="range" min="100" max="3000" step="100" value="1000" /><div class="range-caption"><span>100 米</span><span>3,000 米</span></div></div>
+          <button id="search-button" class="primary-button" type="button" disabled><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4 4"/></svg><span>检索周边设施</span><kbd>↵</kbd></button>
+          <div id="notice" class="notice" aria-live="polite">地图加载后，点击地图选取位置开始。</div>
+          <div class="scope-note"><span class="note-icon">i</span><p>当前圆形范围仅用于 POI 周边检索与展示，不是步行 15 分钟等时圈，也不代表社区行政边界。</p></div>
+          <div class="phase-note"><span class="phase-number">NEXT</span><p><strong>下一步：步行可达性</strong><br />接入步行路线样本，构建并校验真实路网等时圈。</p></div>
+        </aside>
+
+        <section class="map-column" aria-label="百度地图和检索结果">
+          <div class="map-toolbar"><div class="map-title"><span class="live-mark"></span><strong>百度地图 · 位置选择</strong><span class="map-subtitle">缩放 / 平移 / 点击取点</span></div><button id="map-home" class="icon-button" type="button" aria-label="地图回到默认视图" title="回到默认视图"><svg viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1 6M4 5v5h5"/></svg></button></div>
+          <div id="map" class="map" role="application" aria-label="百度地图，可点击地图获取经纬度"><div class="map-loading"><span class="spinner"></span><span id="map-status">正在加载百度地图…</span></div></div>
+          <div class="map-foot"><span><i class="legend-pin"></i>分析中心点</span><span><i class="legend-ring"></i>直线检索半径</span><span class="coordinate-hint">坐标系：百度 BD-09LL</span></div>
+          <section class="results" aria-labelledby="results-title">
+            <div class="results-heading"><div><span class="eyebrow">NEARBY FACILITIES</span><h2 id="results-title">周边设施 <span id="result-count" class="result-count">待检索</span></h2></div><div class="sort-label"><svg viewBox="0 0 24 24"><path d="M8 6h12M8 12h9M8 18h6M4 5v14m0 0-2.5-2.5M4 19l2.5-2.5"/></svg>按直线距离由近到远</div></div>
+            <div id="results-list" class="results-list"><div class="empty-state"><span class="empty-graphic"><svg viewBox="0 0 48 48"><circle cx="21" cy="21" r="12"/><path d="m30 30 9 9M21 15v12M15 21h12"/></svg></span><strong>还没有检索结果</strong><span>在地图上选一个位置，再选择设施类别开始检索。</span></div></div>
+            <div id="results-footnote" class="results-footnote" hidden>距离为根据百度坐标计算的直线距离，仅用于排序参考；不是步行导航距离。</div>
+          </section>
+        </section>
+      </section>
+
+      <footer class="page-footer"><span>邻里智检 · 社区 15 分钟生活圈 WebGIS 起步项目</span><span>地图由百度 JSAPI GL 渲染 · POI 由后端代理检索</span></footer>
+    </main>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

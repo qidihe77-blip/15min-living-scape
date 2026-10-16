@@ -1,0 +1,61 @@
+{
+  "startedAt": "2026-10-16T03:43:23.669Z",
+  "scope": "three-location functions only; saved actual analyses; no screen or PDF checks",
+  "locations": [
+    {
+      "key": "wuhan",
+      "id": "fa-c792e6bc-c8d5-4654-9adc-504c465fb4a7",
+      "name": "碧溪苑小区-二期",
+      "checks": [
+        {
+          "name": "restore_score_taxonomy",
+          "status": "pass",
+          "evidence": {
+            "score": 66.66666666666666,
+            "total": 54,
+            "groups": [
+              {
+                "id": "education",
+                "count": 2
+              },
+              {
+                "id": "medical",
+                "count": 14
+              },
+              {
+                "id": "commerce",
+                "count": 16
+              },
+              {
+                "id": "transport",
+                "count": 19
+              },
+              {
+                "id": "eldercare",
+                "count": 0
+              },
+              {
+                "id": "leisure",
+                "count": 3
+              }
+            ],
+            "subtypes": 18
+          }
+        },
+        {
+          "name": "heat_range_map_controls",
+          "status": "pass",
+          "evidence": {
+            "initialOpacity": 80,
+            "controls": true,
+            "zoomBefore": 17.035526190637977,
+            "zoomAfter": 16.76729861211435
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "blocked": [],
+  "navigation": []
+}

@@ -1,0 +1,411 @@
+{
+  "executedAt": "2026-10-16T08:09:22.154Z",
+  "mode": "saved_real_records_read_only",
+  "locations": [
+    {
+      "key": "wuhan",
+      "id": "fa-fa100817-5662-f190-2afb-c73f61ce1d74",
+      "checks": [
+        {
+          "name": "saved_counts_score_and_current_six_major_gaps",
+          "status": "pass",
+          "evidence": {
+            "score": 71.42857142857142,
+            "total": 42,
+            "subtypes": 18,
+            "gapArea": 68223.27389831743,
+            "cardState": "available"
+          }
+        },
+        {
+          "name": "map_blindspot_hover_actual_category_only",
+          "status": "pass",
+          "evidence": [
+            {
+              "key": "category:eldercare",
+              "target": {
+                "type": "category",
+                "categoryId": "eldercare"
+              },
+              "label": "养老"
+            }
+          ]
+        },
+        {
+          "name": "heat_and_walking_range_controls",
+          "status": "pass",
+          "evidence": {
+            "defaultOpacity": 80
+          }
+        },
+        {
+          "name": "blindspot_default_and_toggle_tooltips",
+          "status": "pass",
+          "evidence": {
+            "text": "养老\n17.1%"
+          }
+        },
+        {
+          "name": "category_specialty_nearest_shared_poi_routes",
+          "status": "pass",
+          "evidence": [
+            {
+              "category": "education",
+              "entry": "category",
+              "mode": "category",
+              "routes": 6
+            },
+            {
+              "category": "education",
+              "entry": "legend",
+              "mode": "all",
+              "routes": 3
+            },
+            {
+              "category": "education",
+              "entry": "card",
+              "mode": "nearest",
+              "routes": 3
+            },
+            {
+              "category": "education",
+              "entry": "card",
+              "mode": "off",
+              "routes": 0
+            },
+            {
+              "category": "medical",
+              "entry": "category",
+              "mode": "category",
+              "routes": 45
+            },
+            {
+              "category": "medical",
+              "entry": "legend",
+              "mode": "all",
+              "routes": 24
+            },
+            {
+              "category": "medical",
+              "entry": "card",
+              "mode": "nearest",
+              "routes": 3
+            },
+            {
+              "category": "medical",
+              "entry": "card",
+              "mode": "off",
+              "routes": 0
+            },
+            {
+              "category": "commerce",
+              "entry": "category",
+              "mode": "category",
+              "routes": 48
+            },
+            {
+              "category": "commerce",
+              "entry": "legend",
+              "mode": "category",
+              "routes": 48
+            },
+            {
+              "category": "commerce",
+              "entry": "card",
+              "mode": "category",
+              "routes": 48
+            },
+            {
+              "category": "commerce",
+              "entry": "card",
+              "mode": "category",
+              "routes": 48
+            }
+          ]
+        },
+        {
+          "name": "poi_two_lines_no_clipping",
+          "status": "pass",
+          "evidence": {
+            "lines": 2,
+            "width": 157,
+            "height": 52,
+            "fit": true,
+            "buttons": 0
+          }
+        },
+        {
+          "name": "reload_preserves_score_and_facilities",
+          "status": "pass",
+          "evidence": {
+            "restored": true
+          }
+        }
+      ]
+    },
+    {
+      "key": "hangzhou",
+      "id": "fa-65023c6c-a392-28bb-47c5-5bd8266155d8",
+      "checks": [
+        {
+          "name": "saved_counts_score_and_current_six_major_gaps",
+          "status": "pass",
+          "evidence": {
+            "score": 90.27777777777776,
+            "total": 99,
+            "subtypes": 18,
+            "gapArea": 0,
+            "cardState": "covered"
+          }
+        },
+        {
+          "name": "heat_and_walking_range_controls",
+          "status": "pass",
+          "evidence": {
+            "defaultOpacity": 80
+          }
+        },
+        {
+          "name": "category_specialty_nearest_shared_poi_routes",
+          "status": "pass",
+          "evidence": [
+            {
+              "category": "education",
+              "entry": "category",
+              "mode": "category",
+              "routes": 36
+            },
+            {
+              "category": "education",
+              "entry": "legend",
+              "mode": "all",
+              "routes": 15
+            },
+            {
+              "category": "education",
+              "entry": "card",
+              "mode": "nearest",
+              "routes": 3
+            },
+            {
+              "category": "education",
+              "entry": "card",
+              "mode": "off",
+              "routes": 0
+            },
+            {
+              "category": "medical",
+              "entry": "category",
+              "mode": "category",
+              "routes": 93
+            },
+            {
+              "category": "medical",
+              "entry": "legend",
+              "mode": "all",
+              "routes": 33
+            },
+            {
+              "category": "medical",
+              "entry": "card",
+              "mode": "nearest",
+              "routes": 3
+            },
+            {
+              "category": "medical",
+              "entry": "card",
+              "mode": "off",
+              "routes": 0
+            },
+            {
+              "category": "commerce",
+              "entry": "category",
+              "mode": "category",
+              "routes": 75
+            },
+            {
+              "category": "commerce",
+              "entry": "legend",
+              "mode": "category",
+              "routes": 75
+            },
+            {
+              "category": "commerce",
+              "entry": "card",
+              "mode": "category",
+              "routes": 75
+            },
+            {
+              "category": "commerce",
+              "entry": "card",
+              "mode": "category",
+              "routes": 75
+            }
+          ]
+        },
+        {
+          "name": "poi_two_lines_no_clipping",
+          "status": "pass",
+          "evidence": {
+            "lines": 2,
+            "width": 118,
+            "height": 52,
+            "fit": true,
+            "buttons": 0
+          }
+        },
+        {
+          "name": "reload_preserves_score_and_facilities",
+          "status": "pass",
+          "evidence": {
+            "restored": true
+          }
+        }
+      ]
+    },
+    {
+      "key": "nanchang",
+      "id": "fa-7f6f794b-25bd-46d6-a03d-3d8983d50169",
+      "checks": [
+        {
+          "name": "saved_counts_score_and_current_six_major_gaps",
+          "status": "pass",
+          "evidence": {
+            "score": 82.14285714285714,
+            "total": 55,
+            "subtypes": 18,
+            "gapArea": 391871.63144769473,
+            "cardState": "available"
+          }
+        },
+        {
+          "name": "map_blindspot_hover_actual_category_only",
+          "status": "pass",
+          "evidence": [
+            {
+              "key": "category:eldercare",
+              "target": {
+                "type": "category",
+                "categoryId": "eldercare"
+              },
+              "label": "养老"
+            }
+          ]
+        },
+        {
+          "name": "heat_and_walking_range_controls",
+          "status": "pass",
+          "evidence": {
+            "defaultOpacity": 80
+          }
+        },
+        {
+          "name": "blindspot_default_and_toggle_tooltips",
+          "status": "pass",
+          "evidence": {
+            "text": "养老\n33.8%"
+          }
+        },
+        {
+          "name": "category_specialty_nearest_shared_poi_routes",
+          "status": "pass",
+          "evidence": [
+            {
+              "category": "education",
+              "entry": "category",
+              "mode": "category",
+              "routes": 33
+            },
+            {
+              "category": "education",
+              "entry": "legend",
+              "mode": "all",
+              "routes": 18
+            },
+            {
+              "category": "education",
+              "entry": "card",
+              "mode": "nearest",
+              "routes": 3
+            },
+            {
+              "category": "education",
+              "entry": "card",
+              "mode": "off",
+              "routes": 0
+            },
+            {
+              "category": "medical",
+              "entry": "category",
+              "mode": "category",
+              "routes": 54
+            },
+            {
+              "category": "medical",
+              "entry": "legend",
+              "mode": "all",
+              "routes": 21
+            },
+            {
+              "category": "medical",
+              "entry": "card",
+              "mode": "nearest",
+              "routes": 3
+            },
+            {
+              "category": "medical",
+              "entry": "card",
+              "mode": "off",
+              "routes": 0
+            },
+            {
+              "category": "commerce",
+              "entry": "category",
+              "mode": "category",
+              "routes": 60
+            },
+            {
+              "category": "commerce",
+              "entry": "legend",
+              "mode": "all",
+              "routes": 3
+            },
+            {
+              "category": "commerce",
+              "entry": "card",
+              "mode": "nearest",
+              "routes": 3
+            },
+            {
+              "category": "commerce",
+              "entry": "card",
+              "mode": "off",
+              "routes": 0
+            }
+          ]
+        },
+        {
+          "name": "poi_two_lines_no_clipping",
+          "status": "pass",
+          "evidence": {
+            "lines": 2,
+            "width": 157,
+            "height": 52,
+            "fit": true,
+            "buttons": 0
+          }
+        },
+        {
+          "name": "reload_preserves_score_and_facilities",
+          "status": "pass",
+          "evidence": {
+            "restored": true
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "businessPostRequests": [],
+  "passed": true
+}

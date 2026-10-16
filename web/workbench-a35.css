@@ -1,0 +1,5 @@
+/* Current desktop score card: the text layout follows the actual ring diameter. */
+.score-dashboard-body{grid-template-columns:minmax(180px,42%) minmax(0,1fr);gap:16px;padding:4px 0 6px;align-items:center}
+.score-echart{height:215px!important;overflow:visible}
+.score-dashboard{min-height:265px}
+.score-summary{gap:9px}.score-summary>div{grid-template-columns:120px minmax(0,1fr)}

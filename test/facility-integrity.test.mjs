@@ -1,0 +1,41 @@
+import test from'node:test';import assert from'node:assert/strict';import{readFile}from'node:fs/promises';
+import{createBaiduPlaceProvider}from'../server/baidu-place.mjs';
+import{classifySubtypeCandidate,facilityCategoryTree}from'../server/facility-categories.mjs';
+import{consolidateMetroStations,routeFacilityCandidate}from'../server/facility-endpoints.mjs';
+import{facilityRouteCacheKey}from'../server/baidu-route.mjs';
+import{createFacilityAnalysis}from'../server/facility-analysis.mjs';
+import{buildFacilityDisplay}from'../server/facility-display.mjs';
+import{scoreSixGroupPriorities}from'../server/priority-score.mjs';
+import{buildReportChartModel}from'../web/report-chart-model.js';
+import{facilityViewRows}from'../web/facility-view.js';
+import{reachableFacilityRows}from'../web/reachable-presentation.js';
+import{mapFacilityRows}from'../web/circle-presentation.js';
+import{computeCircleCosts}from'../server/circle-costs.mjs';
+import{mergeFacilityCandidatesV3}from'../server/nearest-facility.mjs';
+const fixture=JSON.parse(await readFile(new URL('./fixtures/wenjin-metro.json',import.meta.url),'utf8')),mapping='facility-categories-v8',tree=facilityCategoryTree(mapping),isMetro=p=>classifySubtypeCandidate({...p,categoryMappingVersion:mapping,subtypeId:'metro_station'}).candidateStatus==='confirmed_by_rule';
+test('actual Wenjin C entrance belongs to one station; hotels, coffee and named bus stops are not metros',()=>{
+ const stations=consolidateMetroStations(fixture.candidates,fixture.origin,isMetro).filter(isMetro),xia=stations.find(p=>p.name==='下宁桥');assert.equal(stations.filter(p=>p.name==='下宁桥').length,1);assert.equal(xia.walkingTargets.length,3);assert.equal(xia.walkingTargets[0].uid,'ffec4de1651013b34e554783');
+ assert.equal(isMetro(fixture.candidates.find(p=>p.name==='地铁沈塘桥站A口')),false);assert.equal(isMetro(fixture.candidates.find(p=>p.name.includes('库迪咖啡'))),false);assert.equal(isMetro({name:'宜尚酒店(五里墩地铁站店)',rawCategory:'酒店'}),false);
+ assert.equal(classifySubtypeCandidate({name:'文锦社区居家养老服务照料中心',rawCategory:'政府机构;行政机关',categoryMappingVersion:mapping,subtypeId:'day_care'}).candidateStatus,'confirmed_by_rule');
+});
+test('recorded real metro endpoints give matching map, counts, subtype coverage and score input, without network',async()=>{
+ const order=tree.categories.flatMap(g=>g.subtypes.map(s=>({...s,categoryId:g.id}))),searches=new Map(order.map(s=>[s.id,{candidates:fixture.candidates,searchComplete:false,truncated:true,pages:[],errors:[]}])),lookup=new Map(fixture.routes.map(p=>[facilityRouteCacheKey(p.route.requestedOrigin.location,p.route.requestedDestination.location,{originUid:p.route.requestedOrigin.uid,destinationUid:p.route.requestedDestination.uid}),p.route]));
+ const analysis=await createFacilityAnalysis({placeProvider:{searchAround:()=>assert.fail()},routeProvider:{route:async(a,b,o)=>lookup.get(facilityRouteCacheKey(a,b,o))??{routeStatus:'not_recorded'}}}).analyze({origin:fixture.origin,categoryMappingVersion:mapping,routeScope:'circle_candidates',walkingModelId:'walking80-v1',geometry:fixture.geometry,preparedSearches:{searches,order,candidatePool:fixture.candidates,subtypeCount:18,searchMs:0}}),score=scoreSixGroupPriorities({analysis}),job={analysis,score,...fixture.geometry};job.display=buildFacilityDisplay(job);
+ const chart=buildReportChartModel(job,tree),rows=facilityViewRows(analysis,tree,'all',job.display),reachable=reachableFacilityRows(rows,fixture.origin),map=mapFacilityRows(rows,job),transport=analysis.categories.find(g=>g.categoryId==='transport'),metro=transport.subtypeResults.find(s=>s.subtypeId==='metro_station');
+ assert.equal(metro.reachableCountLowerBound,2);assert.equal(metro.accessStatus,'reachable');assert.equal(transport.reachableCountLowerBound,2);assert.equal(chart.view.groups.find(g=>g.id==='transport').reachablePoiCount,2);assert.equal(chart.totalPoi,2);assert.equal(reachable.length,2);assert.equal(job.display.totalReachable,2);assert.equal(map.filter(p=>p.displayStatus==='reachable').length,2);assert.equal(analysis.categories.flatMap(g=>g.subtypeResults).length,18);
+ const c=reachable.find(p=>p.name==='下宁桥');assert.equal(c.routeEvidence.destinationUid,'ffec4de1651013b34e554783');assert.equal(c.routeEvidence.facilityUid,c.uid);assert.equal(c.routeEvidence.distanceMeters,385);assert.equal(c.routeEvidence.modelDurationSeconds,288.75);
+});
+test('short nonempty Place pages continue, and subtype first pages precede dense bus pagination',async()=>{
+ const queries=[],provider=createBaiduPlaceProvider({client:{requestJson:async({params})=>{queries.push(params);return{meta:{retrievedAt:'fixture'},data:{total:50,result_type:'poi_type',results:[{uid:params.query+'-'+params.page_num,name:params.query.includes('地铁')?'下宁桥地铁站-C口':'公交站',location:fixture.origin.location,detail_info:{tag:params.query.includes('地铁')?'出入口;其他':'交通设施;公交车站'}}]}};}}}),options={categoryId:'transport',categoryMappingVersion:mapping,groupScope:true,incremental:true,center:fixture.origin.location,radiusMeters:1500,maxRequests:1};
+ const first=await provider.searchAround(options),second=await provider.searchAround({...options,continuation:first.continuation});assert.equal(queries.length,2);assert.match(queries[0].query,/公交/);assert.doesNotMatch(queries[0].query,/地铁/);assert.match(queries[1].query,/地铁/);assert.equal(queries[1].page_num,'0');assert.ok(second.continuation.queue.some(p=>p.pageNum===1));assert.equal(second.searchComplete,false);assert.equal(queries.every(q=>q.coord_type==='3'&&!q.ret_coordtype),true);
+});
+test('costs on both sides of displayed boundary are checked; failed routes stay unknown',async()=>{
+ const o={...fixture.origin,location:{lng:120,lat:30}},ring=[[119.999,29.999],[120.001,29.999],[120.001,30.001],[119.999,30.001],[119.999,29.999]],geometry={geometrySource:'walking_sampling_fallback',geojson:{features:[{properties:{featureType:'sampled_boundary'},geometry:{type:'Polygon',coordinates:[ring]}}]}},candidates=[{uid:'inside',location:{lng:120,lat:30}},{uid:'outside',location:{lng:120.002,lat:30}},{uid:'failed',location:{lng:120,lat:30.0005}}].map(p=>({...p,name:'小学',subtypeIds:['primary_school'],candidateStatus:'confirmed_by_rule'}));let calls=0;
+ const result=await computeCircleCosts({candidates,geometry,origin:o,walkingModelId:'walking80-v1',provider:{route:async(a,b,x)=>{calls++;return x.destinationUid==='failed'?{routeStatus:'timeout'}:{routeStatus:'ok',mode:'walking',coordinateSystem:'BD-09LL',distanceMeters:x.destinationUid==='inside'?1201:1200,durationSeconds:1200,requestedOrigin:{location:a,uid:x.originUid},requestedDestination:{location:b,uid:x.destinationUid}};}}});assert.equal(calls,3);assert.equal(result.facilities.find(p=>p.uid==='outside').routeEvidence.modelDurationSeconds,900);assert.equal(result.facilities.find(p=>p.uid==='inside').routeEvidence.modelDurationSeconds,900.75);assert.equal(result.facilities.find(p=>p.uid==='failed').routeEvidence.distanceMeters,null);
+});
+test('station is unknown if an entrance fails and no reachable entrance is proven',async()=>{
+ const station={uid:'parent',walkingTargets:[{uid:'a',location:{lng:120,lat:30}},{uid:'b',location:{lng:120.001,lat:30}}]},origin={uid:null,location:{lng:120,lat:30}},route=await routeFacilityCandidate({facility:station,origin,routeMemo:new Map(),options:{walkingModelId:'walking80-v1'},provider:{route:async(a,b,o)=>o.destinationUid==='a'?{routeStatus:'ok',distanceMeters:1500,durationSeconds:1400,requestedOrigin:origin,requestedDestination:{location:b,uid:o.destinationUid}}:{routeStatus:'timeout'}}});assert.equal(route.routeStatus,'entrances_unverified');assert.equal(route.distanceMeters,null);assert.equal(route.entranceVerification.verifiedOverThreshold,1);
+});
+test('candidate UID merging rejects explicitly incompatible coordinates and preserves BD09 and entrance metadata',()=>{
+ const location={lng:120,lat:30},r=mergeFacilityCandidatesV3([{uid:'x',location,coordinateSystem:'BD-09LL'},{uid:'x',location,entranceCandidates:[{uid:'gate',location}],parentUid:'parent'},{uid:'bad',location,coordinateSystem:'GCJ-02'}]);assert.equal(r.invalidCount,1);assert.equal(r.candidates.length,1);assert.deepEqual(r.candidates[0].location,location);assert.equal(r.candidates[0].entranceCandidates.length,1);assert.equal(r.candidates[0].parentUid,'parent');
+});

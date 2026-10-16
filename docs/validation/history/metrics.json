@@ -1,0 +1,846 @@
+{
+  "version": "a78-v1",
+  "createdAt": "2026-10-15T17:36:41.557Z",
+  "analysisId": "fa-89a32bfd-1baa-4de6-bac2-46d057770db4",
+  "origin": "康都世纪花园",
+  "sourceSHA256": "0b6933d09f21a34f876b08da67eb3fb82fb117f1070e0738f3b54127de4a650b",
+  "baseline": {
+    "analysisId": "fa-89a32bfd-1baa-4de6-bac2-46d057770db4",
+    "scope": "saved_analysis_task",
+    "phases": {
+      "sampling": {
+        "od": 151,
+        "matrixOD": 108,
+        "walkingOD": 43,
+        "httpRequests": 55,
+        "wallTimeSeconds": 11.735502099998296,
+        "rateLimitWaitSeconds": null,
+        "recordedCacheHitRate": 0
+      },
+      "poiRouting": {
+        "od": 177,
+        "matrixOD": 0,
+        "walkingOD": 177,
+        "httpRequests": 177,
+        "facilities": 174,
+        "wallTimeSeconds": 22.159449000000954,
+        "rateLimitWaitSeconds": null,
+        "recordedCacheHitRate": 0
+      }
+    },
+    "totalOD": 328,
+    "totalHttpRequests": 232,
+    "recordedWalkingCache": {
+      "hits": 0,
+      "upstreamAttempts": 220,
+      "hitRate": 0
+    },
+    "totalWallTimeSeconds": 33.979,
+    "limitations": [
+      "Pure throttle waiting was not recorded; phase wall time includes queueing, network and processing.",
+      "Cache rates describe recorded provider-cost cache hits, not routeMemo reuse, UID deduplication or saved-page replay.",
+      "Matrix and single-route Walking use separate quota pools. Navigation-node requests are outside these analysis counters."
+    ],
+    "sources": [
+      "requestStats.samplingOutputRoutes",
+      "requestStats.samplingMatrixOutputRoutes",
+      "requestStats.samplingHttpRequests",
+      "requestStats.liteRequests",
+      "requestStats.walkingTask",
+      "performance.rangeMs",
+      "performance.routeMs"
+    ]
+  },
+  "baselineBoundary": {
+    "verified": 174,
+    "reachable": 51,
+    "overThreshold": 123,
+    "omitted": 8,
+    "omissionRate": 0.1568627450980392,
+    "falseIncluded": 3,
+    "falseInclusionRate": 0.024390243902439025,
+    "accuracy": 0.9367816091954023,
+    "precision": 0.9347826086956522,
+    "recall": 0.8431372549019608,
+    "omittedNames": [
+      "宝石花库尔勒医院",
+      "SPS+国药控股专业药房(州分院店)",
+      "宝石花库尔勒医院",
+      "百心大药房(塔指东路店)",
+      "日日鲜(金泰大厦店)",
+      "建祥小区",
+      "33号小区",
+      "平价烟酒超市"
+    ],
+    "falseIncludedNames": [
+      "田爽果菜超市(华誉·怡景苑店)",
+      "宋镇宇超市",
+      "巴州石油第一中学"
+    ]
+  },
+  "split": {
+    "method": "sha256(identityKey) modulo 5 = 0 held out before planning and guards",
+    "training": 128,
+    "validation": 46
+  },
+  "plannedDirections": [
+    {
+      "sector": 15,
+      "count": 1,
+      "spatialClusterSize": 1,
+      "clusterRadiusMeters": 180,
+      "bearingDegrees": 156.51925339914578,
+      "poiKeys": [
+        "uid:7156d8f53afe6421a11de974"
+      ]
+    },
+    {
+      "sector": 17,
+      "count": 1,
+      "spatialClusterSize": 1,
+      "clusterRadiusMeters": 180,
+      "bearingDegrees": 174.56324145154588,
+      "poiKeys": [
+        "uid:576df7ee3aeeb832d5b74eec"
+      ]
+    },
+    {
+      "sector": 23,
+      "count": 1,
+      "spatialClusterSize": 1,
+      "clusterRadiusMeters": 180,
+      "bearingDegrees": 237.19306959128107,
+      "poiKeys": [
+        "uid:b71e8706667f7d4fd0ff2350"
+      ]
+    },
+    {
+      "sector": 24,
+      "count": 1,
+      "spatialClusterSize": 1,
+      "clusterRadiusMeters": 180,
+      "bearingDegrees": 241.76735494616057,
+      "poiKeys": [
+        "uid:fe8fd1ea1cfeb57bc6effb4a"
+      ]
+    }
+  ],
+  "apiODBudget": 320,
+  "cold": {
+    "od": 288,
+    "httpRequests": 192,
+    "elapsedMs": 28965.1616,
+    "rangeMs": 11761.4697,
+    "poiRemainingMs": 17203.4615,
+    "selectedOD": 174,
+    "validCosts": 174,
+    "realPaths": 174,
+    "cacheHits": 0,
+    "matrix": {
+      "queueWaitMs": 10365,
+      "reservationWaitMs": 13438,
+      "od": 108,
+      "httpRequests": 12,
+      "throttleWaitMs": 9528
+    },
+    "walking": {
+      "limit": 320,
+      "used": 180,
+      "cacheHits": 0,
+      "retries": 6,
+      "phases": {
+        "poiRouting": {
+          "queueWaitMs": 88036,
+          "throttleWaitMs": 20564,
+          "od": 180
+        }
+      }
+    },
+    "source": "saved POI endpoints and Place data, real Walking; Place search latency excluded"
+  },
+  "repeatAfterCacheReload": {
+    "od": 10,
+    "httpRequests": 1,
+    "elapsedMs": 399.0227999999988,
+    "rangeMs": 395.92069999999876,
+    "poiRemainingMs": 3.0780000000013388,
+    "selectedOD": 174,
+    "validCosts": 174,
+    "realPaths": 174,
+    "cacheHits": 174,
+    "matrix": {
+      "cacheHits": 98,
+      "queueWaitMs": 0,
+      "reservationWaitMs": 2,
+      "od": 10,
+      "httpRequests": 1
+    },
+    "walking": {
+      "limit": 320,
+      "used": 0,
+      "cacheHits": 174,
+      "retries": 0,
+      "phases": {
+        "poiRouting": {
+          "cacheHits": 174
+        }
+      }
+    },
+    "source": "saved POI endpoints and Place data, real Walking; Place search latency excluded"
+  },
+  "adaptive": {
+    "version": "poi-guided-radial-linear-v1",
+    "maxOD": 18,
+    "requestedOD": 12,
+    "plan": [
+      {
+        "sector": 15,
+        "count": 1,
+        "spatialClusterSize": 1,
+        "clusterRadiusMeters": 180,
+        "bearingDegrees": 156.51925339914578,
+        "poiKeys": [
+          "uid:7156d8f53afe6421a11de974"
+        ]
+      },
+      {
+        "sector": 17,
+        "count": 1,
+        "spatialClusterSize": 1,
+        "clusterRadiusMeters": 180,
+        "bearingDegrees": 174.56324145154588,
+        "poiKeys": [
+          "uid:576df7ee3aeeb832d5b74eec"
+        ]
+      },
+      {
+        "sector": 23,
+        "count": 1,
+        "spatialClusterSize": 1,
+        "clusterRadiusMeters": 180,
+        "bearingDegrees": 237.19306959128107,
+        "poiKeys": [
+          "uid:b71e8706667f7d4fd0ff2350"
+        ]
+      },
+      {
+        "sector": 24,
+        "count": 1,
+        "spatialClusterSize": 1,
+        "clusterRadiusMeters": 180,
+        "bearingDegrees": 241.76735494616057,
+        "poiKeys": [
+          "uid:fe8fd1ea1cfeb57bc6effb4a"
+        ]
+      }
+    ],
+    "plannedDirections": 4,
+    "acceptedDirections": 4,
+    "rejected": [],
+    "before": {
+      "verified": 128,
+      "reachable": 34,
+      "overThreshold": 94,
+      "omitted": 4,
+      "omissionRate": 0.11764705882352941,
+      "falseIncluded": 1,
+      "falseInclusionRate": 0.010638297872340425,
+      "accuracy": 0.9609375,
+      "precision": 0.967741935483871,
+      "recall": 0.8823529411764706,
+      "omittedNames": [
+        "宝石花库尔勒医院",
+        "SPS+国药控股专业药房(州分院店)",
+        "33号小区",
+        "平价烟酒超市"
+      ],
+      "falseIncludedNames": [
+        "宋镇宇超市"
+      ]
+    },
+    "after": {
+      "verified": 128,
+      "reachable": 34,
+      "overThreshold": 94,
+      "omitted": 3,
+      "omissionRate": 0.08823529411764706,
+      "falseIncluded": 1,
+      "falseInclusionRate": 0.010638297872340425,
+      "accuracy": 0.96875,
+      "precision": 0.96875,
+      "recall": 0.9117647058823529,
+      "omittedNames": [
+        "宝石花库尔勒医院",
+        "33号小区",
+        "平价烟酒超市"
+      ],
+      "falseIncludedNames": [
+        "宋镇宇超市"
+      ]
+    },
+    "measurements": [
+      {
+        "mode": "walking",
+        "source": "route_matrix",
+        "routeStatus": "ok",
+        "geometry": null,
+        "geometryStatus": "not_provided",
+        "durationSeconds": 1238,
+        "distanceMeters": 1450,
+        "coordinateSystem": "BD-09LL",
+        "retrievedAt": "2026-10-15T17:37:11.981Z",
+        "cached": false,
+        "requestedOrigin": {
+          "location": {
+            "lat": 41.76348508019901,
+            "lng": 86.17333275522739
+          },
+          "uid": "0adce3e2f112156080a00c11"
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 41.753834170234114,
+            "lng": 86.17895252460119
+          },
+          "uid": null
+        },
+        "evidenceId": "route-d19a2659322664aa7d6fa857",
+        "originNavigation": "coordinates",
+        "requestOriginUidApplied": false,
+        "sector": 36,
+        "bearingDegrees": 156.51925339914578,
+        "radiusMeters": 1170,
+        "lng": 86.17895252460119,
+        "lat": 41.753834170234114,
+        "sampleStage": "adaptive_matrix_bisection",
+        "round": 1,
+        "coverageStatus": "over_threshold",
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1087.5
+      },
+      {
+        "mode": "walking",
+        "source": "route_matrix",
+        "routeStatus": "ok",
+        "geometry": null,
+        "geometryStatus": "not_provided",
+        "durationSeconds": 1411,
+        "distanceMeters": 1653,
+        "coordinateSystem": "BD-09LL",
+        "retrievedAt": "2026-10-15T17:37:11.981Z",
+        "cached": false,
+        "requestedOrigin": {
+          "location": {
+            "lat": 41.76348508019901,
+            "lng": 86.17333275522739
+          },
+          "uid": "0adce3e2f112156080a00c11"
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 41.75301034438877,
+            "lng": 86.17466908767392
+          },
+          "uid": null
+        },
+        "evidenceId": "route-18da0b0815369716b6ca87b4",
+        "originNavigation": "coordinates",
+        "requestOriginUidApplied": false,
+        "sector": 37,
+        "bearingDegrees": 174.56324145154588,
+        "radiusMeters": 1170,
+        "lng": 86.17466908767392,
+        "lat": 41.75301034438877,
+        "sampleStage": "adaptive_matrix_bisection",
+        "round": 1,
+        "coverageStatus": "over_threshold",
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1239.75
+      },
+      {
+        "mode": "walking",
+        "source": "route_matrix",
+        "routeStatus": "ok",
+        "geometry": null,
+        "geometryStatus": "not_provided",
+        "durationSeconds": 1373,
+        "distanceMeters": 1606,
+        "coordinateSystem": "BD-09LL",
+        "retrievedAt": "2026-10-15T17:37:11.981Z",
+        "cached": false,
+        "requestedOrigin": {
+          "location": {
+            "lat": 41.76348508019901,
+            "lng": 86.17333275522739
+          },
+          "uid": "0adce3e2f112156080a00c11"
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 41.757783513223565,
+            "lng": 86.1614772627563
+          },
+          "uid": null
+        },
+        "evidenceId": "route-4f2c3499a2f140265df7dd15",
+        "originNavigation": "coordinates",
+        "requestOriginUidApplied": false,
+        "sector": 38,
+        "bearingDegrees": 237.19306959128107,
+        "radiusMeters": 1170,
+        "lng": 86.1614772627563,
+        "lat": 41.757783513223565,
+        "sampleStage": "adaptive_matrix_bisection",
+        "round": 1,
+        "coverageStatus": "over_threshold",
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1204.5
+      },
+      {
+        "mode": "walking",
+        "source": "route_matrix",
+        "routeStatus": "ok",
+        "geometry": null,
+        "geometryStatus": "not_provided",
+        "durationSeconds": 1430,
+        "distanceMeters": 1672,
+        "coordinateSystem": "BD-09LL",
+        "retrievedAt": "2026-10-15T17:37:11.981Z",
+        "cached": false,
+        "requestedOrigin": {
+          "location": {
+            "lat": 41.76348508019901,
+            "lng": 86.17333275522739
+          },
+          "uid": "0adce3e2f112156080a00c11"
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 41.75850691909158,
+            "lng": 86.16090539394725
+          },
+          "uid": null
+        },
+        "evidenceId": "route-5fd6c816f1d126341441fb0e",
+        "originNavigation": "coordinates",
+        "requestOriginUidApplied": false,
+        "sector": 39,
+        "bearingDegrees": 241.76735494616057,
+        "radiusMeters": 1170,
+        "lng": 86.16090539394725,
+        "lat": 41.75850691909158,
+        "sampleStage": "adaptive_matrix_bisection",
+        "round": 1,
+        "coverageStatus": "over_threshold",
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1254
+      },
+      {
+        "mode": "walking",
+        "source": "route_matrix",
+        "routeStatus": "ok",
+        "geometry": null,
+        "geometryStatus": "not_provided",
+        "durationSeconds": 1047,
+        "distanceMeters": 1229,
+        "coordinateSystem": "BD-09LL",
+        "retrievedAt": "2026-10-15T17:37:12.365Z",
+        "cached": false,
+        "requestedOrigin": {
+          "location": {
+            "lat": 41.76348508019901,
+            "lng": 86.17333275522739
+          },
+          "uid": "0adce3e2f112156080a00c11"
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 41.758659659446685,
+            "lng": 86.17614285119566
+          },
+          "uid": null
+        },
+        "evidenceId": "route-440cea6d1501c81251daa595",
+        "originNavigation": "coordinates",
+        "requestOriginUidApplied": false,
+        "sector": 36,
+        "bearingDegrees": 156.51925339914578,
+        "radiusMeters": 585,
+        "lng": 86.17614285119566,
+        "lat": 41.758659659446685,
+        "sampleStage": "adaptive_matrix_bisection",
+        "round": 2,
+        "coverageStatus": "over_threshold",
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 921.75
+      },
+      {
+        "mode": "walking",
+        "source": "route_matrix",
+        "routeStatus": "ok",
+        "geometry": null,
+        "geometryStatus": "not_provided",
+        "durationSeconds": 1173,
+        "distanceMeters": 1376,
+        "coordinateSystem": "BD-09LL",
+        "retrievedAt": "2026-10-15T17:37:12.365Z",
+        "cached": false,
+        "requestedOrigin": {
+          "location": {
+            "lat": 41.76348508019901,
+            "lng": 86.17333275522739
+          },
+          "uid": "0adce3e2f112156080a00c11"
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 41.758247714229405,
+            "lng": 86.17400097597942
+          },
+          "uid": null
+        },
+        "evidenceId": "route-4ca5d07aa63298d89c02bd8e",
+        "originNavigation": "coordinates",
+        "requestOriginUidApplied": false,
+        "sector": 37,
+        "bearingDegrees": 174.56324145154588,
+        "radiusMeters": 585,
+        "lng": 86.17400097597942,
+        "lat": 41.758247714229405,
+        "sampleStage": "adaptive_matrix_bisection",
+        "round": 2,
+        "coverageStatus": "over_threshold",
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1032
+      },
+      {
+        "mode": "walking",
+        "source": "route_matrix",
+        "routeStatus": "ok",
+        "geometry": null,
+        "geometryStatus": "not_provided",
+        "durationSeconds": 867,
+        "distanceMeters": 1016,
+        "coordinateSystem": "BD-09LL",
+        "retrievedAt": "2026-10-15T17:37:12.365Z",
+        "cached": false,
+        "requestedOrigin": {
+          "location": {
+            "lat": 41.76348508019901,
+            "lng": 86.17333275522739
+          },
+          "uid": "0adce3e2f112156080a00c11"
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 41.760634449051366,
+            "lng": 86.16740474565097
+          },
+          "uid": null
+        },
+        "evidenceId": "route-92f718d0d5d8e16594f2fb9e",
+        "originNavigation": "coordinates",
+        "requestOriginUidApplied": false,
+        "sector": 38,
+        "bearingDegrees": 237.19306959128107,
+        "radiusMeters": 585,
+        "lng": 86.16740474565097,
+        "lat": 41.760634449051366,
+        "sampleStage": "adaptive_matrix_bisection",
+        "round": 2,
+        "coverageStatus": "covered",
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 762
+      },
+      {
+        "mode": "walking",
+        "source": "route_matrix",
+        "routeStatus": "ok",
+        "geometry": null,
+        "geometryStatus": "not_provided",
+        "durationSeconds": 807,
+        "distanceMeters": 946,
+        "coordinateSystem": "BD-09LL",
+        "retrievedAt": "2026-10-15T17:37:12.365Z",
+        "cached": false,
+        "requestedOrigin": {
+          "location": {
+            "lat": 41.76348508019901,
+            "lng": 86.17333275522739
+          },
+          "uid": "0adce3e2f112156080a00c11"
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 41.76099616703682,
+            "lng": 86.1671188335647
+          },
+          "uid": null
+        },
+        "evidenceId": "route-e3c136c0b78b637c40c5d191",
+        "originNavigation": "coordinates",
+        "requestOriginUidApplied": false,
+        "sector": 39,
+        "bearingDegrees": 241.76735494616057,
+        "radiusMeters": 585,
+        "lng": 86.1671188335647,
+        "lat": 41.76099616703682,
+        "sampleStage": "adaptive_matrix_bisection",
+        "round": 2,
+        "coverageStatus": "covered",
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 709.5
+      },
+      {
+        "mode": "walking",
+        "source": "route_matrix",
+        "routeStatus": "ok",
+        "geometry": null,
+        "geometryStatus": "not_provided",
+        "durationSeconds": 913,
+        "distanceMeters": 1070,
+        "coordinateSystem": "BD-09LL",
+        "retrievedAt": "2026-10-15T17:37:13.016Z",
+        "cached": false,
+        "requestedOrigin": {
+          "location": {
+            "lat": 41.76348508019901,
+            "lng": 86.17333275522739
+          },
+          "uid": "0adce3e2f112156080a00c11"
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 41.76107237838176,
+            "lng": 86.17473785603988
+          },
+          "uid": null
+        },
+        "evidenceId": "route-bb37358a8460479917b01873",
+        "originNavigation": "coordinates",
+        "requestOriginUidApplied": false,
+        "sector": 36,
+        "bearingDegrees": 156.51925339914578,
+        "radiusMeters": 292.5,
+        "lng": 86.17473785603988,
+        "lat": 41.76107237838176,
+        "sampleStage": "adaptive_matrix_bisection",
+        "round": 3,
+        "coverageStatus": "covered",
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 802.5
+      },
+      {
+        "mode": "walking",
+        "source": "route_matrix",
+        "routeStatus": "ok",
+        "geometry": null,
+        "geometryStatus": "not_provided",
+        "durationSeconds": 811,
+        "distanceMeters": 951,
+        "coordinateSystem": "BD-09LL",
+        "retrievedAt": "2026-10-15T17:37:13.016Z",
+        "cached": false,
+        "requestedOrigin": {
+          "location": {
+            "lat": 41.76348508019901,
+            "lng": 86.17333275522739
+          },
+          "uid": "0adce3e2f112156080a00c11"
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 41.76086639769818,
+            "lng": 86.173666879238
+          },
+          "uid": null
+        },
+        "evidenceId": "route-4388c69e21b549fb60e3c652",
+        "originNavigation": "coordinates",
+        "requestOriginUidApplied": false,
+        "sector": 37,
+        "bearingDegrees": 174.56324145154588,
+        "radiusMeters": 292.5,
+        "lng": 86.173666879238,
+        "lat": 41.76086639769818,
+        "sampleStage": "adaptive_matrix_bisection",
+        "round": 3,
+        "coverageStatus": "covered",
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 713.25
+      },
+      {
+        "mode": "walking",
+        "source": "route_matrix",
+        "routeStatus": "ok",
+        "geometry": null,
+        "geometryStatus": "not_provided",
+        "durationSeconds": 1034,
+        "distanceMeters": 1210,
+        "coordinateSystem": "BD-09LL",
+        "retrievedAt": "2026-10-15T17:37:13.016Z",
+        "cached": false,
+        "requestedOrigin": {
+          "location": {
+            "lat": 41.76348508019901,
+            "lng": 86.17333275522739
+          },
+          "uid": "0adce3e2f112156080a00c11"
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 41.75920901921889,
+            "lng": 86.16444093837117
+          },
+          "uid": null
+        },
+        "evidenceId": "route-406ee63119c5cba8eddd18c5",
+        "originNavigation": "coordinates",
+        "requestOriginUidApplied": false,
+        "sector": 38,
+        "bearingDegrees": 237.19306959128107,
+        "radiusMeters": 877.5,
+        "lng": 86.16444093837117,
+        "lat": 41.75920901921889,
+        "sampleStage": "adaptive_matrix_bisection",
+        "round": 3,
+        "coverageStatus": "over_threshold",
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 907.5
+      },
+      {
+        "mode": "walking",
+        "source": "route_matrix",
+        "routeStatus": "ok",
+        "geometry": null,
+        "geometryStatus": "not_provided",
+        "durationSeconds": 1531,
+        "distanceMeters": 1791,
+        "coordinateSystem": "BD-09LL",
+        "retrievedAt": "2026-10-15T17:37:13.016Z",
+        "cached": false,
+        "requestedOrigin": {
+          "location": {
+            "lat": 41.76348508019901,
+            "lng": 86.17333275522739
+          },
+          "uid": "0adce3e2f112156080a00c11"
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 41.75975158490864,
+            "lng": 86.16401205350121
+          },
+          "uid": null
+        },
+        "evidenceId": "route-8599a4141fc56e3aa2707056",
+        "originNavigation": "coordinates",
+        "requestOriginUidApplied": false,
+        "sector": 39,
+        "bearingDegrees": 241.76735494616057,
+        "radiusMeters": 877.5,
+        "lng": 86.16401205350121,
+        "lat": 41.75975158490864,
+        "sampleStage": "adaptive_matrix_bisection",
+        "round": 3,
+        "coverageStatus": "over_threshold",
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1343.25
+      }
+    ],
+    "status": "applied",
+    "elapsedMs": 2048.231200000002,
+    "requests": {
+      "queueWaitMs": 0,
+      "throttleWaitMs": 882,
+      "reservationWaitMs": 887,
+      "od": 12,
+      "httpRequests": 3
+    },
+    "areaGrowth": -0.008211689457242932,
+    "measurementSource": "bounded_real_Walking_20261016",
+    "selectionScope": {
+      "method": "sha256(identityKey) modulo 5 = 0 held out before planning and guards",
+      "training": 128,
+      "validation": 46
+    }
+  },
+  "validationBefore": {
+    "verified": 46,
+    "reachable": 17,
+    "overThreshold": 29,
+    "omitted": 4,
+    "omissionRate": 0.23529411764705882,
+    "falseIncluded": 2,
+    "falseInclusionRate": 0.06896551724137931,
+    "accuracy": 0.8695652173913043,
+    "precision": 0.8666666666666667,
+    "recall": 0.7647058823529411,
+    "omittedNames": [
+      "宝石花库尔勒医院",
+      "百心大药房(塔指东路店)",
+      "日日鲜(金泰大厦店)",
+      "建祥小区"
+    ],
+    "falseIncludedNames": [
+      "田爽果菜超市(华誉·怡景苑店)",
+      "巴州石油第一中学"
+    ]
+  },
+  "validationAfter": {
+    "verified": 46,
+    "reachable": 17,
+    "overThreshold": 29,
+    "omitted": 2,
+    "omissionRate": 0.11764705882352941,
+    "falseIncluded": 2,
+    "falseInclusionRate": 0.06896551724137931,
+    "accuracy": 0.9130434782608695,
+    "precision": 0.8823529411764706,
+    "recall": 0.8823529411764706,
+    "omittedNames": [
+      "宝石花库尔勒医院",
+      "建祥小区"
+    ],
+    "falseIncludedNames": [
+      "田爽果菜超市(华誉·怡景苑店)",
+      "巴州石油第一中学"
+    ]
+  },
+  "allPoiAfter": {
+    "verified": 174,
+    "reachable": 51,
+    "overThreshold": 123,
+    "omitted": 5,
+    "omissionRate": 0.09803921568627451,
+    "falseIncluded": 3,
+    "falseInclusionRate": 0.024390243902439025,
+    "accuracy": 0.9540229885057471,
+    "precision": 0.9387755102040817,
+    "recall": 0.9019607843137255,
+    "omittedNames": [
+      "宝石花库尔勒医院",
+      "宝石花库尔勒医院",
+      "建祥小区",
+      "33号小区",
+      "平价烟酒超市"
+    ],
+    "falseIncludedNames": [
+      "田爽果菜超市(华誉·怡景苑店)",
+      "宋镇宇超市",
+      "巴州石油第一中学"
+    ]
+  },
+  "actualOD": 310,
+  "actualHttpRequests": 196,
+  "cachePath": "D:\\Users\\HQD\\竞赛\\15分钟生活圈\\data\\runtime\\a78-benchmark-1792085801576.json",
+  "productionScoreUnchanged": 67.85714285714286,
+  "limitations": [
+    "The cold/repeat run replays saved POI endpoints and does not call Place. Its elapsed time cannot be presented as a full new community analysis.",
+    "Historical baseline and new run were measured at different times.",
+    "POI-guided omission figures are descriptive, not independent accuracy. Only the held-out split is independent of this experiment planner and guards.",
+    "Queue waits are aggregate task waits and overlap; do not add them to wall time.",
+    "No area-wide false inclusion ground truth exists between sampled POIs."
+  ],
+  "algorithmSHA256": "ddb3308c42235e4949eec83cbd6becf30241327380fb7219b3055d8a92788043"
+}

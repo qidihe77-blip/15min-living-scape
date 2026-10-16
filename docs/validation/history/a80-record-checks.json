@@ -1,0 +1,895 @@
+{
+  "results": [
+    {
+      "key": "wuhan",
+      "id": "fa-c792e6bc-c8d5-4654-9adc-504c465fb4a7",
+      "checks": [
+        {
+          "name": "uid_counts_and_bound_walking",
+          "status": "pass",
+          "evidence": {
+            "unique": 54,
+            "withRealPath": 54,
+            "polygonExteriorButWalkingReachable": [
+              {
+                "name": "可多(七里铁路和谐家园店)",
+                "distance": 1165
+              },
+              {
+                "name": "金药堂大药房(缤纷四季店)",
+                "distance": 1182
+              }
+            ],
+            "outsideNotClipped": true
+          }
+        },
+        {
+          "name": "full_ui_projection_and_18_subtypes",
+          "status": "pass",
+          "evidence": {
+            "groups": 6,
+            "subtypes": 18,
+            "total": 54
+          }
+        },
+        {
+          "name": "independent_1km_specialties",
+          "status": "pass",
+          "evidence": [
+            {
+              "id": "market",
+              "count": 0,
+              "status": "absent_in_declared_search",
+              "distance": 1310,
+              "routeState": "outside_15min",
+              "requiredSearchComplete": true,
+              "reasons": []
+            },
+            {
+              "id": "pharmacy",
+              "count": 4,
+              "status": "present",
+              "nearest": "康宇堂大药房(七里店)",
+              "distance": 501,
+              "routeState": "within_1km",
+              "requiredSearchComplete": false,
+              "reasons": [
+                "required_search_incomplete"
+              ]
+            },
+            {
+              "id": "primary_school",
+              "count": 1,
+              "status": "present",
+              "nearest": "汉阳区五里墩小学",
+              "distance": 877,
+              "routeState": "within_1km",
+              "requiredSearchComplete": false,
+              "reasons": [
+                "required_search_incomplete"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "nine_independent_gaps_and_exclusive_area",
+          "status": "pass",
+          "evidence": {
+            "available": [
+              {
+                "type": "category",
+                "categoryId": "eldercare"
+              },
+              {
+                "type": "specialty",
+                "categoryId": "market"
+              }
+            ],
+            "unavailable": [],
+            "totalArea": 975101.1745717353,
+            "determinateArea": 400000.00000000093,
+            "gapArea": 76445.96645771907,
+            "ratio": 0.19111491614429724
+          }
+        },
+        {
+          "name": "priority_rescore_on_isolated_copy_zero_provider_calls",
+          "status": "pass",
+          "evidence": {
+            "original": 66.66666666666666,
+            "isolatedTestScore": 54.16666666666667,
+            "providerCalls": 0,
+            "originalDataUntouched": true,
+            "repeatedFingerprintStable": true,
+            "archivedFingerprintMigrated": true
+          }
+        }
+      ],
+      "search": [
+        {
+          "id": "education",
+          "subtypes": [
+            {
+              "id": "kindergarten",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "primary_school",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "secondary_school",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            }
+          ]
+        },
+        {
+          "id": "medical",
+          "subtypes": [
+            {
+              "id": "hospital",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "place_request_limit_reached"
+                }
+              ]
+            },
+            {
+              "id": "community_clinic",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "place_request_limit_reached"
+                }
+              ]
+            },
+            {
+              "id": "pharmacy",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "place_request_limit_reached"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "commerce",
+          "subtypes": [
+            {
+              "id": "market",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "supermarket",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "convenience_store",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "shopping_mall",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            }
+          ]
+        },
+        {
+          "id": "transport",
+          "subtypes": [
+            {
+              "id": "bus_stop",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "metro_station",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            }
+          ]
+        },
+        {
+          "id": "eldercare",
+          "subtypes": [
+            {
+              "id": "residential_eldercare",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "day_care",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "senior_activity",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            }
+          ]
+        },
+        {
+          "id": "leisure",
+          "subtypes": [
+            {
+              "id": "park_green",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "sports_venue",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "culture_venue",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hangzhou",
+      "id": "fa-65023c6c-a392-28bb-47c5-5bd8266155d8",
+      "checks": [
+        {
+          "name": "uid_counts_and_bound_walking",
+          "status": "pass",
+          "evidence": {
+            "unique": 99,
+            "withRealPath": 99,
+            "polygonExteriorButWalkingReachable": [],
+            "outsideNotClipped": true
+          }
+        },
+        {
+          "name": "full_ui_projection_and_18_subtypes",
+          "status": "pass",
+          "evidence": {
+            "groups": 6,
+            "subtypes": 18,
+            "total": 99
+          }
+        },
+        {
+          "name": "independent_1km_specialties",
+          "status": "pass",
+          "evidence": [
+            {
+              "id": "market",
+              "count": 0,
+              "status": "unknown",
+              "distance": null,
+              "routeState": "unknown",
+              "requiredSearchComplete": false,
+              "reasons": [
+                "required_search_incomplete",
+                "candidate_evidence_incomplete"
+              ]
+            },
+            {
+              "id": "pharmacy",
+              "count": 8,
+              "status": "present",
+              "nearest": "杭州立平大药房",
+              "distance": 285,
+              "routeState": "within_1km",
+              "requiredSearchComplete": false,
+              "reasons": [
+                "required_search_incomplete"
+              ]
+            },
+            {
+              "id": "primary_school",
+              "count": 5,
+              "status": "present",
+              "nearest": "学军小学(求智校区)",
+              "distance": 147,
+              "routeState": "within_1km",
+              "requiredSearchComplete": false,
+              "reasons": [
+                "required_search_incomplete"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "nine_independent_gaps_and_exclusive_area",
+          "status": "pass",
+          "evidence": {
+            "available": [],
+            "unavailable": [
+              {
+                "target": {
+                  "type": "specialty",
+                  "categoryId": "market"
+                },
+                "reasons": [
+                  "specialty_absence_not_confirmed"
+                ]
+              }
+            ],
+            "totalArea": 2706998.233008536,
+            "determinateArea": 0,
+            "gapArea": 0,
+            "ratio": null
+          }
+        },
+        {
+          "name": "priority_rescore_on_isolated_copy_zero_provider_calls",
+          "status": "pass",
+          "evidence": {
+            "original": 90.27777777777776,
+            "isolatedTestScore": 82.63888888888889,
+            "providerCalls": 0,
+            "originalDataUntouched": true,
+            "repeatedFingerprintStable": true,
+            "archivedFingerprintMigrated": true
+          }
+        }
+      ],
+      "search": [
+        {
+          "id": "education",
+          "subtypes": [
+            {
+              "id": "kindergarten",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            },
+            {
+              "id": "primary_school",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            },
+            {
+              "id": "secondary_school",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "medical",
+          "subtypes": [
+            {
+              "id": "hospital",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            },
+            {
+              "id": "community_clinic",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            },
+            {
+              "id": "pharmacy",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "commerce",
+          "subtypes": [
+            {
+              "id": "market",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            },
+            {
+              "id": "supermarket",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            },
+            {
+              "id": "convenience_store",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            },
+            {
+              "id": "shopping_mall",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "transport",
+          "subtypes": [
+            {
+              "id": "bus_stop",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            },
+            {
+              "id": "metro_station",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                },
+                {
+                  "code": "configured_aliases_not_requeried"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eldercare",
+          "subtypes": [
+            {
+              "id": "residential_eldercare",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            },
+            {
+              "id": "day_care",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                },
+                {
+                  "code": "configured_aliases_not_requeried"
+                }
+              ]
+            },
+            {
+              "id": "senior_activity",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leisure",
+          "subtypes": [
+            {
+              "id": "park_green",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            },
+            {
+              "id": "sports_venue",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                },
+                {
+                  "code": "configured_aliases_not_requeried"
+                }
+              ]
+            },
+            {
+              "id": "culture_venue",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "offline_recorded_search_only"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nanchang",
+      "id": "fa-7f6f794b-25bd-46d6-a03d-3d8983d50169",
+      "checks": [
+        {
+          "name": "uid_counts_and_bound_walking",
+          "status": "pass",
+          "evidence": {
+            "unique": 55,
+            "withRealPath": 55,
+            "polygonExteriorButWalkingReachable": [
+              {
+                "name": "广兰大道",
+                "distance": 1181
+              },
+              {
+                "name": "东华理工大学(广兰校区网球场)",
+                "distance": 1196
+              }
+            ],
+            "outsideNotClipped": true
+          }
+        },
+        {
+          "name": "full_ui_projection_and_18_subtypes",
+          "status": "pass",
+          "evidence": {
+            "groups": 6,
+            "subtypes": 18,
+            "total": 55
+          }
+        },
+        {
+          "name": "independent_1km_specialties",
+          "status": "pass",
+          "evidence": [
+            {
+              "id": "pharmacy",
+              "count": 4,
+              "status": "present",
+              "nearest": "宏扬大药房(理工路店)",
+              "distance": 33,
+              "routeState": "within_1km",
+              "requiredSearchComplete": true,
+              "reasons": []
+            },
+            {
+              "id": "primary_school",
+              "count": 5,
+              "status": "present",
+              "nearest": "新庐小学-南区",
+              "distance": 676,
+              "routeState": "within_1km",
+              "requiredSearchComplete": false,
+              "reasons": [
+                "required_search_incomplete"
+              ]
+            },
+            {
+              "id": "market",
+              "count": 1,
+              "status": "present",
+              "nearest": "家门口的菜市场(南天·阳光西区店)",
+              "distance": 944,
+              "routeState": "within_1km",
+              "requiredSearchComplete": false,
+              "reasons": [
+                "required_search_incomplete"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "nine_independent_gaps_and_exclusive_area",
+          "status": "pass",
+          "evidence": {
+            "available": [
+              {
+                "type": "category",
+                "categoryId": "eldercare"
+              }
+            ],
+            "unavailable": [],
+            "totalArea": 1975452.6066033738,
+            "determinateArea": 1159999.9999999986,
+            "gapArea": 240522.73356096548,
+            "ratio": 0.20734718410428085
+          }
+        },
+        {
+          "name": "priority_rescore_on_isolated_copy_zero_provider_calls",
+          "status": "pass",
+          "evidence": {
+            "original": 82.14285714285714,
+            "isolatedTestScore": 79.16666666666666,
+            "providerCalls": 0,
+            "originalDataUntouched": true,
+            "repeatedFingerprintStable": true,
+            "archivedFingerprintMigrated": true
+          }
+        }
+      ],
+      "search": [
+        {
+          "id": "education",
+          "subtypes": [
+            {
+              "id": "kindergarten",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "premature_page_end"
+                }
+              ]
+            },
+            {
+              "id": "primary_school",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "premature_page_end"
+                }
+              ]
+            },
+            {
+              "id": "secondary_school",
+              "complete": false,
+              "truncated": true,
+              "status": "partial",
+              "errors": [
+                {
+                  "code": "premature_page_end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "medical",
+          "subtypes": [
+            {
+              "id": "hospital",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "community_clinic",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "pharmacy",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            }
+          ]
+        },
+        {
+          "id": "commerce",
+          "subtypes": [
+            {
+              "id": "market",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "supermarket",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "convenience_store",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "shopping_mall",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            }
+          ]
+        },
+        {
+          "id": "transport",
+          "subtypes": [
+            {
+              "id": "bus_stop",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "metro_station",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            }
+          ]
+        },
+        {
+          "id": "eldercare",
+          "subtypes": [
+            {
+              "id": "residential_eldercare",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "day_care",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "senior_activity",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            }
+          ]
+        },
+        {
+          "id": "leisure",
+          "subtypes": [
+            {
+              "id": "park_green",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "sports_venue",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            },
+            {
+              "id": "culture_venue",
+              "complete": true,
+              "truncated": false,
+              "status": "complete",
+              "errors": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "placeRequests": 0,
+  "walkingRequests": 0
+}

@@ -1,0 +1,8 @@
+export const GEM_COLORS=Object.freeze({education:['#345BE1','#93B5FF'],medical:['#009CBA','#6CE4DC'],commerce:['#E99032','#FFD08A'],transport:['#368FBD','#A0DDEC'],eldercare:['#8060CE','#CBB6FF'],leisure:['#22996C','#8AE5B3']});
+// Project evaluation thresholds, not a national standard.
+export const SCORE_GRADES=Object.freeze([{min:0,max:60,label:'较差',color:'#D89438'},{min:60,max:80,label:'中等',color:'#2399C0'},{min:80,max:101,label:'优秀',color:'#09AC91'}]);
+export function scoreGrade(score){return Number.isFinite(score)&&score>=0&&score<=100+1e-10?SCORE_GRADES.find(g=>score>=g.min&&score<g.max):null;}
+export function paletteTree(tree){return{...tree,categories:tree.categories.map(g=>({...g,color:GEM_COLORS[g.id]?.[0]??g.color,colorTo:GEM_COLORS[g.id]?.[1]??g.color}))};}
+export const LIGHT_CHART_THEME={backgroundColor:'transparent',color:Object.values(GEM_COLORS).map(p=>p[0]),textStyle:{fontFamily:'Microsoft YaHei, sans-serif',color:'#46677C'},animationDuration:600,animationDurationUpdate:650,animationEasing:'cubicOut',animationEasingUpdate:'cubicOut',categoryAxis:{axisLine:{show:false},axisTick:{show:false},axisLabel:{color:'#7C95A7'}},valueAxis:{axisLine:{show:false},axisTick:{show:false},splitLine:{lineStyle:{color:'#E8F0F5'}}}};
+export const LIGHT_TOOLTIP={trigger:'item',appendToBody:true,confine:true,backgroundColor:'#fffffffa',borderColor:'#DDEAF2',textStyle:{color:'#31536A',fontSize:12},extraCssText:'border-radius:12px;box-shadow:0 8px 26px #254F7020;padding:11px 14px;',transitionDuration:.15};
+export const gemGradient=id=>({type:'linear',x:0,y:0,x2:0,y2:1,colorStops:[{offset:0,color:GEM_COLORS[id][1]},{offset:1,color:GEM_COLORS[id][0]}]});

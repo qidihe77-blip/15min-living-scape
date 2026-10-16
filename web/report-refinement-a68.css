@@ -1,0 +1,29 @@
+/* Compact refinements in the existing1920px desktop frame. */
+.map-stage{--map-legend-width:164px}
+.map-legend-panel button{white-space:nowrap}
+#report-drawer .diagnosis-card>.diagnosis-distance .diagnosis-poi{font-size:var(--font-specialty-poi)!important;line-height:1.5}
+.facility-subtype-details h3:has(.detail-gap-action){justify-content:flex-start;gap:12px}
+.detail-gap-action{border:0;background:transparent;padding:2px 0;cursor:pointer;color:#A48B61;font-size:var(--font-detail-auxiliary)}
+.detail-gap-action:hover{text-decoration:underline;text-underline-offset:3px}
+.right-panel .report-loading{grid-template-columns:minmax(0,1fr);justify-items:center;gap:24px;padding:32px 22px;background:radial-gradient(ellipse at 50% 45%,#DFF5FF50,transparent 80%)}
+.report-loading .report-process-copy{width:min(100%,560px);padding:0 12px}
+.report-loading .report-process-title{justify-content:center;align-items:center;text-align:center;gap:10px}
+.report-loading .report-process-title strong{font-size:var(--font-state-title)!important;line-height:1.6}
+.report-loading .report-process-title .spinner{margin:0}
+.report-loading .report-progress-stats{display:flex;justify-content:flex-end;margin:18px 0 8px}
+.report-loading #loading-percent{font-size:var(--font-state-metric);line-height:1.45}
+.report-loading .report-progress-track{height:12px;border-radius:999px;overflow:hidden}
+.report-loading #loading-detail[hidden]{display:none!important}
+.report-loading .report-process-steps{width:min(100%,560px);margin:4px 0 0}
+.gap-stack-metrics{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:14px}
+.gap-stack-metrics>div+div{padding-left:14px}
+.gap-stack-strip{position:relative;height:43px;box-shadow:0 0 9px #A8DAB944,0 3px 12px #7E9B9920,inset 0 1px 2px #FFFFFFC0}
+.gap-stack-surface{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;stroke:none}
+.gap-stack-strip .gap-stack-segment{background:transparent;box-shadow:none}
+.gap-stack-segment-copy{flex-direction:row;gap:6px;padding:4px 8px}
+.gap-stack-segment-copy svg{width:18px;height:18px;flex-basis:18px}
+.gap-stack-segment.is-covered{color:#326348}
+.gap-stack-segment.is-gap{color:#374B5D}
+.gap-stack-legend i.is-covered{background:radial-gradient(ellipse at 30% 10%,#E4F7C9,#8CCD79)}
+.gap-stack-legend i.is-gap{background:radial-gradient(ellipse at 30% 10%,#DFE6ED,#AAB8C6)}
+@media(pointer:coarse) and (max-width:767px){.gap-stack-strip{height:43px}.gap-stack-metrics{gap:8px}.gap-stack-metrics>div+div{padding-left:8px}.gap-stack-metrics dt{font-size:12px}.gap-stack-metrics dd{font-size:18px}.gap-stack-metrics small{font-size:12px;margin-left:3px}}

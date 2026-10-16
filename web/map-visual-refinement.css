@@ -1,0 +1,17 @@
+/* A30: map tools are vertical; analysis controls and the 67/33 workspace remain intact. */
+.map-filter{flex-direction:column!important;align-items:stretch!important;flex-wrap:nowrap!important;width:126px!important;max-width:126px!important;gap:3px!important;padding:5px!important;border-radius:10px!important}
+.map-filter #category-options{display:flex!important;flex-direction:column;align-items:stretch;gap:3px!important;width:100%}
+.map-filter #category-options .category-option,.map-filter #category-options .category-option:first-child,.map-filter #heat-toggle,.map-filter #range-toggle{height:clamp(20px,calc((100cqh - 220px)/9),34px)!important;min-height:20px!important;width:100%!important;justify-content:flex-start;gap:7px!important;padding:2px 7px!important;border-radius:6px!important}
+.map-filter #category-options .category-option:first-child{justify-content:center}
+.map-filter #category-options .category-option .category-label{font-size:11px!important;display:inline!important}
+.map-filter .heat-controls{width:100%}.map-filter #heat-toggle span,.map-filter #range-toggle span{display:inline!important;font-size:10px!important;white-space:nowrap}
+.map-filter .category-icon,.map-filter #category-options .category-icon,.map-filter .category-icon svg,.map-filter #category-options .category-icon svg{width:18px!important;height:18px!important;flex-basis:18px!important}
+.map-filter #heat-toggle svg,.map-filter #range-toggle svg{width:18px;height:18px;flex:0 0 18px}.map-filter #range-toggle[aria-pressed=true] svg{stroke-width:2.1;filter:drop-shadow(0 0 3px #36B8DC70)}
+#envelope-toggle[hidden]{display:none!important}
+#origin-pulse{border-color:#41BDD482;background:radial-gradient(ellipse,#36B7CE08 45%,#4AC8DF21 74%,transparent 100%);box-shadow:0 0 7px 3px #38BBD02B,inset 0 0 5px #65D6E93D}
+#report-main-chart{height:clamp(320px,calc(370 * var(--u)),440px)}
+#report-contribution-chart{height:clamp(300px,calc(355 * var(--u)),410px)}
+#report-contribution-chart svg path[stroke="#D8E9F6"],#report-contribution-chart svg path[stroke="#CBE0F1"]{stroke-width:1px}
+#radar-context-caption{display:none}
+.diagnosis-missing{display:none}
+@media(max-width:1100px){.map-filter{width:116px!important;max-width:116px!important;padding:4px!important}.map-filter #category-options .category-option,.map-filter #category-options .category-option:first-child,.map-filter #heat-toggle,.map-filter #range-toggle{gap:5px!important;padding:2px 5px!important}.map-filter #range-toggle span,.map-filter #heat-toggle span{font-size:9px!important}}

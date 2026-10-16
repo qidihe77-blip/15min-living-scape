@@ -1,0 +1,348 @@
+{
+  "analysisId": "fa-01a23537-ee50-4105-a7cb-3bfbc6d009d0",
+  "errors": [],
+  "blocked": [],
+  "loads": [
+    {
+      "repeat": 0,
+      "state": {
+        "status": "applied",
+        "reason": null
+      },
+      "timings": {
+        "boot": 265,
+        "bootstrap-start": 104,
+        "config-ready": 112,
+        "sdk-requested": 112,
+        "backend-ready": 271,
+        "report-prefetched": 1509,
+        "sdk-core-ready": 2337,
+        "map-created": 2785,
+        "initial-view-final": 2816,
+        "view-requested": 2816,
+        "analysis-layers-ready": 3520,
+        "custom-style-ready": 8520,
+        "charts-ready": 28217,
+        "tiles-ready": 38321,
+        "custom-map-ready": 38321,
+        "map-first-visible": 38342
+      },
+      "layer": {
+        "version": "independent-blindspots-v1",
+        "status": "available",
+        "visible": true,
+        "targets": [
+          {
+            "type": "category",
+            "categoryId": "eldercare"
+          }
+        ],
+        "models": [
+          {
+            "target": {
+              "type": "category",
+              "categoryId": "eldercare"
+            },
+            "label": "养老",
+            "area": 68223.27389831743,
+            "componentCount": 1,
+            "basis": "confirmed_poi_straight_distance_screening"
+          }
+        ],
+        "area": 68223.27389831743,
+        "hoverEntries": [],
+        "componentCount": 1,
+        "renderMode": "union_fill_outer_boundary",
+        "defaultBoundaryCount": 1,
+        "highlightedTargets": [],
+        "projectionRevision": 3,
+        "cellMeters": 200,
+        "newApiRequests": 0,
+        "affectsScore": false
+      },
+      "summary": {
+        "version": "service-gap-summary-v1",
+        "status": "available",
+        "allCategoriesPresent": false,
+        "totalArea": 977760.6216393464,
+        "gapArea": 68223.27389831743,
+        "ratio": 0.06977502712671328,
+        "combinations": [
+          {
+            "mask": 16,
+            "area": 68223.27389831743,
+            "categoryIds": [
+              "eldercare"
+            ],
+            "labels": [
+              "养老"
+            ],
+            "compound": false
+          }
+        ],
+        "determinateArea": 400000.0000000011,
+        "determinateGapArea": 68223.27389831743,
+        "determinateRatio": 0.17055818474579312,
+        "determinateCombinations": [
+          {
+            "mask": 16,
+            "area": 68223.27389831743,
+            "categoryIds": [
+              "eldercare"
+            ],
+            "labels": [
+              "养老"
+            ],
+            "compound": false
+          }
+        ],
+        "unknownCategoryIds": [],
+        "lowerBound": false,
+        "source": "existing_grid200_rendered_contours",
+        "newApiRequests": 0,
+        "affectsScore": false,
+        "computeMs": 12.799999952316284,
+        "chartType": "rounded_stacked_bar",
+        "displayArea": 68223.27389831743,
+        "displayRatio": 0.17055818474579312,
+        "segments": [
+          {
+            "kind": "covered",
+            "categoryIds": [],
+            "area": 331776.7261016837,
+            "fraction": 0.8294418152542069,
+            "compound": false
+          },
+          {
+            "kind": "gap",
+            "categoryIds": [
+              "eldercare"
+            ],
+            "area": 68223.27389831743,
+            "fraction": 0.17055818474579312,
+            "compound": false
+          }
+        ]
+      },
+      "cardState": "available",
+      "cardHidden": false,
+      "score": 71.42857142857142,
+      "resources": [
+        {
+          "path": "/sty/icons_2x.js",
+          "version": "20261013",
+          "initiator": "script",
+          "transferSize": 0
+        },
+        {
+          "path": "/sty/fs.js",
+          "version": "20261013",
+          "initiator": "script",
+          "transferSize": 0
+        },
+        {
+          "path": "/sty/indoor_fs.js",
+          "version": "20261013",
+          "initiator": "script",
+          "transferSize": 0
+        }
+      ],
+      "preloads": []
+    },
+    {
+      "repeat": 1,
+      "state": {
+        "status": "applied",
+        "reason": null
+      },
+      "timings": {
+        "boot": 341,
+        "bootstrap-start": 74,
+        "config-ready": 88,
+        "sdk-requested": 88,
+        "sdk-core-ready": 198,
+        "report-prefetched": 298,
+        "backend-ready": 344,
+        "map-created": 1196,
+        "initial-view-final": 1208,
+        "view-requested": 1208,
+        "analysis-layers-ready": 1617,
+        "custom-style-ready": 5296,
+        "tiles-ready": 6287,
+        "custom-map-ready": 6287,
+        "map-first-visible": 6308,
+        "charts-ready": 8222
+      },
+      "layer": {
+        "version": "independent-blindspots-v1",
+        "status": "available",
+        "visible": true,
+        "targets": [
+          {
+            "type": "category",
+            "categoryId": "eldercare"
+          }
+        ],
+        "models": [
+          {
+            "target": {
+              "type": "category",
+              "categoryId": "eldercare"
+            },
+            "label": "养老",
+            "area": 68223.27389831743,
+            "componentCount": 1,
+            "basis": "confirmed_poi_straight_distance_screening"
+          }
+        ],
+        "area": 68223.27389831743,
+        "hoverEntries": [],
+        "componentCount": 1,
+        "renderMode": "union_fill_outer_boundary",
+        "defaultBoundaryCount": 1,
+        "highlightedTargets": [],
+        "projectionRevision": 2,
+        "cellMeters": 200,
+        "newApiRequests": 0,
+        "affectsScore": false
+      },
+      "summary": {
+        "version": "service-gap-summary-v1",
+        "status": "available",
+        "allCategoriesPresent": false,
+        "totalArea": 977760.6216393464,
+        "gapArea": 68223.27389831743,
+        "ratio": 0.06977502712671328,
+        "combinations": [
+          {
+            "mask": 16,
+            "area": 68223.27389831743,
+            "categoryIds": [
+              "eldercare"
+            ],
+            "labels": [
+              "养老"
+            ],
+            "compound": false
+          }
+        ],
+        "determinateArea": 400000.0000000011,
+        "determinateGapArea": 68223.27389831743,
+        "determinateRatio": 0.17055818474579312,
+        "determinateCombinations": [
+          {
+            "mask": 16,
+            "area": 68223.27389831743,
+            "categoryIds": [
+              "eldercare"
+            ],
+            "labels": [
+              "养老"
+            ],
+            "compound": false
+          }
+        ],
+        "unknownCategoryIds": [],
+        "lowerBound": false,
+        "source": "existing_grid200_rendered_contours",
+        "newApiRequests": 0,
+        "affectsScore": false,
+        "computeMs": 12.800000071525574,
+        "chartType": "rounded_stacked_bar",
+        "displayArea": 68223.27389831743,
+        "displayRatio": 0.17055818474579312,
+        "segments": [
+          {
+            "kind": "covered",
+            "categoryIds": [],
+            "area": 331776.7261016837,
+            "fraction": 0.8294418152542069,
+            "compound": false
+          },
+          {
+            "kind": "gap",
+            "categoryIds": [
+              "eldercare"
+            ],
+            "area": 68223.27389831743,
+            "fraction": 0.17055818474579312,
+            "compound": false
+          }
+        ]
+      },
+      "cardState": "available",
+      "cardHidden": false,
+      "score": 71.42857142857142,
+      "resources": [
+        {
+          "path": "/sty/icons_2x.js",
+          "version": "20261013",
+          "initiator": "script",
+          "transferSize": 0
+        },
+        {
+          "path": "/sty/fs.js",
+          "version": "20261013",
+          "initiator": "script",
+          "transferSize": 0
+        },
+        {
+          "path": "/sty/indoor_fs.js",
+          "version": "20261013",
+          "initiator": "script",
+          "transferSize": 0
+        }
+      ],
+      "preloads": [
+        {
+          "host": "maponline0.bdimg.com",
+          "path": "/sty/icons_2x.js",
+          "version": "20261013"
+        },
+        {
+          "host": "maponline0.bdimg.com",
+          "path": "/sty/fs.js",
+          "version": "20261013"
+        },
+        {
+          "host": "maponline0.bdimg.com",
+          "path": "/sty/indoor_fs.js",
+          "version": "20261013"
+        }
+      ]
+    }
+  ],
+  "tooltip": "养老\n17.1%",
+  "popup": {
+    "width": 157,
+    "height": 52,
+    "lines": 2,
+    "fit": true
+  },
+  "sharedMarkers": {
+    "count": 44,
+    "unique": 44,
+    "mode": "category"
+  },
+  "fixture": {
+    "purpose": "presentation fixtures only, not geographic findings",
+    "green": {
+      "hidden": false,
+      "state": "covered",
+      "text": "盲区面积占比\n0.0%\n盲区面积\n0.000km²\n等时圈总面积\n0.978km²\n无盲区\n非盲区\n盲区",
+      "segments": [
+        {
+          "width": "100%",
+          "gap": false
+        }
+      ]
+    },
+    "insufficient": {
+      "hidden": true,
+      "text": "",
+      "state": null
+    },
+    "modelCount": 6
+  },
+  "passed": true
+}

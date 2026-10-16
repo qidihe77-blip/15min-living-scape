@@ -1,0 +1,33 @@
+{
+  "version": "p0-facility-categories-v1",
+  "updatedAt": "2026-09-29",
+  "coordinateSystem": "BD-09LL",
+  "scope": "POI candidate classification; manual review required before confirmed coverage",
+  "categories": [
+    {
+      "id": "market",
+      "label": "菜场",
+      "searchQueries": ["菜市场", "农贸市场"],
+      "rawCategoryHints": ["购物;市场", "购物;农贸市场"],
+      "excludeNamePatterns": ["培训", "批发公司"],
+      "reviewRule": "核查是否为面向居民的日常菜场；生鲜店、便利店和超市单列待核，不自动并入菜场。"
+    },
+    {
+      "id": "pharmacy",
+      "label": "药店",
+      "searchQueries": ["药店", "大药房"],
+      "rawCategoryHints": ["医疗;药店", "购物;药店"],
+      "excludeNamePatterns": ["医院", "诊所", "医疗美容"],
+      "reviewRule": "核查实体零售药店与入口位置；医疗机构和仅线上药房不自动并入。"
+    },
+    {
+      "id": "primary_school",
+      "label": "小学",
+      "searchQueries": ["小学"],
+      "rawCategoryHints": ["教育;小学", "教育;学校"],
+      "excludeNamePatterns": ["培训", "辅导", "幼儿园", "中学"],
+      "reviewRule": "核查办学类型与校门位置；步行可达不代表学区资格或入学容量。"
+    }
+  ],
+  "classificationPolicy": "Search terms and raw category hints generate candidates only. Ambiguous POIs remain pending_review."
+}

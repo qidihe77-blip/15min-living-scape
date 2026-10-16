@@ -1,0 +1,28 @@
+{
+  "name": "neighborhood-access-webgis",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/project.mjs start",
+    "dev": "node --watch server/index.mjs",
+    "start:production": "node scripts/start-production.mjs",
+    "build": "node scripts/project.mjs build",
+    "test": "node scripts/project.mjs test",
+    "check": "node scripts/project.mjs check",
+    "demo:prepare": "node scripts/project.mjs demo",
+    "verify:records": "node scripts/verify-records.mjs",
+    "verify:http": "node scripts/verify-http.mjs",
+    "verify:browser": "node scripts/verify-browser.mjs",
+    "test:isochrone": "node --test test/isochrone-boundary.test.mjs test/facility-integrity.test.mjs test/production-surface.test.mjs test/centered-walking-range.test.mjs test/analysis-speed.test.mjs test/batch-range-regional.test.mjs test/ui26-walking-pipeline.test.mjs test/analysis-archive.test.mjs server/config.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "基于百度地图真实Walking的15分钟步行生活圈WebGIS",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/heqidi/15min-living-scape.git"
+  }
+}

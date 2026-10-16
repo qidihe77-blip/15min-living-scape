@@ -1,0 +1,2 @@
+// Font sizes are presentation only; series data, geometry, gradients and callbacks stay intact.
+export function enlargeChartText(value,delta=2){if(Array.isArray(value))return value.map(v=>enlargeChartText(v,delta));if(!value||typeof value!=='object')return value;return Object.fromEntries(Object.entries(value).map(([key,v])=>[key,key==='fontSize'&&Number.isFinite(v)?v+delta:enlargeChartText(v,delta)]));}

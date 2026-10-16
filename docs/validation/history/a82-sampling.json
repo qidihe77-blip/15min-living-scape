@@ -1,0 +1,57 @@
+{
+  "createdAt": "2026-10-16T04:17:49.240Z",
+  "analysisId": "fa-01a23537-ee50-4105-a7cb-3bfbc6d009d0",
+  "sourceSHA256": "f44070d79eb98bfd8baa5a3ce513ecc2f410a8047c5d46304bbd2051ebb9659a",
+  "savedTaskRangeMs": 72.41410000000178,
+  "results": [
+    {
+      "pipeline": false,
+      "mode": "exact_cost_cache_replay",
+      "elapsedMs": 6.136899999999969,
+      "logicalCalls": 3,
+      "outputRoutes": 108,
+      "sameGeometry": true,
+      "newApiOD": 0
+    },
+    {
+      "pipeline": true,
+      "mode": "exact_cost_cache_replay",
+      "elapsedMs": 2.717899999999986,
+      "logicalCalls": 12,
+      "outputRoutes": 108,
+      "sameGeometry": true,
+      "newApiOD": 0
+    },
+    {
+      "pipeline": false,
+      "mode": "controlled_response_latency_replay",
+      "elapsedMs": 267.8128,
+      "logicalCalls": 3,
+      "outputRoutes": 108,
+      "sameGeometry": true,
+      "newApiOD": 0
+    },
+    {
+      "pipeline": true,
+      "mode": "controlled_response_latency_replay",
+      "elapsedMs": 200.32050000000004,
+      "logicalCalls": 12,
+      "outputRoutes": 108,
+      "sameGeometry": true,
+      "newApiOD": 0
+    }
+  ],
+  "blindspots": {
+    "scope": "six_major_categories_only",
+    "modelCount": 6,
+    "eldercareAreaM2": 68223.27389831743,
+    "eldercareCandidateCount": 0,
+    "eldercareThresholdMeters": 1200,
+    "gridMeters": 200
+  },
+  "limits": [
+    "No cold Baidu API benchmark was performed. The recorded72ms run reused108 measured matrix costs.",
+    "Controlled replay adds70ms/3ms waits to isolate scheduling. It does not model API QPS, network or claim live speedup.",
+    "Both modes request exactly the same108 recorded OD costs and produce identical geometry."
+  ]
+}

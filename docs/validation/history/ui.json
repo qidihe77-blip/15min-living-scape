@@ -1,0 +1,1141 @@
+{
+  "passed": true,
+  "analysisId": "fa-89a32bfd-1baa-4de6-bac2-46d057770db4",
+  "baseVertices": 37,
+  "refinedVertices": 41,
+  "baseModelsUnchanged": true,
+  "oneKmRingUnchanged": true,
+  "reportGeometryIdentical": true,
+  "scoreUnchanged": true,
+  "shots": [
+    {
+      "mode": "before",
+      "score": 67.85714285714286,
+      "total": 51,
+      "polygons": [
+        {
+          "points": 37,
+          "color": "#A0E8F4"
+        },
+        {
+          "points": 37,
+          "color": "#66CEE6"
+        },
+        {
+          "points": 37,
+          "color": "#42B7D8"
+        },
+        {
+          "points": 37,
+          "color": "#16ACE4"
+        },
+        {
+          "points": 2,
+          "color": "#009CBA"
+        },
+        {
+          "points": 2,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 2,
+          "color": "#009CBA"
+        },
+        {
+          "points": 2,
+          "color": "#E99032"
+        },
+        {
+          "points": 2,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 2,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 11,
+          "color": "#009CBA"
+        },
+        {
+          "points": 11,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 11,
+          "color": "#009CBA"
+        },
+        {
+          "points": 7,
+          "color": "#E99032"
+        },
+        {
+          "points": 7,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 7,
+          "color": "#E99032"
+        },
+        {
+          "points": 16,
+          "color": "#009CBA"
+        },
+        {
+          "points": 16,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 16,
+          "color": "#009CBA"
+        },
+        {
+          "points": 15,
+          "color": "#368FBD"
+        },
+        {
+          "points": 15,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 15,
+          "color": "#368FBD"
+        },
+        {
+          "points": 18,
+          "color": "#368FBD"
+        },
+        {
+          "points": 18,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 18,
+          "color": "#368FBD"
+        },
+        {
+          "points": 14,
+          "color": "#E99032"
+        },
+        {
+          "points": 14,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 14,
+          "color": "#E99032"
+        },
+        {
+          "points": 3,
+          "color": "#368FBD"
+        },
+        {
+          "points": 3,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 3,
+          "color": "#368FBD"
+        },
+        {
+          "points": 7,
+          "color": "#E99032"
+        },
+        {
+          "points": 7,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 7,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#368FBD"
+        },
+        {
+          "points": 6,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 6,
+          "color": "#368FBD"
+        },
+        {
+          "points": 26,
+          "color": "#22996C"
+        },
+        {
+          "points": 26,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 26,
+          "color": "#22996C"
+        },
+        {
+          "points": 10,
+          "color": "#368FBD"
+        },
+        {
+          "points": 10,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 10,
+          "color": "#368FBD"
+        },
+        {
+          "points": 39,
+          "color": "#22996C"
+        },
+        {
+          "points": 39,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 39,
+          "color": "#22996C"
+        },
+        {
+          "points": 31,
+          "color": "#E99032"
+        },
+        {
+          "points": 31,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 31,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 16,
+          "color": "#22996C"
+        },
+        {
+          "points": 16,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 16,
+          "color": "#22996C"
+        },
+        {
+          "points": 3,
+          "color": "#E99032"
+        },
+        {
+          "points": 3,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 3,
+          "color": "#E99032"
+        },
+        {
+          "points": 22,
+          "color": "#009CBA"
+        },
+        {
+          "points": 22,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 22,
+          "color": "#009CBA"
+        },
+        {
+          "points": 39,
+          "color": "#009CBA"
+        },
+        {
+          "points": 39,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 39,
+          "color": "#009CBA"
+        },
+        {
+          "points": 21,
+          "color": "#E99032"
+        },
+        {
+          "points": 21,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 21,
+          "color": "#E99032"
+        },
+        {
+          "points": 13,
+          "color": "#368FBD"
+        },
+        {
+          "points": 13,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 13,
+          "color": "#368FBD"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 33,
+          "color": "#345BE1"
+        },
+        {
+          "points": 33,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 33,
+          "color": "#345BE1"
+        },
+        {
+          "points": 6,
+          "color": "#009CBA"
+        },
+        {
+          "points": 6,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 6,
+          "color": "#009CBA"
+        },
+        {
+          "points": 20,
+          "color": "#009CBA"
+        },
+        {
+          "points": 20,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 20,
+          "color": "#009CBA"
+        },
+        {
+          "points": 5,
+          "color": "#E99032"
+        },
+        {
+          "points": 5,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 5,
+          "color": "#E99032"
+        },
+        {
+          "points": 14,
+          "color": "#22996C"
+        },
+        {
+          "points": 14,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 14,
+          "color": "#22996C"
+        },
+        {
+          "points": 12,
+          "color": "#E99032"
+        },
+        {
+          "points": 12,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 12,
+          "color": "#E99032"
+        },
+        {
+          "points": 2,
+          "color": "#22996C"
+        },
+        {
+          "points": 2,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 2,
+          "color": "#22996C"
+        },
+        {
+          "points": 9,
+          "color": "#009CBA"
+        },
+        {
+          "points": 9,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 9,
+          "color": "#009CBA"
+        },
+        {
+          "points": 8,
+          "color": "#22996C"
+        },
+        {
+          "points": 8,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 8,
+          "color": "#22996C"
+        },
+        {
+          "points": 4,
+          "color": "#E99032"
+        },
+        {
+          "points": 4,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 4,
+          "color": "#E99032"
+        },
+        {
+          "points": 13,
+          "color": "#E99032"
+        },
+        {
+          "points": 13,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 13,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 9,
+          "color": "#368FBD"
+        },
+        {
+          "points": 9,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 9,
+          "color": "#368FBD"
+        },
+        {
+          "points": 2,
+          "color": "#E99032"
+        },
+        {
+          "points": 2,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 2,
+          "color": "#E99032"
+        },
+        {
+          "points": 21,
+          "color": "#368FBD"
+        },
+        {
+          "points": 21,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 21,
+          "color": "#368FBD"
+        },
+        {
+          "points": 25,
+          "color": "#009CBA"
+        },
+        {
+          "points": 25,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 25,
+          "color": "#009CBA"
+        },
+        {
+          "points": 15,
+          "color": "#368FBD"
+        },
+        {
+          "points": 15,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 15,
+          "color": "#368FBD"
+        },
+        {
+          "points": 14,
+          "color": "#E99032"
+        },
+        {
+          "points": 14,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 14,
+          "color": "#E99032"
+        },
+        {
+          "points": 20,
+          "color": "#E99032"
+        },
+        {
+          "points": 20,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 20,
+          "color": "#E99032"
+        },
+        {
+          "points": 8,
+          "color": "#E99032"
+        },
+        {
+          "points": 8,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 8,
+          "color": "#E99032"
+        },
+        {
+          "points": 19,
+          "color": "#345BE1"
+        },
+        {
+          "points": 19,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 19,
+          "color": "#345BE1"
+        }
+      ]
+    },
+    {
+      "mode": "after",
+      "score": 67.85714285714286,
+      "total": 51,
+      "polygons": [
+        {
+          "points": 41,
+          "color": "#A0E8F4"
+        },
+        {
+          "points": 41,
+          "color": "#66CEE6"
+        },
+        {
+          "points": 41,
+          "color": "#42B7D8"
+        },
+        {
+          "points": 41,
+          "color": "#16ACE4"
+        },
+        {
+          "points": 2,
+          "color": "#009CBA"
+        },
+        {
+          "points": 2,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 2,
+          "color": "#009CBA"
+        },
+        {
+          "points": 2,
+          "color": "#E99032"
+        },
+        {
+          "points": 2,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 2,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 11,
+          "color": "#009CBA"
+        },
+        {
+          "points": 11,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 11,
+          "color": "#009CBA"
+        },
+        {
+          "points": 7,
+          "color": "#E99032"
+        },
+        {
+          "points": 7,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 7,
+          "color": "#E99032"
+        },
+        {
+          "points": 16,
+          "color": "#009CBA"
+        },
+        {
+          "points": 16,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 16,
+          "color": "#009CBA"
+        },
+        {
+          "points": 15,
+          "color": "#368FBD"
+        },
+        {
+          "points": 15,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 15,
+          "color": "#368FBD"
+        },
+        {
+          "points": 18,
+          "color": "#368FBD"
+        },
+        {
+          "points": 18,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 18,
+          "color": "#368FBD"
+        },
+        {
+          "points": 14,
+          "color": "#E99032"
+        },
+        {
+          "points": 14,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 14,
+          "color": "#E99032"
+        },
+        {
+          "points": 3,
+          "color": "#368FBD"
+        },
+        {
+          "points": 3,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 3,
+          "color": "#368FBD"
+        },
+        {
+          "points": 7,
+          "color": "#E99032"
+        },
+        {
+          "points": 7,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 7,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#368FBD"
+        },
+        {
+          "points": 6,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 6,
+          "color": "#368FBD"
+        },
+        {
+          "points": 26,
+          "color": "#22996C"
+        },
+        {
+          "points": 26,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 26,
+          "color": "#22996C"
+        },
+        {
+          "points": 10,
+          "color": "#368FBD"
+        },
+        {
+          "points": 10,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 10,
+          "color": "#368FBD"
+        },
+        {
+          "points": 39,
+          "color": "#22996C"
+        },
+        {
+          "points": 39,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 39,
+          "color": "#22996C"
+        },
+        {
+          "points": 31,
+          "color": "#E99032"
+        },
+        {
+          "points": 31,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 31,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 16,
+          "color": "#22996C"
+        },
+        {
+          "points": 16,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 16,
+          "color": "#22996C"
+        },
+        {
+          "points": 3,
+          "color": "#E99032"
+        },
+        {
+          "points": 3,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 3,
+          "color": "#E99032"
+        },
+        {
+          "points": 22,
+          "color": "#009CBA"
+        },
+        {
+          "points": 22,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 22,
+          "color": "#009CBA"
+        },
+        {
+          "points": 39,
+          "color": "#009CBA"
+        },
+        {
+          "points": 39,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 39,
+          "color": "#009CBA"
+        },
+        {
+          "points": 21,
+          "color": "#E99032"
+        },
+        {
+          "points": 21,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 21,
+          "color": "#E99032"
+        },
+        {
+          "points": 13,
+          "color": "#368FBD"
+        },
+        {
+          "points": 13,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 13,
+          "color": "#368FBD"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 33,
+          "color": "#345BE1"
+        },
+        {
+          "points": 33,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 33,
+          "color": "#345BE1"
+        },
+        {
+          "points": 6,
+          "color": "#009CBA"
+        },
+        {
+          "points": 6,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 6,
+          "color": "#009CBA"
+        },
+        {
+          "points": 20,
+          "color": "#009CBA"
+        },
+        {
+          "points": 20,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 20,
+          "color": "#009CBA"
+        },
+        {
+          "points": 5,
+          "color": "#E99032"
+        },
+        {
+          "points": 5,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 5,
+          "color": "#E99032"
+        },
+        {
+          "points": 14,
+          "color": "#22996C"
+        },
+        {
+          "points": 14,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 14,
+          "color": "#22996C"
+        },
+        {
+          "points": 12,
+          "color": "#E99032"
+        },
+        {
+          "points": 12,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 12,
+          "color": "#E99032"
+        },
+        {
+          "points": 2,
+          "color": "#22996C"
+        },
+        {
+          "points": 2,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 2,
+          "color": "#22996C"
+        },
+        {
+          "points": 9,
+          "color": "#009CBA"
+        },
+        {
+          "points": 9,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 9,
+          "color": "#009CBA"
+        },
+        {
+          "points": 8,
+          "color": "#22996C"
+        },
+        {
+          "points": 8,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 8,
+          "color": "#22996C"
+        },
+        {
+          "points": 4,
+          "color": "#E99032"
+        },
+        {
+          "points": 4,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 4,
+          "color": "#E99032"
+        },
+        {
+          "points": 13,
+          "color": "#E99032"
+        },
+        {
+          "points": 13,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 13,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 6,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 6,
+          "color": "#E99032"
+        },
+        {
+          "points": 9,
+          "color": "#368FBD"
+        },
+        {
+          "points": 9,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 9,
+          "color": "#368FBD"
+        },
+        {
+          "points": 2,
+          "color": "#E99032"
+        },
+        {
+          "points": 2,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 2,
+          "color": "#E99032"
+        },
+        {
+          "points": 21,
+          "color": "#368FBD"
+        },
+        {
+          "points": 21,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 21,
+          "color": "#368FBD"
+        },
+        {
+          "points": 25,
+          "color": "#009CBA"
+        },
+        {
+          "points": 25,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 25,
+          "color": "#009CBA"
+        },
+        {
+          "points": 15,
+          "color": "#368FBD"
+        },
+        {
+          "points": 15,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 15,
+          "color": "#368FBD"
+        },
+        {
+          "points": 14,
+          "color": "#E99032"
+        },
+        {
+          "points": 14,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 14,
+          "color": "#E99032"
+        },
+        {
+          "points": 20,
+          "color": "#E99032"
+        },
+        {
+          "points": 20,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 20,
+          "color": "#E99032"
+        },
+        {
+          "points": 8,
+          "color": "#E99032"
+        },
+        {
+          "points": 8,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 8,
+          "color": "#E99032"
+        },
+        {
+          "points": 19,
+          "color": "#345BE1"
+        },
+        {
+          "points": 19,
+          "color": "#FFFFFF"
+        },
+        {
+          "points": 19,
+          "color": "#345BE1"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "newWalkingRequests": 0,
+  "newPlaceRequests": 0
+}

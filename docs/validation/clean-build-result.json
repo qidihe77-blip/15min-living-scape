@@ -1,0 +1,13 @@
+{
+  "executedAt": "2026-10-16T08:15:34.848Z",
+  "phase": "clean-repository-build-before-final-documentation",
+  "node": "v24.15.0",
+  "platform": "Windows x64",
+  "testCount": 683,
+  "passed": 683,
+  "failed": 0,
+  "buildDurationMs": 19430.140199999998,
+  "artifactBytes": 11904831,
+  "artifactSHA256": "2c6320dc18f01acbe9867d207696bbb7bf245ed6e2e48d72ffbd45d8a9973723",
+  "note": "Final source ZIP is rebuilt after adding these verification documents; use its generated BUILD-MANIFEST for the final hashes."
+}

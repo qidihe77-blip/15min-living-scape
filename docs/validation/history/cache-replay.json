@@ -1,0 +1,19 @@
+{
+  "elapsedMs": 9.714400000000012,
+  "deniedUpstreamAttempts": 0,
+  "actualNetworkOD": 0,
+  "matrixCacheHits": 108,
+  "poiCacheHits": 174,
+  "validCosts": 174,
+  "realPaths": 174,
+  "sampling": {
+    "requestedDirections": 36,
+    "validSectors": 36,
+    "validRoutePoints": 108,
+    "matrixMeasuredDirections": 36,
+    "estimatedDirections": 0,
+    "continuousRangeAvailable": false,
+    "errorBoundStatus": "not_statistically_estimated"
+  },
+  "source": "strict offline restart replay; upstream unavailable by construction"
+}

@@ -1,0 +1,334 @@
+{
+  "sourceAnalysisId": "fa-ba484c95-0b9b-4c8c-be4c-e15a6ba96ee6",
+  "sourceSHA256": "c7ea1ec90c05093f56bfe5ea8018ef40a8486fef26825de89dcb8c705e1f0785",
+  "source": "Recorded Baidu POI names and provider categories, no new requests",
+  "items": [
+    {
+      "uid": "8c1590f5b466e1d715b54b29",
+      "name": "天天好大药房(建国北路店)",
+      "rawCategory": "医疗;药店",
+      "rawCategoryTags": [
+        "医疗;药店"
+      ],
+      "subtypeIds": [
+        "pharmacy"
+      ]
+    },
+    {
+      "uid": "bc4f7d47a4baf2b72afc4818",
+      "name": "天天好大药房(体育场路店)",
+      "rawCategory": "医疗;药店",
+      "rawCategoryTags": [
+        "医疗;药店"
+      ],
+      "subtypeIds": [
+        "pharmacy",
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "e85e252709e5b05295f08ce5",
+      "name": "天天好大药房(长庆店)",
+      "rawCategory": "医疗;药店",
+      "rawCategoryTags": [
+        "医疗;药店"
+      ],
+      "subtypeIds": [
+        "pharmacy"
+      ]
+    },
+    {
+      "uid": "15e1e85e9ddcaba3581093e5",
+      "name": "天天好大药房(刀茅巷店)",
+      "rawCategory": "医疗;药店",
+      "rawCategoryTags": [
+        "医疗;药店"
+      ],
+      "subtypeIds": [
+        "pharmacy"
+      ]
+    },
+    {
+      "uid": "e64add6dbb4f3860eedfca7c",
+      "name": "天天好大药房(孩儿巷二店)",
+      "rawCategory": "医疗;药店",
+      "rawCategoryTags": [
+        "医疗;药店"
+      ],
+      "subtypeIds": [
+        "pharmacy"
+      ]
+    },
+    {
+      "uid": "eb367503dacd6e6600ec01e7",
+      "name": "天天好大药房(大学路店)",
+      "rawCategory": "医疗;药店",
+      "rawCategoryTags": [
+        "医疗;药店"
+      ],
+      "subtypeIds": [
+        "pharmacy"
+      ]
+    },
+    {
+      "uid": "fa021667c2ed2e6e465726e2",
+      "name": "全家便利店(建国北路二店)",
+      "rawCategory": "购物;便利店",
+      "rawCategoryTags": [
+        "购物;便利店"
+      ],
+      "subtypeIds": [
+        "convenience_store"
+      ]
+    },
+    {
+      "uid": "4f0895da4051c9d5c26c14f3",
+      "name": "全家便利店(屏风街店)",
+      "rawCategory": "购物;便利店",
+      "rawCategoryTags": [
+        "购物;便利店"
+      ],
+      "subtypeIds": [
+        "convenience_store"
+      ]
+    },
+    {
+      "uid": "8247f9ac0b455a2d2ce67b76",
+      "name": "全家便利店(体育场路三店)",
+      "rawCategory": "购物;便利店",
+      "rawCategoryTags": [
+        "购物;便利店"
+      ],
+      "subtypeIds": [
+        "convenience_store",
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "687ac2f3ecbbb63fcae33c20",
+      "name": "全家便利店(凤起路二店)",
+      "rawCategory": "购物;便利店",
+      "rawCategoryTags": [
+        "购物;便利店"
+      ],
+      "subtypeIds": [
+        "convenience_store"
+      ]
+    },
+    {
+      "uid": "0df821fb410612cdad080f1b",
+      "name": "全家便利店(环城北路店)",
+      "rawCategory": "购物;便利店",
+      "rawCategoryTags": [
+        "购物;便利店"
+      ],
+      "subtypeIds": [
+        "convenience_store"
+      ]
+    },
+    {
+      "uid": "42de8085df6af122f8dc8566",
+      "name": "全家便利店(新华路店)",
+      "rawCategory": "购物;便利店",
+      "rawCategoryTags": [
+        "购物;便利店"
+      ],
+      "subtypeIds": [
+        "convenience_store"
+      ]
+    },
+    {
+      "uid": "fdc79d3a0ffd121081288a2a",
+      "name": "全家便利店(朝晖路店)",
+      "rawCategory": "购物;便利店",
+      "rawCategoryTags": [
+        "购物;便利店"
+      ],
+      "subtypeIds": [
+        "convenience_store"
+      ]
+    },
+    {
+      "uid": "30e2d25ec37886a91ce9993e",
+      "name": "全家便利店(朝晖路店)",
+      "rawCategory": "购物;便利店",
+      "rawCategoryTags": [
+        "购物;便利店"
+      ],
+      "subtypeIds": [
+        "convenience_store"
+      ]
+    },
+    {
+      "uid": "89c67c5d922de1e39d9d6835",
+      "name": "全家便利店(孩儿巷店)",
+      "rawCategory": "购物;便利店",
+      "rawCategoryTags": [
+        "购物;便利店"
+      ],
+      "subtypeIds": [
+        "convenience_store"
+      ]
+    },
+    {
+      "uid": "2f6ce553e54382df96ca07f9",
+      "name": "全家便利店(岳王路店)",
+      "rawCategory": "购物;便利店",
+      "rawCategoryTags": [
+        "购物;便利店"
+      ],
+      "subtypeIds": [
+        "convenience_store"
+      ]
+    },
+    {
+      "uid": "a83da0b99cf7cc6a1c1d11c7",
+      "name": "市体育馆",
+      "rawCategory": "交通设施;公交车站",
+      "rawCategoryTags": [
+        "交通设施;公交车站"
+      ],
+      "subtypeIds": [
+        "bus_stop",
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "9c45b95b1137ee28ae0457b7",
+      "name": "羽悦羽毛球馆(体育场路店)",
+      "rawCategory": "运动健身;羽毛球场馆",
+      "rawCategoryTags": [
+        "运动健身;羽毛球场馆",
+        "运动健身;体育场馆"
+      ],
+      "subtypeIds": [
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "d196f3903e1ad591fc0eb0e4",
+      "name": "杭州体育馆",
+      "rawCategory": "运动健身;体育场馆",
+      "rawCategoryTags": [
+        "运动健身;体育场馆"
+      ],
+      "subtypeIds": [
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "12cc6f8661af83af3010af48",
+      "name": "杭州体育馆-B楼",
+      "rawCategory": "运动健身;体育场馆",
+      "rawCategoryTags": [
+        "运动健身;体育场馆"
+      ],
+      "subtypeIds": [
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "4cb5ec65c92af8cd0482c243",
+      "name": "杭州体育馆D楼",
+      "rawCategory": "运动健身;体育场馆",
+      "rawCategoryTags": [
+        "运动健身;体育场馆"
+      ],
+      "subtypeIds": [
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "9199e99cc66f353c4afc8da9",
+      "name": "杭州体育馆-A楼",
+      "rawCategory": "运动健身;体育场馆",
+      "rawCategoryTags": [
+        "运动健身;体育场馆"
+      ],
+      "subtypeIds": [
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "49b9ae7845eb38e7fbdc85a7",
+      "name": "学而思素养(体育场路日报校区)",
+      "rawCategory": "教育培训;培训机构;兴趣艺术培训;少儿培训",
+      "rawCategoryTags": [
+        "教育培训;培训机构;兴趣艺术培训;少儿培训",
+        "教育培训;培训机构"
+      ],
+      "subtypeIds": [
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "65750920b03b71b0a6da396b",
+      "name": "雾柚电子雾化器集合店(体育场路店)",
+      "rawCategory": "购物;商铺",
+      "rawCategoryTags": [
+        "购物;商铺"
+      ],
+      "subtypeIds": [
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "f67cfef6b40294e1f4e73b01",
+      "name": "大树路与体育场路交叉口",
+      "rawCategory": "道路;路口",
+      "rawCategoryTags": [
+        "道路;路口"
+      ],
+      "subtypeIds": [
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "64ff3be1d4e202ba91114c9c",
+      "name": "中国联通(拱墅体育场路营业厅)",
+      "rawCategory": "生活服务;通讯营业厅;联通营业厅",
+      "rawCategoryTags": [
+        "生活服务;通讯营业厅;联通营业厅",
+        "生活服务;通讯营业厅"
+      ],
+      "subtypeIds": [
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "194afa0c166c626badcb66a6",
+      "name": "小夏建材(体育场路店)",
+      "rawCategory": "购物;建材;水泥沙子",
+      "rawCategoryTags": [
+        "购物;建材;水泥沙子",
+        "购物;家居建材"
+      ],
+      "subtypeIds": [
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "84bc9383c017e2fed13ce396",
+      "name": "杭州市市场监督管理局(体育场路办公区)",
+      "rawCategory": "政府机构;行政机关;市场监督管理局",
+      "rawCategoryTags": [
+        "政府机构;行政机关;市场监督管理局",
+        "政府机构;行政单位"
+      ],
+      "subtypeIds": [
+        "sports_venue"
+      ]
+    },
+    {
+      "uid": "0f5a4230d3f8ac0d4f3a591f",
+      "name": "杭州市下城区图书馆东河社区图书室",
+      "rawCategory": "教育培训;图书馆",
+      "rawCategoryTags": [
+        "教育培训;图书馆"
+      ],
+      "subtypeIds": [
+        "culture_venue"
+      ]
+    }
+  ]
+}

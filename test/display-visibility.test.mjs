@@ -1,0 +1,26 @@
+import test from'node:test';import assert from'node:assert/strict';
+import{displayGeometry}from'../web/display-policy.js';
+import{refinedRadarOption,radarAxisGraphics}from'../web/radar-a38.js';
+import{sunburstCenterGraphics,sunburstDisplayLayout}from'../web/report-sunburst-a37.js';
+import{SUBTYPE_GLYPHS,subtypeIconImage,specialtyMarkerImage,SPECIALTY_COLORS}from'../web/subtype-icons.js';
+import{productText}from'../web/presentation-copy.js';
+import{reportPresentation}from'../web/report-view.js';
+import{sampleCenteredWalkingRange,PRODUCTION_BOUNDARY_SHAPE_VERSION}from'../server/centered-walking-range.mjs';
+import{placeMapLabel}from'../web/map-label-layout.js';
+import{straightDistanceMeters}from'../server/facility-coverage.mjs';
+const groups=['education','medical','commerce','transport','eldercare','leisure'].map((id,i)=>({id,label:['教育','医疗','商业','交通','养老','休闲'][i],color:'#2576DA',score:{normalizedWeight:1/6,contributionLow:1}}));
+const m={view:{groups},contributionShares:groups.map(g=>({id:g.id,share:100/6})),confirmedScore:6};
+test('desktop fills the actual browser content area at normal and zoomed sizes without changing layout width',()=>{
+ for(const[w,h]of[[1920,1080],[1920,960],[1536,740],[1366,650],[1280,610],[2560,1300],[1024,490]]){const g=displayGeometry(w,h);assert.equal(g.width,1920);assert.equal(g.scale,w/1920);assert.ok(Math.abs(g.width*g.scale-w)<.001);assert.ok(Math.abs(g.height*g.scale-h)<.001);assert.equal(g.left,0);assert.equal(g.top,0);}
+ assert.deepEqual(displayGeometry(390,844,true),{width:390,height:844,scale:1,left:0,top:0,mobile:true});
+});
+test('all radar icons and labels keep safe chart margins including the bottom transport vertex',()=>{
+ for(const width of[260,304,360,480,640]){const height=400,o=refinedRadarOption(m,width,height),[cx,cy]=o.radar.center,r=o.radar.radius,max=o.axisMax??25,c={cx,cy,dataToPoint:(_value,i)=>{const a=-Math.PI/2-i*Math.PI/3;return[cx+Math.cos(a)*r,cy+Math.sin(a)*r];}};
+ const graphics=radarAxisGraphics(m,c,max,width);for(const g of graphics.filter(g=>g.id.startsWith('radar-name-'))){const halfW=16*g.style.text.length/2;assert.ok(g.x-halfW>=6,g.id+' left');assert.ok(g.x+halfW<=width-6,g.id+' right');assert.ok(g.y-12>=6,g.id+' top');assert.ok(g.y+12<=height-6,g.id+' bottom');}
+ }
+});
+test('sunburst center exposes the total alone and no unit or caption',()=>{const g=sunburstCenterGraphics(99,sunburstDisplayLayout(304,400)),labels=g.filter(g=>g.type==='text');assert.equal(labels.length,1);assert.equal(labels[0].style.text,'99');assert.equal(labels[0].style.verticalAlign,'middle');assert.equal(labels[0].y,200);});
+test('map labels avoid controls and edges, including near-legend anchors and multiple labels',()=>{const viewport={width:1100,height:800},obstacles=[{left:12,top:12,width:184,height:620},{left:12,top:680,width:200,height:100}],anchor={x:180,y:270},first=placeMapLabel({anchor,width:76,height:32,viewport,obstacles});assert.ok(first.left>=204);const second=placeMapLabel({anchor,width:76,height:32,viewport,obstacles:[...obstacles,first]});assert.ok(Math.abs(first.top-second.top)>=40||Math.abs(first.left-second.left)>=84);const edge=placeMapLabel({anchor:{x:1098,y:795},width:90,height:32,viewport});assert.ok(edge.left+90<=1092);assert.ok(edge.top+32<=792);assert.equal(placeMapLabel({anchor:{x:-10,y:10},width:76,height:32,viewport}),null);});
+test('specialty glyph is independent of its background and has an explicit color and size',()=>{for(const[id,color]of Object.entries(SPECIALTY_COLORS)){const svg=decodeURIComponent(subtypeIconImage(id,color).split(',')[1]);assert.ok(svg.includes(SUBTYPE_GLYPHS[id]));assert.ok(svg.includes('fill="'+color+'"'));assert.match(svg,/width="24" height="24"/);assert.doesNotMatch(svg,/currentColor|<rect|<image|<filter/);assert.match(specialtyMarkerImage(id),/^data:image\//);}});
+test('product copy omits verification jargon without converting unknown scoring evidence to absence',()=>{assert.doesNotMatch(productText('待核验；已核验；核验'),/核验/);const job={analysis:{categories:[]},score:{scoreStatus:'scored',isExact:false,S_low:0,S_high:100,unknownWeight:1,categories:[]}},tree={categories:[{id:'education',label:'教育',subtypes:[{id:'kindergarten',label:'幼儿园'}]}]};const v=reportPresentation(job,tree);assert.equal(v.groups[0].subtypes[0].status,'unknown');assert.equal(v.groups[0].subtypes[0].statusText,'本次未查到');assert.equal(v.overall.text,'0–100');});
+test('production keeps 36 real directions and the validated unsmoothed radial shape',async()=>{const center={lng:120,lat:30},origin={uid:'o',location:center},g=await sampleCenteredWalkingRange({center,originUid:'o',matrixProvider:{routeMany:async({destinations})=>destinations.map(p=>({mode:'walking',routeStatus:'ok',coordinateSystem:'BD-09LL',distanceMeters:straightDistanceMeters(center,p)*1.3,durationSeconds:2000,requestedOrigin:origin,requestedDestination:{uid:null,location:p}}))}});assert.equal(g.samplingDiagnostics.boundaryShapeVersion,PRODUCTION_BOUNDARY_SHAPE_VERSION);assert.equal(g.samplingDiagnostics.boundaryMethod,'radial_linear');assert.equal(g.boundaryEstimates.length,36);assert.equal(g.samplingDiagnostics.originContained,true);assert.equal(g.geojson.features[0].geometry.coordinates[0].length,37);});

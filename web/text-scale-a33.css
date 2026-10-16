@@ -1,0 +1,577 @@
+/* Existing frontend font declarations +2px; original cascade and media conditions preserved. */
+/* /console.css */
+body{font-size:calc(13px + 2px)}
+.brand strong{font-size:calc(15px + 2px)}
+.brand small{font-size:calc(10px + 2px)}
+.top-context{font-size:calc(11px + 2px)}
+.top-status{font-size:calc(10px + 2px)}
+.panel-head h1{font-size:calc(14px + 2px)}
+.panel-head p{font-size:calc(10px + 2px)}
+.section-index{font-size:calc(11px + 2px)}
+.section-index.small{font-size:calc(10px + 2px)}
+.section-title h2{font-size:calc(12px + 2px)}
+.section-title em{font-size:calc(9px + 2px)}
+.search-box input{font-size:calc(11px + 2px)}
+.clear-button{font-size:calc(19px + 2px)}
+.search-message{font-size:calc(10px + 2px)}
+.search-result strong{font-size:calc(11px + 2px)}
+.search-result small{font-size:calc(9px + 2px)}
+.location-pin{font-size:calc(18px + 2px)}
+.selected-copy strong{font-size:calc(10px + 2px)}
+.selected-copy small{font-size:calc(9px + 2px)}
+.remove-button{font-size:calc(18px + 2px)}
+.fixed-mode strong{font-size:calc(11px + 2px)}
+.fixed-mode small{font-size:calc(9px + 2px)}
+.fixed-tag{font-size:calc(9px + 2px)}
+.select-all{font-size:calc(9px + 2px)}
+.category-option span:nth-child(2){font-size:calc(10px + 2px)}
+.category-check{font-size:calc(9px + 2px)}
+.helper-text{font-size:calc(9px + 2px)}
+.primary-button{font-size:calc(12px + 2px)}
+.analysis-status{font-size:calc(9px + 2px)}
+.map-label, .map-coordinates{font-size:calc(9px + 2px)}
+.map-coordinates{font-size:calc(10px + 2px)}
+.map-controls button{font-size:calc(20px + 2px)}
+.map-empty strong{font-size:calc(13px + 2px)}
+.map-empty > span:last-child{font-size:calc(10px + 2px)}
+.map-analysis-legend{font-size:calc(9px + 2px)}
+.map-attribution{font-size:calc(9px + 2px)}
+.report-empty > strong{font-size:calc(13px + 2px)}
+.report-empty > p{font-size:calc(10px + 2px)}
+.report-empty > small{font-size:calc(9px + 2px)}
+.metric-card > span, .metric-card > small{font-size:calc(9px + 2px)}
+.metric-card > strong{font-size:calc(19px + 2px)}
+.metric-card > small{font-size:calc(8px + 2px)}
+.report-section-head h2{font-size:calc(11px + 2px)}
+.report-section-head p{font-size:calc(9px + 2px)}
+.focus-hint{font-size:calc(8px + 2px)}
+.report-category-name{font-size:calc(9px + 2px)}
+.report-category-count{font-size:calc(10px + 2px)}
+.report-empty-block{font-size:calc(9px + 2px)}
+.data-state-icon{font-size:calc(10px + 2px)}
+.heat-empty > span{font-size:calc(9px + 2px)}
+.advice-card{font-size:calc(9px + 2px)}
+.report-loading strong{font-size:calc(11px + 2px)}
+.report-loading > span:last-child{font-size:calc(9px + 2px)}
+.toast{font-size:calc(10px + 2px)}
+.map-theme-switch button{font-size:calc(9px + 2px)}
+.travel-summary{font-size:calc(9px + 2px)}
+.travel-label{font-size:calc(9px + 2px)}
+.travel-option{font-size:calc(9px + 2px)}
+.travel-glyph{font-size:calc(9px + 2px)}
+.close-report-button{font-size:calc(18px + 2px)}
+.brand strong{font-size:calc(25px + 2px)}
+.brand small{font-size:calc(13px + 2px)}
+.top-status{font-size:calc(12px + 2px)}
+.left-panel .section-title h2{font-size:calc(11px + 2px)}
+.left-panel .section-index.small{font-size:calc(9px + 2px)}
+.left-panel .travel-label{font-size:calc(9px + 2px)}
+.left-panel .travel-option{font-size:calc(9px + 2px)}
+.left-panel .travel-glyph{font-size:calc(8px + 2px)}
+.left-panel .category-option span:nth-child(2){font-size:calc(9px + 2px)}
+.left-panel .helper-text{font-size:calc(8px + 2px)}
+.left-panel .primary-button{font-size:calc(11px + 2px)}
+.left-panel .analysis-status{font-size:calc(8px + 2px)}
+.map-theme-toggle{font-size:calc(11px + 2px)}
+.map-theme-menu button{font-size:calc(11px + 2px)}
+.report-head h1{font-size:calc(13px + 2px)}
+.report-head p{font-size:calc(9px + 2px)}
+.close-report-button{font-size:calc(16px + 2px)}
+.report-empty > strong{font-size:calc(12px + 2px)}
+.report-empty > p{font-size:calc(9px + 2px)}
+.report-empty > small{font-size:calc(8px + 2px)}
+.metric-card > span{font-size:calc(8px + 2px)}
+.metric-card > strong{font-size:calc(16px + 2px)}
+.metric-card > small{font-size:calc(7px + 2px)}
+.report-section-head h2{font-size:calc(10px + 2px)}
+.report-section-head p{font-size:calc(8px + 2px)}
+.report-category-name{font-size:calc(8px + 2px)}
+.report-category-count{font-size:calc(9px + 2px)}
+.report-empty-block, .advice-card{font-size:calc(8px + 2px)}
+.report-drawer-toggle{font-size:calc(20px + 2px)}
+.top-status .map-theme-toggle{font-size:calc(10px + 2px)}
+.top-status .map-theme-toggle span{font-size:calc(10px + 2px)}
+.top-status > .top-coordinates{font-size:calc(10px + 2px)}
+.travel-select-toggle{font-size:calc(10px + 2px)}
+.travel-select-menu button{font-size:calc(10px + 2px)}
+.report-head h1{font-size:calc(13px + 2px)}
+.left-panel .section-title h2{font-size:calc(12px + 2px)}
+.left-panel .section-index.small{font-size:calc(10px + 2px)}
+.left-panel .search-box input{font-size:calc(12px + 2px)}
+.left-panel .travel-select-toggle{font-size:calc(11px + 2px)}
+.left-panel .category-option span:nth-child(2){font-size:calc(10px + 2px)}
+.left-panel .primary-button{font-size:calc(12px + 2px)}
+.left-panel .analysis-status{font-size:calc(9px + 2px)}
+.map-north span{font-size:calc(7px + 2px)}
+.map-scale-labels{font-size:calc(9px + 2px)}
+.map-analysis-legend{font-size:calc(10px + 2px)}
+.map-analysis-legend .legend-pending em{font-size:calc(9px + 2px)}
+.priority-toggle strong{font-size:calc(12px + 2px)}
+.priority-toggle > span:last-child{font-size:calc(10px + 2px)}
+.priority-row label{font-size:calc(10px + 2px)}
+.priority-row select{font-size:calc(11px + 2px)}
+.text-button{font-size:calc(10px + 2px)}
+.priority-preview, .analysis-budget{font-size:calc(9px + 2px)}
+.sampling-consent{font-size:calc(9px + 2px)}
+.cancel-analysis{font-size:calc(10px + 2px)}
+.report-category-status{font-size:calc(9px + 2px)}
+.report-category-time{font-size:calc(9px + 2px)}
+.score-summary{font-size:calc(10px + 2px)}
+.score-row{font-size:calc(9px + 2px)}
+.score-row small{font-size:calc(8px + 2px)}
+.report-meta{font-size:calc(9px + 2px)}
+.study-extent-option{font-size:calc(10px + 2px)}
+.route-time-legend{font-size:calc(10px + 2px)}
+.geometry-view-note{font-size:calc(10px + 2px)}
+.search-region{font-size:calc(10px + 2px)}
+.walking-fixed span{font-size:calc(12px + 2px)}
+.group-evidence > .report-category{font-size:calc(10px + 2px)}
+.group-evidence summary{font-size:calc(10px + 2px)}
+.subtype-evidence{font-size:calc(10px + 2px)}
+.subtype-evidence small{font-size:calc(9px + 2px)}
+.poi-list-row strong{font-size:calc(11px + 2px)}
+.poi-list-row small, .route-unknown{font-size:calc(9px + 2px)}
+.route-selection-status{font-size:calc(10px + 2px)}
+.poi-info{font-size:calc(12px + 2px)}
+.poi-info small{font-size:calc(11px + 2px)}
+.priority-tier-head{font-size:calc(10px + 2px)}
+.priority-tier-head small{font-size:calc(9px + 2px)}
+.priority-card{font-size:calc(10px + 2px)}
+.priority-grip{font-size:calc(18px + 2px)}
+.priority-card strong{font-size:calc(10px + 2px)}
+.priority-drop-gap{font-size:calc(9px + 2px)}
+.facility-count-chart strong{font-size:calc(11px + 2px)}
+
+.chart-tooltip{font-size:calc(12px + 2px)}
+.chart-tooltip > strong{font-size:calc(13px + 2px)}
+.chart-tooltip p{font-size:calc(11px + 2px)}
+.walking-origin-control{font-size:calc(11px + 2px)}
+
+/* /desktop-layout.css */
+.map-load-notice{font-size:calc(12px + 2px)}
+@media screen {
+body{font-size:calc(14px + 2px)}
+.brand-copy strong{font-size:calc(clamp(20px, 1.65vw, 27px) + 2px)}
+.brand-copy small{font-size:calc(13px + 2px)}
+.analysis-time{font-size:calc(12px + 2px)}
+.analysis-time time{font-size:calc(12px + 2px)}
+.outline-button{font-size:calc(12px + 2px)}
+.top-status .map-theme-toggle{font-size:calc(12px + 2px)}
+.top-status .map-theme-menu button{font-size:calc(13px + 2px)}
+.input-title{font-size:calc(16px + 2px)}
+.input-heading > span{font-size:calc(12px + 2px)}
+.input-heading .text-button{font-size:calc(11px + 2px)}
+.search-box input{font-size:calc(14px + 2px)}
+.clear-button{font-size:calc(22px + 2px)}
+.search-result strong{font-size:calc(14px + 2px)}
+.search-result small{font-size:calc(12px + 2px)}
+.priority-horizontal .priority-card strong{font-size:calc(13px + 2px)}
+.priority-rank{font-size:calc(11px + 2px)}
+.priority-horizontal .priority-drop-gap{font-size:calc(0px + 2px)}
+.priority-horizontal .priority-menu-toggle{font-size:calc(15px + 2px)}
+.priority-horizontal .priority-actions button{font-size:calc(12px + 2px)}
+.priority-preview{font-size:calc(11px + 2px)}
+.analysis-controls .primary-button{font-size:calc(14px + 2px)}
+.analysis-status{font-size:calc(11px + 2px)}
+.cancel-analysis{font-size:calc(12px + 2px)}
+.top-coordinates{font-size:calc(11px + 2px)}
+.map-filter{font-size:calc(11px + 2px)}
+.category-option, #category-options .category-option, #category-options .category-option:first-child{font-size:calc(12px + 2px)}
+.category-option span, .category-option span:nth-child(2){font-size:calc(12px + 2px)}
+.map-options{font-size:calc(12px + 2px)}
+.sampling-consent, .study-extent-option, .geometry-view-note{font-size:calc(12px + 2px)}
+.geometry-view-switch button{font-size:calc(12px + 2px)}
+.map-poi-panel{font-size:calc(12px + 2px)}
+.poi-list-row strong{font-size:calc(13px + 2px)}
+.poi-list-row small, .route-unknown{font-size:calc(11px + 2px)}
+.map-controls button{font-size:calc(23px + 2px)}
+.map-analysis-legend{font-size:calc(12px + 2px)}
+.map-analysis-legend strong{font-size:calc(12px + 2px)}
+.map-analysis-legend small{font-size:calc(11px + 2px)}
+.map-attribution{font-size:calc(9px + 2px)}
+.map-empty strong{font-size:calc(15px + 2px)}
+.map-empty > span{font-size:calc(13px + 2px)}
+.report-head h1{font-size:calc(clamp(17px, 1.2vw, 21px) + 2px)}
+.download-report{font-size:calc(12px + 2px)}
+.report-meta{font-size:calc(12px + 2px)}
+.report-empty strong{font-size:calc(17px + 2px)}
+.report-empty p{font-size:calc(14px + 2px)}
+.report-section h2, .report-chart-card h2{font-size:calc(16px + 2px)}
+.overall-ring span{font-size:calc(30px + 2px)}
+.overall-ring.is-interval span{font-size:calc(18px + 2px)}
+.overall-ring small{font-size:calc(11px + 2px)}
+.overall-copy strong{font-size:calc(21px + 2px)}
+.overall-copy p{font-size:calc(13px + 2px)}
+.overall-copy small{font-size:calc(12px + 2px)}
+.report-chart-card h2{font-size:calc(15px + 2px)}
+.radar-svg text{font-size:calc(18px + 2px)}
+.radar-caption{font-size:calc(10px + 2px)}
+.status-ring strong{font-size:calc(19px + 2px)}
+.status-legend{font-size:calc(12px + 2px)}
+.text-button{font-size:calc(12px + 2px)}
+.section-note{font-size:calc(12px + 2px)}
+.facility-accordion > summary{font-size:calc(13px + 2px)}
+.group-score-value{font-size:calc(12px + 2px)}
+.subtype-table{font-size:calc(12px + 2px)}
+.subtype-state{font-size:calc(11px + 2px)}
+.subtype-table small{font-size:calc(10px + 2px)}
+.subtype-table .route-action{font-size:calc(10px + 2px)}
+.specialty-section .report-section-head > span{font-size:calc(12px + 2px)}
+.specialty-card strong{font-size:calc(13px + 2px)}
+.specialty-card span{font-size:calc(12px + 2px)}
+.specialty-card small{font-size:calc(11px + 2px)}
+.report-method{font-size:calc(12px + 2px)}
+.report-method p{font-size:calc(12px + 2px)}
+.score-summary, .score-row{font-size:calc(12px + 2px)}
+.score-row small{font-size:calc(11px + 2px)}
+.toast{font-size:calc(13px + 2px)}
+}
+@media screen {
+.brand-copy strong{font-size:calc(clamp(20px, 1.55vw, 25px) + 2px)}
+.input-title{font-size:calc(14px + 2px)}
+.input-heading .input-title{font-size:calc(14px + 2px)}
+.reset-priorities{font-size:calc(11px + 2px)}
+.analysis-controls .search-box input{font-size:calc(13px + 2px)}
+.priority-horizontal .priority-card strong{font-size:calc(12px + 2px)}
+.priority-rank{font-size:calc(10px + 2px)}
+.analysis-controls .primary-button{font-size:calc(13px + 2px)}
+body[data-state="analyzing"] .analysis-status, .analysis-status[data-tone="error"]{font-size:calc(12px + 2px)}
+#facility-view-select{font-size:calc(12px + 2px)}
+.top-coordinates{font-size:calc(10px + 2px)}
+.map-layers{font-size:calc(12px + 2px)}
+.layer-toggles label{font-size:calc(13px + 2px)}
+.layer-toggles small{font-size:calc(11px + 2px)}
+.map-controls button{font-size:calc(22px + 2px)}
+.map-analysis-legend strong{font-size:calc(11px + 2px)}
+.map-analysis-legend small{font-size:calc(10px + 2px)}
+.report-head h1{font-size:calc(18px + 2px)}
+.report-head .report-meta{font-size:calc(11px + 2px)}
+.overall-section h2{font-size:calc(15px + 2px)}
+.overall-ring span{font-size:calc(24px + 2px)}
+.overall-ring.is-interval span{font-size:calc(14px + 2px)}
+.overall-copy strong{font-size:calc(18px + 2px)}
+.overall-copy p{font-size:calc(12px + 2px)}
+.overall-copy small{font-size:calc(11px + 2px)}
+.report-chart-card h2{font-size:calc(14px + 2px)}
+.radar-svg text{font-size:calc(19px + 2px)}
+.radar-caption{font-size:calc(9px + 2px)}
+.status-ring strong{font-size:calc(15px + 2px)}
+.status-legend{font-size:calc(11px + 2px)}
+.facility-details-section .report-section-head h2{font-size:calc(16px + 2px)}
+.section-note{font-size:calc(11px + 2px)}
+.specialty-card small{font-size:calc(10px + 2px)}
+}
+@media screen {
+.report-chart-card h2{font-size:calc(13px + 2px)}
+.overall-ring span, .overall-ring.is-interval span{font-size:calc(var(--score-digit-size,18px) + 2px)}
+.overall-ring small{font-size:calc(10px + 2px)}
+body[data-map-theme] .overall-copy strong{font-size:calc(15px + 2px)}
+.overall-copy p, .overall-copy small{font-size:calc(10px + 2px)}
+.overall-copy small{font-size:calc(9px + 2px)}
+.radar-svg text{font-size:calc(17px + 2px)}
+.radar-caption{font-size:calc(9px + 2px)}
+.subtype-overview-section h2{font-size:calc(14px + 2px)}
+#subtype-chart-summary{font-size:calc(10px + 2px)}
+.subtype-y-axis{font-size:calc(9px + 2px)}
+.subtype-axis-label{font-size:calc(9px + 2px)}
+.subtype-group-label{font-size:calc(10px + 2px)}
+.subtype-chart-legend{font-size:calc(9px + 2px)}
+.subtype-chart-legend small{font-size:calc(9px + 2px)}
+}
+
+/* /workbench-refinement.css */
+.analysis-coordinates{font-size:calc(11px + 2px)}
+.priority-instruction{font-size:calc(10px + 2px)}
+.representative-route-panel{font-size:calc(11px + 2px)}
+.category-route-control button:last-child{font-size:calc(10px + 2px)}
+.category-route-control small{font-size:calc(9px + 2px)}
+#representative-route-status{font-size:calc(10px + 2px)}
+.chart-detail-close{font-size:calc(19px + 2px)}
+@media screen {
+body{font-size:calc(var(--ui-font) + 2px)}
+.brand-copy strong{font-size:calc(clamp(13px,calc(28 * var(--u)),32px) + 2px)}
+.brand-copy small{font-size:calc(clamp(7px,calc(13 * var(--u)),15px) + 2px)}
+.top-status .outline-button, .top-status .map-theme-toggle{font-size:calc(var(--ui-font) + 2px)}
+.analysis-time{font-size:calc(calc(11 * var(--u)) + 2px)}
+.analysis-time time{font-size:calc(calc(12 * var(--u)) + 2px)}
+.analysis-controls .input-title{font-size:calc(clamp(9px,calc(16 * var(--u)),18px) + 2px)}
+.input-heading > .priority-instruction{font-size:calc(calc(10 * var(--u)) + 2px)}
+.input-heading .reset-priorities{font-size:calc(calc(11 * var(--u)) + 2px)}
+.analysis-controls .search-box input{font-size:calc(calc(14 * var(--u)) + 2px)}
+.search-box .clear-button{font-size:calc(calc(24 * var(--u)) + 2px)}
+.analysis-coordinates{font-size:calc(calc(10 * var(--u)) + 2px)}
+.priority-horizontal .priority-card strong{font-size:calc(calc(13 * var(--u)) + 2px)}
+.priority-rank{font-size:calc(calc(10 * var(--u)) + 2px)}
+.priority-horizontal .priority-menu-toggle{font-size:calc(calc(15 * var(--u)) + 2px)}
+.analysis-controls .primary-button{font-size:calc(calc(15 * var(--u)) + 2px)}
+.cancel-analysis{font-size:calc(calc(11 * var(--u)) + 2px)}
+.map-scale{font-size:calc(calc(10 * var(--u)) + 2px)}
+.map-scale-labels{font-size:calc(calc(10 * var(--u)) + 2px)}
+.map-filter{font-size:calc(calc(11 * var(--u)) + 2px)}
+#facility-view-select{font-size:calc(calc(11 * var(--u)) + 2px)}
+.walking-origin-control{font-size:calc(calc(11 * var(--u)) + 2px)}
+.walking-origin-control > span{font-size:calc(calc(10 * var(--u)) + 2px)}
+.origin-editor{font-size:calc(var(--ui-font) + 2px)}
+.map-layers{font-size:calc(calc(12 * var(--u)) + 2px)}
+.map-layer-body{font-size:calc(calc(11 * var(--u)) + 2px)}
+.map-controls button{font-size:calc(calc(24 * var(--u)) + 2px)}
+.map-analysis-legend strong{font-size:calc(calc(11 * var(--u)) + 2px)}
+.map-analysis-legend small{font-size:calc(calc(10 * var(--u)) + 2px)}
+.top-coordinates{font-size:calc(calc(10 * var(--u)) + 2px)}
+.map-attribution{font-size:calc(calc(9 * var(--u)) + 2px)}
+body[data-state="analyzing"] .analysis-status, .analysis-status[data-tone="error"]{font-size:calc(calc(11 * var(--u)) + 2px)}
+.report-head h1{font-size:calc(calc(20 * var(--u)) + 2px)}
+.report-head .outline-button{font-size:calc(calc(11 * var(--u)) + 2px)}
+.report-head .report-meta{font-size:calc(calc(10 * var(--u)) + 2px)}
+.report-chart-card h2, .report-section h2{font-size:calc(calc(15 * var(--u)) + 2px)}
+.overall-ring small{font-size:calc(calc(9 * var(--u)) + 2px)}
+.overall-copy strong, body[data-map-theme] .overall-copy strong{font-size:calc(calc(17 * var(--u)) + 2px)}
+.overall-copy p, .overall-copy small{font-size:calc(calc(11 * var(--u)) + 2px)}
+.overall-copy small{font-size:calc(calc(9 * var(--u)) + 2px)}
+.radar-svg text{font-size:calc(17px + 2px)}
+.radar-caption{font-size:calc(calc(9 * var(--u)) + 2px)}
+.section-note, .text-button{font-size:calc(calc(10 * var(--u)) + 2px)}
+.facility-accordion > summary{font-size:calc(calc(12 * var(--u)) + 2px)}
+.facility-accordion > summary strong{font-size:calc(calc(13 * var(--u)) + 2px)}
+.group-score-value{font-size:calc(calc(12 * var(--u)) + 2px)}
+.subtype-table{font-size:calc(calc(11 * var(--u)) + 2px)}
+.subtype-table small{font-size:calc(calc(9 * var(--u)) + 2px)}
+.subtype-state{font-size:calc(calc(10 * var(--u)) + 2px)}
+.subtype-name-button, .subtype-table .route-action{font-size:calc(calc(11 * var(--u)) + 2px)}
+.subtype-y-axis{font-size:calc(calc(9 * var(--u)) + 2px)}
+.subtype-axis-label{font-size:calc(calc(9 * var(--u)) + 2px)}
+.subtype-group-label{font-size:calc(calc(10 * var(--u)) + 2px)}
+.subtype-chart-legend, #subtype-chart-summary{font-size:calc(calc(10 * var(--u)) + 2px)}
+.subtype-chart-legend small{font-size:calc(calc(9 * var(--u)) + 2px)}
+.specialty-card strong{font-size:calc(calc(12 * var(--u)) + 2px)}
+.specialty-card small, .specialty-card span{font-size:calc(calc(10 * var(--u)) + 2px)}
+}
+@container report (max-width: 380px) {
+.report-chart-card h2{font-size:calc(calc(14 * var(--u)) + 2px)}
+}
+
+/* /light-workbench.css */
+.cancel-analysis{font-size:calc(11px + 2px)}
+.weather-card strong{font-size:calc(13px + 2px)}
+.weather-card small{font-size:calc(10px + 2px)}
+#category-options .category-option .category-label{font-size:calc(11px + 2px)}
+.range-toggle{font-size:calc(11px + 2px)}
+.results-note{font-size:calc(11px + 2px)}
+.report-head h1{font-size:calc(var(--report-title-font) + 2px)}
+.report-chart-card h2, .report-section h2, .facility-details-section .report-section-head h2, .subtype-overview-section h2{font-size:calc(var(--report-section-font) + 2px) !important}
+@media screen {
+.weather-card strong{font-size:calc(clamp(9px,calc(13 * var(--u)),15px) + 2px)}
+.weather-card small{font-size:calc(clamp(8px,calc(10 * var(--u)),11px) + 2px)}
+.range-toggle{font-size:calc(clamp(9px,calc(11 * var(--u)),13px) + 2px)}
+#category-options .category-option .category-label{font-size:calc(clamp(9px,calc(11 * var(--u)),13px) + 2px)}
+.facility-accordion > summary{font-size:calc(calc(12 * var(--u)) + 2px)}
+.subtype-table{font-size:calc(clamp(8px,calc(11 * var(--u)),14px) + 2px)}
+}
+.analysis-controls .action-section #cancel-analysis{font-size:calc(calc(15 * var(--u)) + 2px)}
+.poi-name-label{font-size:calc(clamp(10px,calc(12 * var(--u)),14px) + 2px)}
+.details-help{font-size:calc(clamp(8px,calc(11 * var(--u)),13px) + 2px)}
+.accordion-chevron{font-size:calc(calc(24 * var(--u)) + 2px)}
+.subtype-y-axis{font-size:calc(9px + 2px)}
+.subtype-axis-label{font-size:calc(clamp(8px,calc(9 * var(--u)),11px) + 2px)}
+.subtype-group-label{font-size:calc(clamp(9px,calc(11 * var(--u)),13px) + 2px)}
+.subtype-chart-legend{font-size:calc(9px + 2px)}
+.map-custom-placeholder{font-size:calc(13px + 2px)}
+.envelope-legend{font-size:calc(11px + 2px)}
+.envelope-legend small{font-size:calc(10px + 2px)}
+@container report (max-width: 380px) {
+.subtype-axis-label{font-size:calc(8px + 2px)}
+.details-help{font-size:calc(8px + 2px)}
+}
+.subtype-chart-legend{font-size:calc(clamp(8px,calc(10 * var(--u)),12px) + 2px)}
+@container report (max-width: 380px) {
+.subtype-chart-legend{font-size:calc(8px + 2px)}
+}
+.overall-ring small{font-size:calc(calc(var(--score-digit-size,28px) / 3) + 2px) !important}
+#heat-topic{font-size:calc(11px + 2px)}
+.map-analysis-legend .legend-item{font-size:calc(11px + 2px)}
+.heat-legend strong{font-size:calc(11px + 2px)}
+.heat-legend-labels{font-size:calc(10px + 2px)}
+.heat-source{font-size:calc(9px + 2px)}
+.heat-unavailable{font-size:calc(10px + 2px)}
+.trend-unit, .trend-tick{font-size:calc(10px + 2px)}
+.trend-unit{font-size:calc(11px + 2px)}
+.trend-value{font-size:calc(10px + 2px)}
+@media screen and (max-width: 1400px) {
+.range-toggle{font-size:calc(10px + 2px)}
+#heat-topic{font-size:calc(10px + 2px)}
+}
+.report-chart-row .overall-copy{font-size:calc(11px + 2px)}
+.category-count-row{font-size:calc(12px + 2px)}
+.subtype-access-group h3{font-size:calc(11px + 2px)}
+.subtype-access-row > summary{font-size:calc(11px + 2px)}
+.subtype-access-row > summary b{font-size:calc(10px + 2px)}
+.subtype-chevron{font-size:calc(19px + 2px)}
+.subtype-poi-list table{font-size:calc(10px + 2px)}
+
+/* /report-dashboard.css */
+.score-summary small{font-size:calc(10px + 2px)}
+.score-summary strong{font-size:calc(12px + 2px)}
+.score-summary p{font-size:calc(11px + 2px)}
+.report-chart-actions{font-size:calc(10px + 2px)}
+.report-chart-actions button{font-size:calc(10px + 2px)}
+#chart-extra-legend{font-size:calc(10px + 2px)}
+.facility-details-section .report-section-head small{font-size:calc(10px + 2px)}
+.facility-detail-group > summary{font-size:calc(11px + 2px)}
+.facility-detail-group > summary > span:last-of-type{font-size:calc(10px + 2px)}
+.detail-chevron{font-size:calc(23px + 2px)}
+.facility-subtype-details h3{font-size:calc(11px + 2px)}
+.detail-status{font-size:calc(10px + 2px)}
+.detail-empty{font-size:calc(10px + 2px)}
+.facility-subtype-details table{font-size:calc(10px + 2px)}
+.priority-rank select{font-size:calc(9px + 2px)}
+.p123-grip{font-size:calc(12px + 2px)}
+.p123-priorities .priority-card strong{font-size:calc(clamp(10px,calc(12 * var(--u)),14px) + 2px)}
+#category-options .category-option .category-label{font-size:calc(12px + 2px) !important}
+@media (max-width: 1400px) {
+#category-options .category-option .category-label{font-size:calc(11px + 2px) !important}
+.report-tabs button{font-size:calc(10px + 2px)}
+}
+
+/* /light-science.css */
+.score-number-block strong{font-size:calc(clamp(30px,calc(40 * var(--u)),46px) + 2px)}
+.score-number-block small{font-size:calc(10px + 2px)}
+.score-number-block b{font-size:calc(17px + 2px)}
+.grade-ticks{font-size:calc(9px + 2px)}
+.score-summary strong{font-size:calc(11px + 2px)}
+.score-summary p{font-size:calc(10px + 2px)}
+.facility-detail-group > summary > span:last-of-type{font-size:calc(10px + 2px)}
+.heat-time-labels{font-size:calc(9px + 2px)}
+.heat-legend strong{font-size:calc(11px + 2px)}
+.heat-source{font-size:calc(9px + 2px)}
+@media (max-width: 1400px) {
+.score-number-block strong{font-size:calc(30px + 2px)}
+.score-number-block small{font-size:calc(9px + 2px)}
+.score-summary strong{font-size:calc(10px + 2px)}
+}
+.score-explanation{font-size:calc(10px + 2px)}
+.heat-opacity-control{font-size:calc(9px + 2px)}
+
+/* /poi-report-refinement.css */
+.score-summary small{font-size:calc(11px + 2px)}
+.score-summary strong{font-size:calc(12px + 2px)}
+.score-footer-note{font-size:calc(10px + 2px)}
+.right-panel .report-section h2{font-size:calc(clamp(15px,calc(18 * var(--u)),20px) + 2px) !important}
+.right-panel .report-head h1{font-size:calc(clamp(17px,calc(20 * var(--u)),22px) + 2px) !important}
+.chart-reset{font-size:calc(10px + 2px)}
+.report-chart-actions, .chart-context-caption{font-size:calc(10px + 2px)}
+.facility-detail-count{font-size:calc(11px + 2px) !important}
+.detail-chevron{font-size:calc(25px + 2px)}
+.map-filter #range-toggle span{font-size:calc(11px + 2px)}
+.poi-heat-labels{font-size:calc(9px + 2px)}
+#heat-toggle span{font-size:calc(11px + 2px)}
+@media (max-width: 1500px) {
+.score-summary small, .score-summary strong{font-size:calc(10px + 2px)}
+}
+
+/* /interaction-refinement.css */
+.priority-group-handle{font-size:calc(13px + 2px)}
+.priority-drag-ghost strong{font-size:calc(12px + 2px)}
+.priority-drag-ghost select{font-size:calc(9px + 2px)}
+.score-summary small{font-size:calc(12px + 2px)}
+.score-summary strong{font-size:calc(14px + 2px)}
+.diagnosis-card .diagnosis-status{font-size:calc(10px + 2px)}
+.diagnosis-poi{font-size:calc(11px + 2px)}
+.diagnosis-missing{font-size:calc(9px + 2px) !important}
+#map-diagnostic-legend{font-size:calc(10px + 2px)}
+.diagnostic-legend-body button{font-size:calc(10px + 2px)}
+#map-diagnostic-detail{font-size:calc(11px + 2px)}
+#map-diagnostic-detail small{font-size:calc(10px + 2px)}
+#map-diagnostic-detail button{font-size:calc(17px + 2px)}
+@media (max-width: 1500px) {
+.score-summary small{font-size:calc(11px + 2px)}
+.score-summary strong{font-size:calc(12px + 2px)}
+}
+@media (max-width: 1100px) {
+.score-summary small{font-size:calc(10px + 2px)}
+.score-summary strong{font-size:calc(11px + 2px)}
+#map-diagnostic-detail{font-size:calc(10px + 2px)}
+}
+
+/* /map-visual-refinement.css */
+.map-filter #category-options .category-option .category-label{font-size:calc(11px + 2px) !important}
+.map-filter #heat-toggle span, .map-filter #range-toggle span{font-size:calc(10px + 2px) !important}
+@media (max-width: 1100px) {
+.map-filter #range-toggle span, .map-filter #heat-toggle span{font-size:calc(9px + 2px) !important}
+}
+
+/* /glass-specialty.css */
+.score-summary small{font-size:calc(12px + 2px)}
+.score-summary strong{font-size:calc(14px + 2px)}
+.specialty-layer-menu button{font-size:calc(11px + 2px)}
+.diagnosis-copy strong{font-size:calc(14px + 2px)}
+.diagnosis-copy .diagnosis-poi{font-size:calc(11px + 2px)}
+.diagnosis-copy small{font-size:calc(10px + 2px)}
+.diagnosis-metric b{font-size:calc(13px + 2px)}
+.diagnosis-metric small{font-size:calc(10px + 2px)}
+.diagnosis-metric.is-unknown b{font-size:calc(24px + 2px)}
+.diagnosis-action{font-size:calc(10px + 2px)}
+.diagnosis-action b{font-size:calc(23px + 2px)}
+@media (max-width: 1500px) {
+.score-summary small{font-size:calc(11px + 2px)}
+.score-summary strong{font-size:calc(12px + 2px)}
+.diagnosis-action{font-size:calc(9px + 2px)}
+}
+@media (max-width: 1100px) {
+.specialty-layer-menu button{font-size:calc(10px + 2px)}
+.score-summary small{font-size:calc(10px + 2px)}
+.score-summary strong{font-size:calc(11px + 2px)}
+.diagnosis-copy strong{font-size:calc(12px + 2px)}
+.diagnosis-copy .diagnosis-status, .diagnosis-copy .diagnosis-poi, .diagnosis-copy small{font-size:calc(9px + 2px)}
+.diagnosis-metric b{font-size:calc(10px + 2px)}
+.diagnosis-metric small{font-size:calc(9px + 2px)}
+.diagnosis-action{font-size:calc(9px + 2px)}
+}
+.diagnosis-action{font-size:calc(10px + 2px)}
+.diagnosis-action b{font-size:calc(20px + 2px)}
+@media (max-width: 1500px) {
+.diagnosis-action{font-size:calc(9px + 2px)}
+.diagnosis-action b{font-size:calc(18px + 2px)}
+}
+
+/* /workbench-a32.css */
+.p123-priorities .priority-card > .p123-grip{font-size:calc(13px + 2px)}
+.priority-group-label{font-size:calc(10px + 2px)}
+.priority-group-handle{font-size:calc(15px + 2px)}
+.download-report{font-size:calc(12px + 2px) !important}
+.diagnosis-heading > strong{font-size:calc(14px + 2px)}
+.diagnosis-heading .diagnosis-status{font-size:calc(10px + 2px)}
+.diagnosis-status i{font-size:calc(10px + 2px)}
+.diagnosis-service .diagnosis-poi{font-size:calc(13px + 2px)}
+.diagnosis-service small{font-size:calc(11px + 2px)}
+.diagnosis-card[data-gap-status="unknown"] .diagnosis-poi{font-size:calc(11px + 2px)}
+.diagnosis-action{font-size:calc(10px + 2px)}
+.report-idle-badge{font-size:calc(12px + 2px)}
+.right-panel .report-empty > strong{font-size:calc(22px + 2px)}
+.right-panel .report-empty > p{font-size:calc(12px + 2px)}
+.report-process-title strong{font-size:calc(15px + 2px)}
+.report-progress-stats{font-size:calc(11px + 2px)}
+.report-progress-stats b{font-size:calc(25px + 2px)}
+#loading-detail{font-size:calc(10px + 2px)}
+.report-process-steps i{font-size:calc(20px + 2px)}
+.report-process-steps strong{font-size:calc(11px + 2px) !important}
+.report-process-steps span{font-size:calc(10px + 2px)}
+@media (max-width: 1500px) {
+.diagnosis-heading > strong{font-size:calc(12px + 2px)}
+.diagnosis-heading .diagnosis-status{font-size:calc(9px + 2px)}
+.diagnosis-service .diagnosis-poi{font-size:calc(11px + 2px)}
+.diagnosis-service small{font-size:calc(10px + 2px)}
+.priority-group-label{font-size:calc(9px + 2px)}
+.download-report{font-size:calc(10px + 2px) !important}
+}
+@media (max-width: 1100px) {
+.priority-group-label{font-size:calc(8px + 2px)}
+.priority-group-handle{font-size:calc(12px + 2px)}
+.diagnosis-heading > strong{font-size:calc(10px + 2px)}
+.diagnosis-heading .diagnosis-status{font-size:calc(8px + 2px)}
+.diagnosis-status i{font-size:calc(8px + 2px)}
+.diagnosis-service .diagnosis-poi{font-size:calc(10px + 2px)}
+.diagnosis-service small{font-size:calc(9px + 2px)}
+.report-head .download-report{font-size:calc(10px + 2px) !important}
+.report-process-title strong{font-size:calc(14px + 2px)}
+.right-panel .report-empty > strong{font-size:calc(18px + 2px)}
+}

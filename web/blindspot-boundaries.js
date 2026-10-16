@@ -1,0 +1,15 @@
+// Presentation-only boundary union. Split existing contour segments at their
+// exact intersections and retain segments whose two sides differ in union
+// membership. No rasterization, new samples, smoothing or area changes.
+import{ringMembership}from'./circle-presentation.js';
+const cross=(a,b)=>a[0]*b[1]-a[1]*b[0],minus=(a,b)=>[a[0]-b[0],a[1]-b[1]],dot=(a,b)=>a[0]*b[0]+a[1]*b[1],key=p=>p.map(v=>Math.round(v*1e6)).join(','),edgeKey=(a,b)=>{const x=key(a),y=key(b);return x<y?x+'|'+y:y+'|'+x;};
+export function unionBoundaryLines(groups){
+ const unique=new Map();for(const rings of groups)for(const r of rings)for(let i=1;i<r.length;i++){const a=r[i-1],b=r[i];if(![...a,...b].every(Number.isFinite))throw TypeError('Invalid blindspot contour');if(Math.hypot(...minus(b,a))<1e-7)continue;const k=edgeKey(a,b);if(!unique.has(k))unique.set(k,{a,b,v:minus(b,a),cuts:[0,1],bounds:[Math.min(a[0],b[0]),Math.min(a[1],b[1]),Math.max(a[0],b[0]),Math.max(a[1],b[1])]});}
+ const edges=[...unique.values()],add=(e,t)=>{if(t>=-1e-9&&t<=1+1e-9)e.cuts.push(Math.max(0,Math.min(1,t)));};
+ for(let i=0;i<edges.length;i++)for(let j=i+1;j<edges.length;j++){const a=edges[i],b=edges[j],x=a.bounds,y=b.bounds;if(x[0]>y[2]+1e-7||y[0]>x[2]+1e-7||x[1]>y[3]+1e-7||y[1]>x[3]+1e-7)continue;const d=minus(b.a,a.a),den=cross(a.v,b.v),lengths=Math.hypot(...a.v)*Math.hypot(...b.v);if(Math.abs(den)>lengths*1e-12){const t=cross(d,b.v)/den,u=cross(d,a.v)/den;if(t>=-1e-9&&t<=1+1e-9&&u>=-1e-9&&u<=1+1e-9){add(a,t);add(b,u);}}else if(Math.abs(cross(d,a.v))/Math.hypot(...a.v)<1e-7){for(const p of[b.a,b.b])add(a,dot(minus(p,a.a),a.v)/dot(a.v,a.v));for(const p of[a.a,a.b])add(b,dot(minus(p,b.a),b.v)/dot(b.v,b.v));}}
+ const inside=p=>groups.some(rings=>rings.reduce((n,r)=>n+(ringMembership(p,r)>0?1:0),0)%2===1),segments=new Map();
+ for(const e of edges){const cuts=e.cuts.sort((a,b)=>a-b).filter((t,i,a)=>!i||t-a[i-1]>1e-10);for(let i=1;i<cuts.length;i++){const a=e.a.map((v,j)=>v+e.v[j]*cuts[i-1]),b=e.a.map((v,j)=>v+e.v[j]*cuts[i]),v=minus(b,a),length=Math.hypot(...v);if(length<1e-6)continue;const m=a.map((v,j)=>(v+b[j])/2),epsilon=Math.min(1e-5,length*1e-4),normal=[-v[1]/length*epsilon,v[0]/length*epsilon],left=inside(m.map((v,j)=>v+normal[j])),right=inside(m.map((v,j)=>v-normal[j]));if(left===right)continue;const k=edgeKey(a,b);if(!segments.has(k))segments.set(k,left?{a,b}:{a:b,b:a});}}
+ const pool=[...segments.values()],outgoing=new Map();pool.forEach((s,i)=>{const k=key(s.a);if(!outgoing.has(k))outgoing.set(k,[]);outgoing.get(k).push(i);});const seen=new Set(),lines=[];
+ for(let i=0;i<pool.length;i++){if(seen.has(i))continue;const first=pool[i],line=[first.a];let at=i;for(let n=0;n<=pool.length;n++){if(seen.has(at))break;seen.add(at);const e=pool[at];line.push(e.b);if(key(e.b)===key(first.a))break;const choices=(outgoing.get(key(e.b))??[]).filter(j=>!seen.has(j));if(!choices.length)break;const direction=minus(e.b,e.a);choices.sort((a,b)=>{const angle=j=>{const v=minus(pool[j].b,pool[j].a);return Math.atan2(cross(direction,v),dot(direction,v));};return angle(b)-angle(a)||a-b;});at=choices[0];}if(line.length>1)lines.push(line);}
+ return lines;
+}

@@ -1,0 +1,53 @@
+/* Web presentation only. Existing analysis, scoring and print templates remain independent. */
+.map-stage .map-legend-panel{width:154px;padding:9px;background:rgba(255,255,255,.74);border:1px solid #CDDFEBCC;border-radius:15px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 7px 24px #426D8E1C}
+.facility-filter-title{font-size:14px}
+.facility-filter-title>[data-category=all]{font-size:13px!important;font-weight:500}
+.map-analysis-controls>strong,.legend-specialty-section>strong{font-size:14px}
+.map-legend-panel .category-icon{width:20px!important;height:20px!important;flex:0 0 20px!important}
+.map-legend-panel .category-icon svg{width:18px!important;height:18px!important}
+.map-stage #map-analysis-legend .heat-legend{background:rgba(255,255,255,.74)!important;border-radius:15px;border:1px solid #D4E4EFCC;backdrop-filter:blur(16px);box-shadow:0 5px 18px #45739413}
+.analysis-controls{--analysis-control-height:calc(var(--card-height) - 2px)}
+body[data-map-theme=light] .analysis-controls.left-panel .search-box{height:var(--analysis-control-height)!important;min-height:var(--analysis-control-height)!important;margin-top:2px}
+.analysis-controls .search-submit{height:100%;max-height:100%}
+.analysis-controls .action-section.left-footer{height:var(--analysis-control-height)!important;margin-top:31px!important}
+body[data-map-theme=light] .analysis-controls #run-analysis{height:var(--analysis-control-height)!important;min-height:var(--analysis-control-height)!important}
+
+.score-dashboard{min-height:0!important}
+.score-dashboard .report-section-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+.score-community-badge{display:flex;align-items:center;gap:5px;max-width:48%;padding:6px 10px;border-radius:11px;background:#EAF3FF;color:#3B6AA5;font-size:13px;white-space:nowrap}
+.score-community-badge svg{width:16px;height:16px;flex:none;fill:#447FB6;stroke:none}
+#score-community{overflow:hidden;text-overflow:ellipsis;font-weight:600}
+.score-dashboard .score-dashboard-body{display:grid;grid-template-columns:172px minmax(0,1fr);gap:10px;padding:5px 12px 5px 5px;background:linear-gradient(120deg,#EDF8FF,#EDF8FF99);border-radius:15px}
+.score-dashboard #overall-ring{height:178px!important;min-width:0;max-width:100%}
+.score-summary-content{min-width:0;display:flex;flex-direction:column;gap:12px}
+.score-summary-lead{display:flex;align-items:center;gap:10px;min-width:0}
+.score-summary-lead #score-grade{font-size:17px!important;white-space:nowrap;padding:6px 13px;border-radius:12px}
+.score-summary-lead #score-conclusion{font-size:13px;line-height:1.6;margin:0;color:#3F7199}
+.score-dashboard .score-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding:12px 5px;background:#FFFFFFD9;border-radius:13px}
+.score-dashboard .score-summary>div{display:grid;grid-template-columns:30px minmax(0,1fr);column-gap:6px;row-gap:2px;align-items:center;min-width:0;padding:1px 8px;border:0;grid-column:auto}
+.score-dashboard .score-summary>div+div{border-left:1px solid #E0ECF7}
+.score-dashboard .score-summary strong{font-size:20px!important;color:#234F7E;grid-area:1/2;white-space:nowrap;line-height:1.5}
+.score-dashboard .score-summary small{font-size:12px!important;color:#7597B2;grid-area:2/2;line-height:1.5;white-space:normal}
+.score-metric-icon{grid-row:1/3;width:30px;height:34px;display:grid;place-items:center;color:var(--metric-color);background:color-mix(in srgb,var(--metric-color) 10%,#fff);border-radius:9px}
+.score-metric-icon svg{width:22px;height:22px;fill:currentColor;stroke:none}
+.score-dashboard h2:before,.specialty-section h2:before,.specialty-section .report-section-head:before{display:none!important}
+
+.specialty-section #blind-list.specialty-cards{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important}
+.specialty-section .diagnosis-card{position:relative;display:grid!important;grid-template-columns:minmax(0,1fr) 24px!important;grid-template-areas:'heading status' 'distance distance' 'service service' 'count count'!important;align-content:start;align-items:center;gap:6px!important;min-height:134px!important;padding:10px!important;border:1px solid #D9EAF5!important;border-left-width:1px!important;border-radius:13px!important;box-shadow:0 3px 12px #457BA50C}
+.diagnosis-card:before{display:none!important}
+.specialty-section .diagnosis-heading{gap:6px!important}
+.specialty-section .diagnosis-heading>strong{font-size:16px!important}
+.specialty-section .diagnosis-heading .diagnosis-icon{width:29px!important;height:29px!important;flex:0 0 29px!important;border-radius:8px}
+.specialty-section .diagnosis-heading .diagnosis-icon img{width:23px;height:23px}
+.specialty-section .diagnosis-status-symbol{width:24px!important;height:24px!important;font-size:22px;font-weight:800}
+.specialty-section .diagnosis-status-symbol svg{width:19px;height:19px;stroke-width:4}
+.diagnosis-card>.diagnosis-distance{grid-area:distance;margin-left:35px;font-size:11px!important;line-height:1.55;color:#7194AF}
+.diagnosis-card>.diagnosis-service{grid-area:service;display:flex;flex-direction:row!important;align-items:flex-start!important;gap:5px!important;padding:6px 0 0!important;border:0!important;background:transparent!important}
+.diagnosis-card .diagnosis-location-icon{width:14px;height:14px;flex:none;color:var(--service-state-color);margin-top:3px}
+.diagnosis-card .diagnosis-poi{font-size:12px!important;line-height:1.6!important;font-weight:500!important;color:var(--service-state-color)!important}
+.diagnosis-card .diagnosis-verification{font-size:11px!important;margin-top:1px;line-height:1.5!important}
+.specialty-section .diagnosis-count{grid-area:count;display:flex!important;flex-direction:row!important;justify-content:flex-end!important;align-items:center;border:0!important;border-top:1px solid #E3EDF4!important;padding:5px 0 0!important;min-height:0!important;gap:4px}
+.diagnosis-card .diagnosis-count>b{font-size:17px!important}
+.diagnosis-card .diagnosis-count>small{font-size:11px!important}
+.diagnosis-card .diagnosis-count>.diagnosis-chevron{margin-left:auto;color:#438CBC;font-size:19px;line-height:1}
+.specialty-section .report-section-head>span{font-size:12px!important;font-weight:400;color:#7897AE;margin-left:auto}

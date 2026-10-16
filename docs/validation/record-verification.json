@@ -1,0 +1,46 @@
+{
+  "executedAt": "2026-10-16T08:07:37.652Z",
+  "scope": "offline_saved_real_evidence",
+  "newPlaceRequests": 0,
+  "newWalkingRequests": 0,
+  "durationMs": 450.6386,
+  "results": [
+    {
+      "key": "wuhan",
+      "status": "pass",
+      "score": 71.42857142857142,
+      "facilities": 42,
+      "verifiedPaths": 42,
+      "models": 6,
+      "gapArea": 68223.27389831743,
+      "denominator": 400000.0000000011,
+      "categories": [
+        "eldercare"
+      ]
+    },
+    {
+      "key": "hangzhou",
+      "status": "pass",
+      "score": 90.27777777777776,
+      "facilities": 99,
+      "verifiedPaths": 99,
+      "models": 6,
+      "gapArea": 0,
+      "denominator": 2706998.233008536,
+      "categories": []
+    },
+    {
+      "key": "nanchang",
+      "status": "pass",
+      "score": 82.14285714285714,
+      "facilities": 55,
+      "verifiedPaths": 55,
+      "models": 6,
+      "gapArea": 391871.63144769473,
+      "denominator": 1159999.999999997,
+      "categories": [
+        "eldercare"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "serviceFixtures": [
+    {
+      "service": "isochrone",
+      "path": "/logistics_truck/v1/isochrone",
+      "params": {
+        "profile": "foot_fastest",
+        "point": "120.1,30.2",
+        "timeLimit": 900
+      },
+      "response": {
+        "status": 0,
+        "result": {
+          "path": "120.1,30.2;120.2,30.2;120.2,30.3;120.1,30.3"
+        }
+      }
+    },
+    {
+      "service": "place",
+      "path": "/place/v3/search",
+      "params": {
+        "query": "社区"
+      },
+      "response": {
+        "status": 0,
+        "result": []
+      }
+    },
+    {
+      "service": "route_matrix",
+      "path": "/routematrix/v2/walking",
+      "params": {
+        "origins": "30.2,120.1",
+        "destinations": "30.3,120.2"
+      },
+      "response": {
+        "status": 0,
+        "result": []
+      }
+    },
+    {
+      "service": "direction_lite",
+      "path": "/directionlite/v1/walking",
+      "params": {
+        "origin": "30.2,120.1",
+        "destination": "30.3,120.2"
+      },
+      "response": {
+        "status": 0,
+        "result": {}
+      }
+    },
+    {
+      "service": "traffic",
+      "path": "/traffic/v1/road",
+      "params": {
+        "road_name": "测试路"
+      },
+      "response": {
+        "status": 0,
+        "result": {}
+      }
+    },
+    {
+      "service": "aoi_boundary",
+      "path": "/aoi/v1/region",
+      "params": {
+        "query": "测试社区"
+      },
+      "response": {
+        "status": 0,
+        "result": {}
+      }
+    },
+    {
+      "service": "traffic_events",
+      "path": "/traffic_event/v1/search",
+      "params": {
+        "query": "测试路"
+      },
+      "response": {
+        "status": 0,
+        "result": {}
+      }
+    },
+    {
+      "service": "geocoding",
+      "path": "/geocoding/v3",
+      "params": {
+        "address": "测试社区"
+      },
+      "response": {
+        "status": 0,
+        "result": {}
+      }
+    },
+    {
+      "service": "weather",
+      "path": "/weather/v1/",
+      "params": {
+        "location": "120.151,30.289",
+        "coordtype": "bd09ll",
+        "data_type": "now",
+        "output": "json"
+      },
+      "response": {
+        "status": 0,
+        "result": {
+          "location": {
+            "city": "离线天气测试"
+          },
+          "now": {
+            "temp": 0,
+            "text": "晴",
+            "wind_class": "2级",
+            "uptime": "20261009080000"
+          }
+        }
+      }
+    }
+  ],
+  "validIsochroneResponse": {
+    "status": 0,
+    "result": {
+      "path": "120.1,30.2;120.2,30.2;120.2,30.3;120.1,30.3"
+    }
+  },
+  "emptyIsochroneResponse": {
+    "status": 0,
+    "result": {
+      "path": ""
+    }
+  },
+  "permissionDeniedResponse": {
+    "status": 9,
+    "message": "permission denied"
+  },
+  "quotaExhaustedResponse": {
+    "status": 302,
+    "message": "quota exhausted"
+  }
+}

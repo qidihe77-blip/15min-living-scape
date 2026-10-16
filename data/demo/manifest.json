@@ -1,0 +1,395 @@
+{
+  "version": "competition-real-records-v1",
+  "preparedAt": "2026-10-16T07:56:13.846Z",
+  "source": "saved_real_baidu_results",
+  "note": "Wuhan uses the recorded A86 offline classification replay. Hangzhou and Nanchang retain their historical rules and incomplete search states. No fresh Place/Walking measurement.",
+  "locations": [
+    {
+      "key": "wuhan",
+      "name": "武汉汉阳碧溪苑二期",
+      "id": "fa-fa100817-5662-f190-2afb-c73f61ce1d74",
+      "origin": {
+        "lat": 30.565515230077406,
+        "lng": 114.24327745799232
+      },
+      "sourceObservedAt": "2026-10-16T02:42:09.869Z",
+      "sourceFinishedAt": "2026-10-16T07:34:09.925Z",
+      "status": "partial",
+      "sourceSHA256": "337f5d0e0efdaf46a2948bc110e10c6b4a478d3d5717e7711e60a5ba7899b793",
+      "snapshotSHA256": "4dc15adad084928f0ed34fc7263f2ef41f80610c52b19accba24ee6ab5b1b9a9",
+      "snapshotBytes": 7113801,
+      "classificationVersion": "six-group-public-services-v8.6",
+      "classificationReplay": {
+        "version": "classification-replay-v1",
+        "classificationVersion": "six-group-public-services-v8.6",
+        "sourceAnalysisId": "fa-01a23537-ee50-4105-a7cb-3bfbc6d009d0",
+        "sourceSHA256": "ee44a98daa76b5ee237f752944b5e6cd734807dab03cf551b48864adcdd9a7d5",
+        "newPlaceRequests": 0,
+        "newWalkingRequests": 0,
+        "cacheHits": 226,
+        "unrecordedTargets": 0,
+        "computeMs": 654.9703,
+        "performanceScope": "source timing and request counters retained; no new API performance measurement"
+      },
+      "score": 71.42857142857142,
+      "total": 42,
+      "groups": [
+        {
+          "id": "education",
+          "label": "教育",
+          "count": 2,
+          "covered": 2,
+          "total": 3,
+          "unknown": 1
+        },
+        {
+          "id": "medical",
+          "label": "医疗",
+          "count": 14,
+          "covered": 2,
+          "total": 3,
+          "unknown": 1
+        },
+        {
+          "id": "commerce",
+          "label": "商业",
+          "count": 16,
+          "covered": 2,
+          "total": 4,
+          "unknown": 2
+        },
+        {
+          "id": "transport",
+          "label": "交通",
+          "count": 6,
+          "covered": 2,
+          "total": 2,
+          "unknown": 0
+        },
+        {
+          "id": "eldercare",
+          "label": "养老",
+          "count": 0,
+          "covered": 0,
+          "total": 3,
+          "unknown": 3
+        },
+        {
+          "id": "leisure",
+          "label": "休闲",
+          "count": 4,
+          "covered": 3,
+          "total": 3,
+          "unknown": 0
+        }
+      ],
+      "routes": {
+        "reachable": 42,
+        "withGeometry": 42
+      },
+      "specialties": [
+        {
+          "id": "market",
+          "label": "菜市场",
+          "count": 0,
+          "status": "absent_in_declared_search",
+          "nearest": null,
+          "distance": 1310
+        },
+        {
+          "id": "pharmacy",
+          "label": "药店",
+          "count": 4,
+          "status": "present",
+          "nearest": "康宇堂大药房(七里店)",
+          "distance": 501
+        },
+        {
+          "id": "primary_school",
+          "label": "小学",
+          "count": 1,
+          "status": "present",
+          "nearest": "汉阳区五里墩小学",
+          "distance": 877
+        }
+      ],
+      "blindspots": {
+        "models": 6,
+        "categories": [
+          "eldercare"
+        ],
+        "totalArea": 977760.6216393464,
+        "determinateArea": 400000.0000000011,
+        "gapArea": 68223.27389831743,
+        "ratio": 0.17055818474579312,
+        "combinations": [
+          {
+            "mask": 16,
+            "area": 68223.27389831743,
+            "categoryIds": [
+              "eldercare"
+            ],
+            "labels": [
+              "养老"
+            ],
+            "compound": false
+          }
+        ]
+      },
+      "checks": {
+        "snapshotCountsEqual": true,
+        "snapshotGapMasksEqual": true,
+        "snapshotGapAreaEqual": true
+      },
+      "newApiRequests": 0,
+      "compressedSHA256": "b74b51da2732faceca877fee0717b7f588881989daa1f67a8bcd917d29c7329d",
+      "compressedBytes": 484176
+    },
+    {
+      "key": "hangzhou",
+      "name": "杭州西溪文锦（历史参考定位点）",
+      "id": "fa-65023c6c-a392-28bb-47c5-5bd8266155d8",
+      "origin": {
+        "lat": 30.288902,
+        "lng": 120.150993
+      },
+      "sourceObservedAt": "2026-10-14T08:21:54.804Z",
+      "sourceFinishedAt": "2026-10-14T08:21:54.955Z",
+      "status": "partial",
+      "sourceSHA256": "2f72f416351d4220652b7a1d5317f348b60b486dc468de096c71c74a3ec0b6e2",
+      "snapshotSHA256": "f7474b5a8fd32e2ef08fcf9cbcdbab8711328fddb809f63222fa6893ea5e9b8e",
+      "snapshotBytes": 3391519,
+      "classificationVersion": null,
+      "classificationReplay": null,
+      "score": 90.27777777777776,
+      "total": 99,
+      "groups": [
+        {
+          "id": "education",
+          "label": "教育",
+          "count": 12,
+          "covered": 3,
+          "total": 3,
+          "unknown": 0
+        },
+        {
+          "id": "medical",
+          "label": "医疗",
+          "count": 30,
+          "covered": 3,
+          "total": 3,
+          "unknown": 0
+        },
+        {
+          "id": "commerce",
+          "label": "商业",
+          "count": 25,
+          "covered": 3,
+          "total": 4,
+          "unknown": 1
+        },
+        {
+          "id": "transport",
+          "label": "交通",
+          "count": 18,
+          "covered": 2,
+          "total": 2,
+          "unknown": 0
+        },
+        {
+          "id": "eldercare",
+          "label": "养老",
+          "count": 2,
+          "covered": 1,
+          "total": 3,
+          "unknown": 2
+        },
+        {
+          "id": "leisure",
+          "label": "休闲",
+          "count": 12,
+          "covered": 3,
+          "total": 3,
+          "unknown": 0
+        }
+      ],
+      "routes": {
+        "reachable": 99,
+        "withGeometry": 99
+      },
+      "specialties": [
+        {
+          "id": "market",
+          "label": "菜市场",
+          "count": 0,
+          "status": "unknown",
+          "nearest": null,
+          "distance": null
+        },
+        {
+          "id": "pharmacy",
+          "label": "药店",
+          "count": 8,
+          "status": "present",
+          "nearest": "杭州立平大药房",
+          "distance": 285
+        },
+        {
+          "id": "primary_school",
+          "label": "小学",
+          "count": 5,
+          "status": "present",
+          "nearest": "学军小学(求智校区)",
+          "distance": 147
+        }
+      ],
+      "blindspots": {
+        "models": 6,
+        "categories": [],
+        "totalArea": 2706998.233008536,
+        "determinateArea": 2706998.233008536,
+        "gapArea": 0,
+        "ratio": 0,
+        "combinations": []
+      },
+      "checks": {
+        "snapshotCountsEqual": true,
+        "snapshotGapMasksEqual": true,
+        "snapshotGapAreaEqual": true
+      },
+      "newApiRequests": 0,
+      "compressedSHA256": "5dd4fb1bcd685d3f8b719992f061194e17adf35d7d74662fdacbd1385b842d59",
+      "compressedBytes": 242003
+    },
+    {
+      "key": "nanchang",
+      "name": "南昌绿梦隆和青岚书院",
+      "id": "fa-7f6f794b-25bd-46d6-a03d-3d8983d50169",
+      "origin": {
+        "lat": 28.722082834218497,
+        "lng": 115.82686707870968
+      },
+      "sourceObservedAt": "2026-10-14T16:16:24.649Z",
+      "sourceFinishedAt": "2026-10-14T16:16:43.042Z",
+      "status": "partial",
+      "sourceSHA256": "a0a3a91d7779559db73195ea98a3bc3b6ccfe85ed2bfffbb6d4d489285f56d9c",
+      "snapshotSHA256": "d752903471d76514dc7ddf4c35619bff0e971a996fe206ec1a2b9c3b827c431d",
+      "snapshotBytes": 3929750,
+      "classificationVersion": null,
+      "classificationReplay": null,
+      "score": 82.14285714285714,
+      "total": 55,
+      "groups": [
+        {
+          "id": "education",
+          "label": "教育",
+          "count": 9,
+          "covered": 3,
+          "total": 3,
+          "unknown": 0
+        },
+        {
+          "id": "medical",
+          "label": "医疗",
+          "count": 18,
+          "covered": 3,
+          "total": 3,
+          "unknown": 0
+        },
+        {
+          "id": "commerce",
+          "label": "商业",
+          "count": 15,
+          "covered": 4,
+          "total": 4,
+          "unknown": 0
+        },
+        {
+          "id": "transport",
+          "label": "交通",
+          "count": 9,
+          "covered": 1,
+          "total": 2,
+          "unknown": 1
+        },
+        {
+          "id": "eldercare",
+          "label": "养老",
+          "count": 0,
+          "covered": 0,
+          "total": 3,
+          "unknown": 3
+        },
+        {
+          "id": "leisure",
+          "label": "休闲",
+          "count": 4,
+          "covered": 3,
+          "total": 3,
+          "unknown": 0
+        }
+      ],
+      "routes": {
+        "reachable": 55,
+        "withGeometry": 55
+      },
+      "specialties": [
+        {
+          "id": "pharmacy",
+          "label": "药店",
+          "count": 4,
+          "status": "present",
+          "nearest": "宏扬大药房(理工路店)",
+          "distance": 33
+        },
+        {
+          "id": "primary_school",
+          "label": "小学",
+          "count": 5,
+          "status": "present",
+          "nearest": "新庐小学-南区",
+          "distance": 676
+        },
+        {
+          "id": "market",
+          "label": "菜市场",
+          "count": 1,
+          "status": "present",
+          "nearest": "家门口的菜市场(南天·阳光西区店)",
+          "distance": 944
+        }
+      ],
+      "blindspots": {
+        "models": 6,
+        "categories": [
+          "eldercare"
+        ],
+        "totalArea": 1975452.606603369,
+        "determinateArea": 1159999.999999997,
+        "gapArea": 391871.63144769473,
+        "ratio": 0.33782037193766873,
+        "combinations": [
+          {
+            "mask": 16,
+            "area": 391871.63144769473,
+            "categoryIds": [
+              "eldercare"
+            ],
+            "labels": [
+              "养老"
+            ],
+            "compound": false
+          }
+        ]
+      },
+      "checks": {
+        "snapshotCountsEqual": true,
+        "snapshotGapMasksEqual": true,
+        "snapshotGapAreaEqual": true
+      },
+      "newApiRequests": 0,
+      "compressedSHA256": "49e6e5537355b9eb96281864b293c6191014aabd5c680f9219f5bd6764180319",
+      "compressedBytes": 278711
+    }
+  ]
+}

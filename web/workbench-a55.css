@@ -1,0 +1,12 @@
+/* Restore the report's pre-width-fill footprint while keeping the desktop columns. */
+@media(min-width:1200px){body .workspace{grid-template-columns:minmax(0,1fr) clamp(600px,65.9dvh,712px)!important}}
+#report-drawer .report-chart-pair .report-section-head{min-height:48px!important;display:flex;align-items:center;justify-content:space-between;flex-wrap:nowrap;gap:8px}
+.radar-heading-legend{display:flex;flex-direction:column;gap:5px;flex-shrink:0}
+.radar-heading-legend button{display:flex;align-items:center;gap:5px;border:0;padding:0;background:transparent;font:400 var(--font-radar-legend)/1.45 var(--report-font-family);color:#355C83;cursor:pointer}
+.radar-heading-legend button[aria-pressed=false]{opacity:.4}
+.radar-heading-legend i{width:18px;height:11px;border:2px dashed #3467F4;background:#F1F5FF;border-radius:1px;flex-shrink:0}
+.radar-heading-legend i.actual{border-style:solid;border-color:#16A96B;background:#EDFAF2}
+#report-drawer .diagnosis-card{grid-template-areas:'heading status' 'count status' 'distance distance' 'function function'!important;grid-template-columns:minmax(0,1fr) 36px!important}
+#report-drawer .diagnosis-status-symbol{width:36px!important;height:36px!important}
+.diagnosis-function{grid-area:function;display:block;min-width:0;border-top:1px solid #DEEBF4;padding-top:7px;font:400 var(--font-specialty-auxiliary)/1.5 var(--report-font-family);color:#648397;overflow-wrap:anywhere}
+.diagnosis-function[data-function-status=confirmed_covered]{color:#139B76}.diagnosis-function[data-function-status=high_confidence_substitute]{color:#3185C4}.diagnosis-function[data-function-status=confirmed_missing]{color:#CF8540}

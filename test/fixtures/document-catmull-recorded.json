@@ -1,0 +1,1819 @@
+{
+  "source": {
+    "path": "data/validation-runs/ui50-20261014T073537499Z/job.json",
+    "sha256": "1baa0fbe1d6230ea85d899fcb10239808a1b46da6e5e884d6b6a159523f9d102",
+    "community": "文锦社区参考定位点",
+    "newApiCalls": 0
+  },
+  "job": {
+    "geometrySource": "walking_sampling_fallback",
+    "analysis": {
+      "origin": {
+        "id": "wenjin-v6-live-point",
+        "source": "map_click",
+        "uid": null,
+        "name": "文锦社区参考定位点",
+        "address": "",
+        "location": {
+          "lat": 30.288902,
+          "lng": 120.150993
+        }
+      },
+      "walkingModelId": "walking80-v1"
+    },
+    "score": {
+      "formulaVersion": "six-group-subtype-access-v1",
+      "priorityScheme": "p123-fixed-v1",
+      "calculationPrecision": "full_precision_shared_contributions",
+      "evidenceVersion": "six-group-subtype-adaptive-v2",
+      "evidenceSnapshotId": "a6275ebde7e45c28",
+      "evidenceFingerprint": "a6275ebde7e45c289d441c83b011a5271b5370c165206fa579296d9b275997e6",
+      "categoryMappingVersion": "facility-categories-v8",
+      "scoreStatus": "scored",
+      "mode": "walking",
+      "thresholdSeconds": 900,
+      "selectedCategoryIds": [
+        "education",
+        "medical",
+        "commerce",
+        "transport",
+        "eldercare",
+        "leisure"
+      ],
+      "priorities": {
+        "education": 3,
+        "medical": 3,
+        "commerce": 2,
+        "transport": 2,
+        "eldercare": 1,
+        "leisure": 1
+      },
+      "positiveWeightTotal": 12,
+      "normalizedWeights": {
+        "education": 0.25,
+        "medical": 0.25,
+        "commerce": 0.16666666666666666,
+        "transport": 0.16666666666666666,
+        "eldercare": 0.08333333333333333,
+        "leisure": 0.08333333333333333
+      },
+      "S_low": 90.27777777777776,
+      "S_high": 99.99999999999997,
+      "isExact": false,
+      "unknownWeight": 0.097222,
+      "categories": [
+        {
+          "categoryId": "education",
+          "label": "教育",
+          "priority": 3,
+          "normalizedWeight": 0.25,
+          "totalSubtypeCount": 3,
+          "reachableSubtypeCount": 3,
+          "unknownSubtypeCount": 0,
+          "G_low": 100,
+          "G_high": 100,
+          "contributionLow": 25,
+          "contributionHigh": 25,
+          "subtypes": [
+            {
+              "subtypeId": "kindergarten",
+              "label": "幼儿园",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-76128b441f61cd451d64664e",
+                "route-5f9aee7535d791fe4a4f8692",
+                "route-50aacf457d91abac5d831657",
+                "route-59000f15cf3eff420ab6e134",
+                "route-bfd93caa010f11b43ea9e8e1",
+                "route-85a14a23c2cf647c6f09ab2b"
+              ]
+            },
+            {
+              "subtypeId": "primary_school",
+              "label": "小学",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-d4d27c5724c74b83e9765fe1",
+                "route-4344c0f969dde6a7515e21a7",
+                "route-33f652a83e0908537ac0fda8",
+                "route-edc980f2fbf0386b1c601303",
+                "route-32a28829c9237303e19d622e"
+              ]
+            },
+            {
+              "subtypeId": "secondary_school",
+              "label": "中学",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-ae6c3d017adfba09fbcabd1c"
+              ]
+            }
+          ],
+          "evidenceIds": [
+            "route-76128b441f61cd451d64664e",
+            "route-5f9aee7535d791fe4a4f8692",
+            "route-50aacf457d91abac5d831657",
+            "route-59000f15cf3eff420ab6e134",
+            "route-bfd93caa010f11b43ea9e8e1",
+            "route-85a14a23c2cf647c6f09ab2b",
+            "route-d4d27c5724c74b83e9765fe1",
+            "route-4344c0f969dde6a7515e21a7",
+            "route-33f652a83e0908537ac0fda8",
+            "route-edc980f2fbf0386b1c601303",
+            "route-32a28829c9237303e19d622e",
+            "route-ae6c3d017adfba09fbcabd1c"
+          ],
+          "priorityLabel": "P1",
+          "displayWeightPercent": 25
+        },
+        {
+          "categoryId": "medical",
+          "label": "医疗",
+          "priority": 3,
+          "normalizedWeight": 0.25,
+          "totalSubtypeCount": 3,
+          "reachableSubtypeCount": 3,
+          "unknownSubtypeCount": 0,
+          "G_low": 100,
+          "G_high": 100,
+          "contributionLow": 25,
+          "contributionHigh": 25,
+          "subtypes": [
+            {
+              "subtypeId": "hospital",
+              "label": "医院",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-3b8220a5586c728f31b42a79",
+                "route-2b37d9061be8c4375b543f28",
+                "route-03014fbc559d5f672b43fd81",
+                "route-3b3e5265d4d23731646e53c7",
+                "route-e24e4a4aa872d12c97d4d519",
+                "route-c69511aaf8fcf8e60315a290",
+                "route-3686240ef9dad16512971078"
+              ]
+            },
+            {
+              "subtypeId": "community_clinic",
+              "label": "社区诊所",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-01479dbbbef22ec01ea1f6d5",
+                "route-e2f01932f42ba30172187606",
+                "route-27a47120bb7f2e299f38c202",
+                "route-bbc89317e8fe3426db08b7b6",
+                "route-ce74b68da8477733780f37a1",
+                "route-c7c96c1336165cc3891b3391",
+                "route-a962b90d0fe417a965e6f30d",
+                "route-d4111d0c47512505988cdf31",
+                "route-dba74aa99508041396421c0b",
+                "route-3cca9ae090c2e9775518b489",
+                "route-db8bed5e3b8bc7a6e18f0392",
+                "route-34ce4d83696f51e1c05dcf04",
+                "route-6e94e3c3f4c3bf5c50d35353"
+              ]
+            },
+            {
+              "subtypeId": "pharmacy",
+              "label": "药店",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-b1df282f85d5003588decb78",
+                "route-b22b3fc5654064eece224f16",
+                "route-45ba597249095850ea3e93c7",
+                "route-ab3cb645c93c0eb73d44855b",
+                "route-19a0b6d379f96679d0a67b7f",
+                "route-64e961d99c6a27487c6f38b2",
+                "route-478d61a502e69bcfa4938604",
+                "route-18aaa6f3300ec38eafdcca8b",
+                "route-78700779fb517193f28fd8bf",
+                "route-df3436babe29c0befe354593",
+                "route-e1bc19e28ffe0663024682d4",
+                "route-c8c2576a8330d440a042171d"
+              ]
+            }
+          ],
+          "evidenceIds": [
+            "route-3b8220a5586c728f31b42a79",
+            "route-2b37d9061be8c4375b543f28",
+            "route-03014fbc559d5f672b43fd81",
+            "route-3b3e5265d4d23731646e53c7",
+            "route-e24e4a4aa872d12c97d4d519",
+            "route-c69511aaf8fcf8e60315a290",
+            "route-3686240ef9dad16512971078",
+            "route-01479dbbbef22ec01ea1f6d5",
+            "route-e2f01932f42ba30172187606",
+            "route-27a47120bb7f2e299f38c202",
+            "route-bbc89317e8fe3426db08b7b6",
+            "route-ce74b68da8477733780f37a1",
+            "route-c7c96c1336165cc3891b3391",
+            "route-a962b90d0fe417a965e6f30d",
+            "route-d4111d0c47512505988cdf31",
+            "route-dba74aa99508041396421c0b",
+            "route-3cca9ae090c2e9775518b489",
+            "route-db8bed5e3b8bc7a6e18f0392",
+            "route-34ce4d83696f51e1c05dcf04",
+            "route-6e94e3c3f4c3bf5c50d35353",
+            "route-b1df282f85d5003588decb78",
+            "route-b22b3fc5654064eece224f16",
+            "route-45ba597249095850ea3e93c7",
+            "route-ab3cb645c93c0eb73d44855b",
+            "route-19a0b6d379f96679d0a67b7f",
+            "route-64e961d99c6a27487c6f38b2",
+            "route-478d61a502e69bcfa4938604",
+            "route-18aaa6f3300ec38eafdcca8b",
+            "route-78700779fb517193f28fd8bf",
+            "route-df3436babe29c0befe354593",
+            "route-e1bc19e28ffe0663024682d4",
+            "route-c8c2576a8330d440a042171d"
+          ],
+          "priorityLabel": "P1",
+          "displayWeightPercent": 25
+        },
+        {
+          "categoryId": "commerce",
+          "label": "商业",
+          "priority": 2,
+          "normalizedWeight": 0.16666666666666666,
+          "totalSubtypeCount": 4,
+          "reachableSubtypeCount": 3,
+          "unknownSubtypeCount": 1,
+          "G_low": 75,
+          "G_high": 100,
+          "contributionLow": 12.5,
+          "contributionHigh": 16.666666666666664,
+          "subtypes": [
+            {
+              "subtypeId": "market",
+              "label": "菜市场",
+              "accessStatus": "unknown",
+              "reachable": 0,
+              "unknown": 1,
+              "nearestStatus": "unavailable",
+              "evidenceIds": []
+            },
+            {
+              "subtypeId": "supermarket",
+              "label": "超市",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-ee9c605ca718af968fdb2564",
+                "route-4b2e0c2507fc61ea535ab8fb",
+                "route-6888db578955349da3448403",
+                "route-fdab5cf30710591ac9c792db",
+                "route-e30669b566955f5ddd572833",
+                "route-008395632b3bde8e63be117f",
+                "route-0b95035288cf028dfdaec5f2",
+                "route-3b397664063c4ac870811c0f",
+                "route-a1aa4fd28a3a39eeedd15cda",
+                "route-6fb4d11518586b14919a3118",
+                "route-e8b7df9442a19cd889be8d8d",
+                "route-0cabe630141a2771d6249438",
+                "route-058ff6c68bbcfdf1bbd0abc3"
+              ]
+            },
+            {
+              "subtypeId": "convenience_store",
+              "label": "便利店",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-3786724e724771dc60949c1d",
+                "route-55f84124f7bdd35eba7c1e67",
+                "route-63de43d552f907684fc6ac50",
+                "route-e06f8af1f952ca84bfd05da3",
+                "route-fa95ca1f216612bf8662b4a3",
+                "route-e54e58c37df35946994a6efb",
+                "route-2845525fea549fd70ebbfbca",
+                "route-c0addc70d134a98602ece624",
+                "route-95669f5ae2c9606e50c3b598",
+                "route-581d58147d35a718050d45f0",
+                "route-092063d20d5c4c01bd97cbd6"
+              ]
+            },
+            {
+              "subtypeId": "shopping_mall",
+              "label": "商场",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-aa7dbc217235030d10320612"
+              ]
+            }
+          ],
+          "evidenceIds": [
+            "route-ee9c605ca718af968fdb2564",
+            "route-4b2e0c2507fc61ea535ab8fb",
+            "route-6888db578955349da3448403",
+            "route-fdab5cf30710591ac9c792db",
+            "route-e30669b566955f5ddd572833",
+            "route-008395632b3bde8e63be117f",
+            "route-0b95035288cf028dfdaec5f2",
+            "route-3b397664063c4ac870811c0f",
+            "route-a1aa4fd28a3a39eeedd15cda",
+            "route-6fb4d11518586b14919a3118",
+            "route-e8b7df9442a19cd889be8d8d",
+            "route-0cabe630141a2771d6249438",
+            "route-058ff6c68bbcfdf1bbd0abc3",
+            "route-3786724e724771dc60949c1d",
+            "route-55f84124f7bdd35eba7c1e67",
+            "route-63de43d552f907684fc6ac50",
+            "route-e06f8af1f952ca84bfd05da3",
+            "route-fa95ca1f216612bf8662b4a3",
+            "route-e54e58c37df35946994a6efb",
+            "route-2845525fea549fd70ebbfbca",
+            "route-c0addc70d134a98602ece624",
+            "route-95669f5ae2c9606e50c3b598",
+            "route-581d58147d35a718050d45f0",
+            "route-092063d20d5c4c01bd97cbd6",
+            "route-aa7dbc217235030d10320612"
+          ],
+          "priorityLabel": "P2",
+          "displayWeightPercent": 16.67
+        },
+        {
+          "categoryId": "transport",
+          "label": "交通",
+          "priority": 2,
+          "normalizedWeight": 0.16666666666666666,
+          "totalSubtypeCount": 2,
+          "reachableSubtypeCount": 2,
+          "unknownSubtypeCount": 0,
+          "G_low": 100,
+          "G_high": 100,
+          "contributionLow": 16.666666666666664,
+          "contributionHigh": 16.666666666666664,
+          "subtypes": [
+            {
+              "subtypeId": "bus_stop",
+              "label": "公交站",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-b2b3a7c8f9f49baf3daf6d84",
+                "route-cefe73c67ddf0b775c62f744",
+                "route-424cd5c06bb0b7ed400a1f62",
+                "route-f06b0e7e7524a306690270c0",
+                "route-3ab8f469b60cba692ff49c26",
+                "route-15b8441539243d13d0535828",
+                "route-caee9c2655f2d0c4a8a2f98b",
+                "route-fc2d58b117e86c041da30534",
+                "route-5afeec4052994aff7b6b9190",
+                "route-be020b8bcf72254f90d7c297",
+                "route-1c179440bbbc37bd72e68bd7",
+                "route-dc8d4904d4db8212ff83fdbe",
+                "route-735d69cbbc7205f59c53648f",
+                "route-92c26cc7c48d0929199b4f7e",
+                "route-0ff41c3a47dae43876af0ad7",
+                "route-512e3e074bb7cca6768fecea"
+              ]
+            },
+            {
+              "subtypeId": "metro_station",
+              "label": "地铁站",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-a36fe21013d809b6a116e430",
+                "route-8660e04c89174f84412b6177",
+                "route-e0254b575907fa5d8b8ec37a",
+                "route-bb70ab21061a9bbfaeeee64d"
+              ]
+            }
+          ],
+          "evidenceIds": [
+            "route-b2b3a7c8f9f49baf3daf6d84",
+            "route-cefe73c67ddf0b775c62f744",
+            "route-424cd5c06bb0b7ed400a1f62",
+            "route-f06b0e7e7524a306690270c0",
+            "route-3ab8f469b60cba692ff49c26",
+            "route-15b8441539243d13d0535828",
+            "route-caee9c2655f2d0c4a8a2f98b",
+            "route-fc2d58b117e86c041da30534",
+            "route-5afeec4052994aff7b6b9190",
+            "route-be020b8bcf72254f90d7c297",
+            "route-1c179440bbbc37bd72e68bd7",
+            "route-dc8d4904d4db8212ff83fdbe",
+            "route-735d69cbbc7205f59c53648f",
+            "route-92c26cc7c48d0929199b4f7e",
+            "route-0ff41c3a47dae43876af0ad7",
+            "route-512e3e074bb7cca6768fecea",
+            "route-a36fe21013d809b6a116e430",
+            "route-8660e04c89174f84412b6177",
+            "route-e0254b575907fa5d8b8ec37a",
+            "route-bb70ab21061a9bbfaeeee64d"
+          ],
+          "priorityLabel": "P2",
+          "displayWeightPercent": 16.67
+        },
+        {
+          "categoryId": "eldercare",
+          "label": "养老",
+          "priority": 1,
+          "normalizedWeight": 0.08333333333333333,
+          "totalSubtypeCount": 3,
+          "reachableSubtypeCount": 1,
+          "unknownSubtypeCount": 2,
+          "G_low": 33.333333333333336,
+          "G_high": 100,
+          "contributionLow": 2.7777777777777777,
+          "contributionHigh": 8.333333333333332,
+          "subtypes": [
+            {
+              "subtypeId": "residential_eldercare",
+              "label": "养老院",
+              "accessStatus": "unknown",
+              "reachable": 0,
+              "unknown": 1,
+              "nearestStatus": "unavailable",
+              "evidenceIds": []
+            },
+            {
+              "subtypeId": "day_care",
+              "label": "日间照料中心",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-6730e7a1570e6d614a520141",
+                "route-cccb2a45e9993d6035c3777e"
+              ]
+            },
+            {
+              "subtypeId": "senior_activity",
+              "label": "老年活动中心",
+              "accessStatus": "unknown",
+              "reachable": 0,
+              "unknown": 1,
+              "nearestStatus": "unavailable",
+              "evidenceIds": []
+            }
+          ],
+          "evidenceIds": [
+            "route-6730e7a1570e6d614a520141",
+            "route-cccb2a45e9993d6035c3777e"
+          ],
+          "priorityLabel": "P3",
+          "displayWeightPercent": 8.33
+        },
+        {
+          "categoryId": "leisure",
+          "label": "休闲",
+          "priority": 1,
+          "normalizedWeight": 0.08333333333333333,
+          "totalSubtypeCount": 3,
+          "reachableSubtypeCount": 3,
+          "unknownSubtypeCount": 0,
+          "G_low": 100,
+          "G_high": 100,
+          "contributionLow": 8.333333333333332,
+          "contributionHigh": 8.333333333333332,
+          "subtypes": [
+            {
+              "subtypeId": "park_green",
+              "label": "公园",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-8846054f7912af3d7cd0ba34",
+                "route-2f45e05884e5aaaa561c5739",
+                "route-749c7490c579898143959fda",
+                "route-b63d2182addb5f61b287cfd8",
+                "route-c45a3a8b54139d51beecd53d",
+                "route-3bea0de54d4bdc7d1fc84349",
+                "route-f1978c4a39970fc62c1c74e3"
+              ]
+            },
+            {
+              "subtypeId": "sports_venue",
+              "label": "体育场馆",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-86c82ac9ca1ff479610de277",
+                "route-dc804f21ff826064b54f3042",
+                "route-5f1c5e0e836d650f5ad02761",
+                "route-dcc98f07cfc519d5e3411c07",
+                "route-9d929dfdd464304be884d619",
+                "route-dd5f63eb7eca0640262337f7"
+              ]
+            },
+            {
+              "subtypeId": "culture_venue",
+              "label": "文化活动场所",
+              "accessStatus": "reachable",
+              "reachable": 1,
+              "unknown": 0,
+              "nearestStatus": "nearest_verified_partial",
+              "evidenceIds": [
+                "route-911d323bcb308307ba629212",
+                "route-68ede814cf604f2c2c6830c4",
+                "route-029114a18490bc532efcd93f"
+              ]
+            }
+          ],
+          "evidenceIds": [
+            "route-8846054f7912af3d7cd0ba34",
+            "route-2f45e05884e5aaaa561c5739",
+            "route-749c7490c579898143959fda",
+            "route-b63d2182addb5f61b287cfd8",
+            "route-c45a3a8b54139d51beecd53d",
+            "route-3bea0de54d4bdc7d1fc84349",
+            "route-f1978c4a39970fc62c1c74e3",
+            "route-86c82ac9ca1ff479610de277",
+            "route-dc804f21ff826064b54f3042",
+            "route-5f1c5e0e836d650f5ad02761",
+            "route-dcc98f07cfc519d5e3411c07",
+            "route-9d929dfdd464304be884d619",
+            "route-dd5f63eb7eca0640262337f7",
+            "route-911d323bcb308307ba629212",
+            "route-68ede814cf604f2c2c6830c4",
+            "route-029114a18490bc532efcd93f"
+          ],
+          "priorityLabel": "P3",
+          "displayWeightPercent": 8.33
+        }
+      ],
+      "interpretation": "preference_weighted_subtype_access_existence"
+    },
+    "geojson": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  120.14406292173595,
+                  30.283518979488502
+                ],
+                [
+                  120.14649464390556,
+                  30.281554265578333
+                ],
+                [
+                  120.15089892465546,
+                  30.280376536532202
+                ],
+                [
+                  120.15103028469233,
+                  30.28034088027261
+                ],
+                [
+                  120.15502851435414,
+                  30.281842443308047
+                ],
+                [
+                  120.15831085261576,
+                  30.283442837933983
+                ],
+                [
+                  120.15849012774225,
+                  30.284098865447405
+                ],
+                [
+                  120.1617258987072,
+                  30.292524471264493
+                ],
+                [
+                  120.16159521498892,
+                  30.292545404996307
+                ],
+                [
+                  120.1542818437926,
+                  30.29590244473011
+                ],
+                [
+                  120.15314405828279,
+                  30.29625488343441
+                ],
+                [
+                  120.15064141066138,
+                  30.297205384007928
+                ],
+                [
+                  120.1418643635091,
+                  30.292618374451642
+                ],
+                [
+                  120.13926246872023,
+                  30.28921638603853
+                ],
+                [
+                  120.1391291331261,
+                  30.289079653323583
+                ],
+                [
+                  120.14406292173595,
+                  30.283518979488502
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "featureType": "sampled_boundary",
+            "geometrySource": "walking_sampling_fallback",
+            "walkingModelId": "walking80-v1",
+            "coordinateSystem": "BD-09LL",
+            "geometryConfidence": "provider_polyline_prefix_estimate",
+            "interiorStatus": "unknown_between_samples",
+            "label": "36方向真实步行路径采样近似范围"
+          }
+        }
+      ]
+    },
+    "rangeDiagnostics": {
+      "status": "sampled_approximation",
+      "source": "walking_sampling_fallback",
+      "origin": {
+        "id": "wenjin-v6-live-point",
+        "source": "map_click",
+        "uid": null,
+        "name": "文锦社区参考定位点",
+        "address": "",
+        "location": {
+          "lat": 30.288902,
+          "lng": 120.150993
+        }
+      },
+      "mode": "walking",
+      "thresholdSeconds": 900,
+      "coordinateSystem": "BD-09LL",
+      "reasonCode": null,
+      "samplingDiagnostics": {
+        "version": "walking-36-batch-bisection-v1",
+        "sampleCount": 36,
+        "farDistanceMeters": 1800,
+        "speedMetersPerMinute": 80,
+        "walkMinutes": 15,
+        "targetDistanceMeters": 1200,
+        "boundaryMethod": "interpolate_on_true_provider_polyline_by_distance_share",
+        "boundaryCostStatus": "estimated_not_separate_route_witness",
+        "boundaryReasonCode": null,
+        "failedSamples": [],
+        "deduplicatedVertices": 21,
+        "matrixUsed": false,
+        "matrixReason": "not_verified_and_path_geometry_required",
+        "officialApisUsed": false,
+        "matrixFailure": "matrix_unverified",
+        "matrixRequests": 0,
+        "matrixOutputs": 0,
+        "fallbackReason": "matrix_unverified"
+      },
+      "strategy": "walking_batch",
+      "failures": [],
+      "decision": {
+        "geometrySource": "walking_sampling_fallback",
+        "geometryStatus": "pending",
+        "reason": "batch_walking_sampling",
+        "maxRouteCalls": 36
+      },
+      "unknownRegions": {
+        "continuousRangeAvailable": false,
+        "unmeasuredInterior": true,
+        "betweenSamplesStatus": "unknown",
+        "failedSectors": []
+      },
+      "walkingModel": {
+        "id": "walking80-v1",
+        "speedMetersPerMinute": 80,
+        "distanceLimitMeters": 1200,
+        "thresholdSeconds": 900,
+        "durationMeaning": "estimate_from_provider_walking_distance"
+      },
+      "officialConfiguration": {
+        "service": "isodistance",
+        "enabled": false,
+        "entitlementVerified": false,
+        "haltedReason": null,
+        "requestLimit": 0,
+        "remainingRequests": 0,
+        "reasonCode": "official_skipped_by_user_strategy"
+      },
+      "limits": {
+        "official": 0,
+        "samplingProcess": 176,
+        "maxSamplingCalls": 36
+      },
+      "note": "36方向真实Walking路径及距离份额近似；未测内部未知，POI仍独立核验真实成本。"
+    },
+    "heatSamples": [
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2385,
+        "distanceMeters": 2576,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1932,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.304113,
+            "lng": 120.157406
+          },
+          "uid": null
+        },
+        "evidenceId": "route-48d855816c9f973241126ad6",
+        "sector": 2,
+        "bearingDegrees": 20,
+        "radiusMeters": 1800,
+        "lat": 30.30411338948879,
+        "lng": 120.15740579898784
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2301,
+        "distanceMeters": 2503,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1877.25,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.302921,
+            "lng": 120.160368
+          },
+          "uid": null
+        },
+        "evidenceId": "route-9fee9dcdbd761581ac12ed1e",
+        "sector": 3,
+        "bearingDegrees": 30,
+        "radiusMeters": 1800,
+        "lat": 30.30292070240823,
+        "lng": 120.16036777091904
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2172,
+        "distanceMeters": 2367,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1775.25,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.304844,
+            "lng": 120.154249
+          },
+          "uid": null
+        },
+        "evidenceId": "route-9b92f50374d11d99634f415c",
+        "sector": 1,
+        "bearingDegrees": 10,
+        "radiusMeters": 1800,
+        "lat": 30.304843819730465,
+        "lng": 120.15424888762868
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2140,
+        "distanceMeters": 2339,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1754.25,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.30509,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "evidenceId": "route-349f82b0e251c944867d89e0",
+        "sector": 0,
+        "bearingDegrees": 0,
+        "radiusMeters": 1800,
+        "lat": 30.305089788906532,
+        "lng": 120.15099299999997
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2246,
+        "distanceMeters": 2437,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1827.75,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.301302,
+            "lng": 120.163045
+          },
+          "uid": null
+        },
+        "evidenceId": "route-88243cf2f991eb1e4e1129af",
+        "sector": 4,
+        "bearingDegrees": 40,
+        "radiusMeters": 1800,
+        "lat": 30.30130201372691,
+        "lng": 120.16304477423705
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2180,
+        "distanceMeters": 2304,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1728,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.299307,
+            "lng": 120.165355
+          },
+          "uid": null
+        },
+        "evidenceId": "route-130176c9e76a1021a32787e1",
+        "sector": 5,
+        "bearingDegrees": 50,
+        "radiusMeters": 1800,
+        "lat": 30.299306526160084,
+        "lng": 120.16535545298109
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2039,
+        "distanceMeters": 2115,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1586.25,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.296995,
+            "lng": 120.16723
+          },
+          "uid": null
+        },
+        "evidenceId": "route-611a28f8c84e96d67e35f26e",
+        "sector": 6,
+        "bearingDegrees": 60,
+        "radiusMeters": 1800,
+        "lat": 30.296994892525174,
+        "lng": 120.16722959837273
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2114,
+        "distanceMeters": 2305,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1728.75,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.28609,
+            "lng": 120.169455
+          },
+          "uid": null
+        },
+        "evidenceId": "route-357daa8b4789e649f1ec29e9",
+        "sector": 10,
+        "bearingDegrees": 100,
+        "radiusMeters": 1800,
+        "lat": 30.28608972461897,
+        "lng": 120.16945452577784
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2393,
+        "distanceMeters": 2639,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1979.25,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.283364,
+            "lng": 120.168608
+          },
+          "uid": null
+        },
+        "evidenceId": "route-846abcc1e2732345b9d84c78",
+        "sector": 11,
+        "bearingDegrees": 110,
+        "radiusMeters": 1800,
+        "lat": 30.283364270809056,
+        "lng": 120.16860829348673
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 1874,
+        "distanceMeters": 1970,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1477.5,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.294437,
+            "lng": 120.16861
+          },
+          "uid": null
+        },
+        "evidenceId": "route-ffd0964d874b02b73db6cdba",
+        "sector": 7,
+        "bearingDegrees": 70,
+        "radiusMeters": 1800,
+        "lat": 30.294437370309716,
+        "lng": 120.1686102820662
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2142,
+        "distanceMeters": 2268,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1701,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.278496,
+            "lng": 120.165352
+          },
+          "uid": null
+        },
+        "evidenceId": "route-e0c0ab2735575b8ccb900a7b",
+        "sector": 13,
+        "bearingDegrees": 130,
+        "radiusMeters": 1800,
+        "lat": 30.278495906214165,
+        "lng": 120.16535240630037
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2087,
+        "distanceMeters": 2263,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1697.25,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.280807,
+            "lng": 120.167227
+          },
+          "uid": null
+        },
+        "evidenceId": "route-eeb38a60ceb837d65aaddfa8",
+        "sector": 12,
+        "bearingDegrees": 120,
+        "radiusMeters": 1800,
+        "lat": 30.280807103945474,
+        "lng": 120.16722691916675
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2084,
+        "distanceMeters": 2200,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1650,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.276501,
+            "lng": 120.163042
+          },
+          "uid": null
+        },
+        "evidenceId": "route-01543e95bd5219e6e9562ac6",
+        "sector": 14,
+        "bearingDegrees": 140,
+        "radiusMeters": 1800,
+        "lat": 30.276500882526292,
+        "lng": 120.1630417275561
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2270,
+        "distanceMeters": 2419,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1814.25,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.288901,
+            "lng": 120.16974
+          },
+          "uid": null
+        },
+        "evidenceId": "route-5efe7707b37cb9a2e3e88e96",
+        "sector": 9,
+        "bearingDegrees": 90,
+        "radiusMeters": 1800,
+        "lat": 30.288900664313793,
+        "lng": 120.1697398617473
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2059,
+        "distanceMeters": 2254,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1690.5,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.274883,
+            "lng": 120.160365
+          },
+          "uid": null
+        },
+        "evidenceId": "route-bfb1b68ecb5760ece8786c78",
+        "sector": 15,
+        "bearingDegrees": 150,
+        "radiusMeters": 1800,
+        "lat": 30.27488262974861,
+        "lng": 120.16036509171283
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2431,
+        "distanceMeters": 2690,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 2017.5,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.27369,
+            "lng": 120.157404
+          },
+          "uid": null
+        },
+        "evidenceId": "route-3b9bee1fea9371d67d7bcc32",
+        "sector": 16,
+        "bearingDegrees": 160,
+        "radiusMeters": 1800,
+        "lat": 30.273690298019968,
+        "lng": 120.15740381040803
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2078,
+        "distanceMeters": 2184,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1638,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.291712,
+            "lng": 120.169456
+          },
+          "uid": null
+        },
+        "evidenceId": "route-240f6ab3a952cc108e3d1542",
+        "sector": 8,
+        "bearingDegrees": 80,
+        "radiusMeters": 1800,
+        "lat": 30.29171168456034,
+        "lng": 120.16945558387897
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 1953,
+        "distanceMeters": 2110,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1582.5,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.27296,
+            "lng": 120.154248
+          },
+          "uid": null
+        },
+        "evidenceId": "route-16ec40975168e8e437c3a053",
+        "sector": 17,
+        "bearingDegrees": 170,
+        "radiusMeters": 1800,
+        "lat": 30.272960099717782,
+        "lng": 120.15424782952743
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2106,
+        "distanceMeters": 2309,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1731.75,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.272714,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "evidenceId": "route-6dc215cd99f269c7a4ea0bfd",
+        "sector": 18,
+        "bearingDegrees": 180,
+        "radiusMeters": 1800,
+        "lat": 30.272714211093458,
+        "lng": 120.15099299999997
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2000,
+        "distanceMeters": 2234,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1675.5,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.27296,
+            "lng": 120.147738
+          },
+          "uid": null
+        },
+        "evidenceId": "route-56c4ce41e726058a53447225",
+        "sector": 19,
+        "bearingDegrees": 190,
+        "radiusMeters": 1800,
+        "lat": 30.272960099717782,
+        "lng": 120.14773817047262
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2662,
+        "distanceMeters": 2961,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 2220.75,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.27369,
+            "lng": 120.144582
+          },
+          "uid": null
+        },
+        "evidenceId": "route-8f321d5ed6cf4ba8be75960e",
+        "sector": 20,
+        "bearingDegrees": 200,
+        "radiusMeters": 1800,
+        "lat": 30.273690298019968,
+        "lng": 120.14458218959192
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2283,
+        "distanceMeters": 2447,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1835.25,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.274883,
+            "lng": 120.141621
+          },
+          "uid": null
+        },
+        "evidenceId": "route-e73937262b437e2870999e17",
+        "sector": 21,
+        "bearingDegrees": 210,
+        "radiusMeters": 1800,
+        "lat": 30.27488262974861,
+        "lng": 120.14162090828711
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2401,
+        "distanceMeters": 2572,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1929,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.276501,
+            "lng": 120.138944
+          },
+          "uid": null
+        },
+        "evidenceId": "route-7c17630599f42a13d88d4e10",
+        "sector": 22,
+        "bearingDegrees": 220,
+        "radiusMeters": 1800,
+        "lat": 30.276500882526292,
+        "lng": 120.13894427244384
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2229,
+        "distanceMeters": 2382,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1786.5,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.280807,
+            "lng": 120.134759
+          },
+          "uid": null
+        },
+        "evidenceId": "route-cc1e1287ad528a9379295569",
+        "sector": 24,
+        "bearingDegrees": 240,
+        "radiusMeters": 1800,
+        "lat": 30.280807103945474,
+        "lng": 120.13475908083319
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 1787,
+        "distanceMeters": 1877,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1407.75,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.288901,
+            "lng": 120.132246
+          },
+          "uid": null
+        },
+        "evidenceId": "route-eea5cbb0ccca8b875cc4fa1f",
+        "sector": 27,
+        "bearingDegrees": 270,
+        "radiusMeters": 1800,
+        "lat": 30.288900664313793,
+        "lng": 120.13224613825275
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2007,
+        "distanceMeters": 2133,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1599.75,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.291712,
+            "lng": 120.13253
+          },
+          "uid": null
+        },
+        "evidenceId": "route-9387bafbc86bd660899ac135",
+        "sector": 28,
+        "bearingDegrees": 280,
+        "radiusMeters": 1800,
+        "lat": 30.29171168456034,
+        "lng": 120.13253041612109
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2163,
+        "distanceMeters": 2399,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1799.25,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.301302,
+            "lng": 120.138941
+          },
+          "uid": null
+        },
+        "evidenceId": "route-d6e693b442784da25a875cbe",
+        "sector": 32,
+        "bearingDegrees": 320,
+        "radiusMeters": 1800,
+        "lat": 30.30130201372691,
+        "lng": 120.138941225763
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2198,
+        "distanceMeters": 2440,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1830,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.302921,
+            "lng": 120.141618
+          },
+          "uid": null
+        },
+        "evidenceId": "route-06977898ee965eccc6ddf827",
+        "sector": 33,
+        "bearingDegrees": 330,
+        "radiusMeters": 1800,
+        "lat": 30.30292070240823,
+        "lng": 120.1416182290809
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2039,
+        "distanceMeters": 2170,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1627.5,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.304113,
+            "lng": 120.14458
+          },
+          "uid": null
+        },
+        "evidenceId": "route-02be62bbf4c0c3d69b6e5a4b",
+        "sector": 34,
+        "bearingDegrees": 340,
+        "radiusMeters": 1800,
+        "lat": 30.30411338948879,
+        "lng": 120.14458020101222
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2100,
+        "distanceMeters": 2243,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1682.25,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.304844,
+            "lng": 120.147737
+          },
+          "uid": null
+        },
+        "evidenceId": "route-28ce09724b59959469184e0b",
+        "sector": 35,
+        "bearingDegrees": 350,
+        "radiusMeters": 1800,
+        "lat": 30.304843819730465,
+        "lng": 120.14773711237137
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2331,
+        "distanceMeters": 2466,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1849.5,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.278496,
+            "lng": 120.136634
+          },
+          "uid": null
+        },
+        "evidenceId": "route-66673247b155cebae3b9916a",
+        "sector": 23,
+        "bearingDegrees": 230,
+        "radiusMeters": 1800,
+        "lat": 30.278495906214165,
+        "lng": 120.13663359369957
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2138,
+        "distanceMeters": 2275,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1706.25,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.283364,
+            "lng": 120.133378
+          },
+          "uid": null
+        },
+        "evidenceId": "route-96f31f64647f75872b9f38be",
+        "sector": 25,
+        "bearingDegrees": 250,
+        "radiusMeters": 1800,
+        "lat": 30.283364270809056,
+        "lng": 120.13337770651333
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2066,
+        "distanceMeters": 2238,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1678.5,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.294437,
+            "lng": 120.133376
+          },
+          "uid": null
+        },
+        "evidenceId": "route-c250132e13b710854f9179e2",
+        "sector": 29,
+        "bearingDegrees": 290,
+        "radiusMeters": 1800,
+        "lat": 30.294437370309716,
+        "lng": 120.13337571793375
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2344,
+        "distanceMeters": 2470,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1852.5,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.296995,
+            "lng": 120.134756
+          },
+          "uid": null
+        },
+        "evidenceId": "route-a991a02b211d40bc54d76608",
+        "sector": 30,
+        "bearingDegrees": 300,
+        "radiusMeters": 1800,
+        "lat": 30.296994892525174,
+        "lng": 120.13475640162721
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2249,
+        "distanceMeters": 2466,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1849.5,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.299307,
+            "lng": 120.136631
+          },
+          "uid": null
+        },
+        "evidenceId": "route-356958e1d1e02bf252c8405c",
+        "sector": 31,
+        "bearingDegrees": 310,
+        "radiusMeters": 1800,
+        "lat": 30.299306526160084,
+        "lng": 120.13663054701885
+      },
+      {
+        "mode": "walking",
+        "routeStatus": "ok",
+        "coordinateSystem": "BD-09LL",
+        "source": "direction_v2",
+        "durationSeconds": 2099,
+        "distanceMeters": 2231,
+        "walkingModelId": "walking80-v1",
+        "modelDurationSeconds": 1673.25,
+        "requestedOrigin": {
+          "location": {
+            "lat": 30.288902,
+            "lng": 120.150993
+          },
+          "uid": null
+        },
+        "requestedDestination": {
+          "location": {
+            "lat": 30.28609,
+            "lng": 120.132531
+          },
+          "uid": null
+        },
+        "evidenceId": "route-94fb470bf51684d9383dbaa8",
+        "sector": 26,
+        "bearingDegrees": 260,
+        "radiusMeters": 1800,
+        "lat": 30.28608972461897,
+        "lng": 120.1325314742221
+      }
+    ]
+  }
+}

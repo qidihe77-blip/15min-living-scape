@@ -1,0 +1,667 @@
+{
+  "source": "Baidu Place v3 real response (2026-10-08); route provider in offline tests is synthetic and never presented as real",
+  "sourceFile": "data/validation-runs/backend-v4-20261008T111849621Z/result.json",
+  "sourceSha256": "f64524497b316693e54f5011b0947e04d006a221b3a3de260690224fd359b950",
+  "candidates": [
+    {
+      "categoryMappingVersion": "facility-categories-v4",
+      "uid": "083a55faef94c378246e9801",
+      "name": "杭州学军中学(西溪校区)",
+      "address": "浙江省杭州市西湖区文三路188号",
+      "location": {
+        "lat": 30.28455823086541,
+        "lng": 120.14572541305968
+      },
+      "naviLocation": {
+        "lat": 30.283668132470996,
+        "lng": 120.14610059932102
+      },
+      "rawCategory": "教育培训;中学;高中;普通高中",
+      "rawCategoryTags": [
+        "教育培训;中学;高中;普通高中",
+        "教育培训;中学"
+      ],
+      "classifiedPoiTag": "教育培训;中学;高中;普通高中",
+      "categoryId": "education",
+      "queriedSubtypeIds": [
+        "secondary_school"
+      ],
+      "matchedQueries": [
+        "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校"
+      ],
+      "parentUid": null,
+      "entranceStatus": "navigation_hint_unverified",
+      "identityStatus": "provider_uid",
+      "classification": {
+        "categoryId": "education",
+        "subtypeId": "secondary_school",
+        "subtypeIds": [
+          "secondary_school"
+        ],
+        "categoryMappingVersion": "facility-categories-v4",
+        "classificationVersion": "six-group-rule-evidence-v2",
+        "candidateStatus": "confirmed_by_rule",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [
+            "中学"
+          ],
+          "tagMatches": [
+            "中学",
+            "高中"
+          ],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "name_or_raw_tag_match"
+      },
+      "classificationEvidence": [
+        {
+          "name": "杭州学军中学(西溪校区)",
+          "rawCategoryTags": [
+            "教育培训;中学;高中;普通高中",
+            "教育培训;中学"
+          ],
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "retrievedAt": "2026-10-08T11:18:51.666Z"
+        }
+      ],
+      "retrievalEvidence": [
+        {
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "subtypeId": "secondary_school",
+          "shardId": "root",
+          "pageNum": 0,
+          "retrievedAt": "2026-10-08T11:18:51.666Z"
+        }
+      ],
+      "destinationVariants": [
+        {
+          "location": {
+            "lat": 30.28455823086541,
+            "lng": 120.14572541305968
+          },
+          "naviLocation": {
+            "lat": 30.283668132470996,
+            "lng": 120.14610059932102
+          }
+        }
+      ],
+      "retrievedAt": "2026-10-08T11:18:51.666Z",
+      "coordinateSystem": "BD-09LL"
+    },
+    {
+      "categoryMappingVersion": "facility-categories-v4",
+      "uid": "d0b8923fa9d769e3b5f42fc9",
+      "name": "杭州文晖中学",
+      "address": "浙江省杭州市拱墅区沈塘桥弄12号(沈塘桥地铁站D口步行250米)",
+      "location": {
+        "lat": 30.28479844288201,
+        "lng": 120.15894550575838
+      },
+      "naviLocation": {
+        "lat": 30.28434205813739,
+        "lng": 120.15876531438664
+      },
+      "rawCategory": "教育培训;中学;初中",
+      "rawCategoryTags": [
+        "教育培训;中学;初中",
+        "教育培训;中学"
+      ],
+      "classifiedPoiTag": "教育培训;中学;初中",
+      "categoryId": "education",
+      "queriedSubtypeIds": [
+        "secondary_school"
+      ],
+      "matchedQueries": [
+        "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校"
+      ],
+      "parentUid": null,
+      "entranceStatus": "navigation_hint_unverified",
+      "identityStatus": "provider_uid",
+      "classification": {
+        "categoryId": "education",
+        "subtypeId": "secondary_school",
+        "subtypeIds": [
+          "secondary_school"
+        ],
+        "categoryMappingVersion": "facility-categories-v4",
+        "classificationVersion": "six-group-rule-evidence-v2",
+        "candidateStatus": "confirmed_by_rule",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [
+            "中学"
+          ],
+          "tagMatches": [
+            "中学",
+            "初中"
+          ],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "name_or_raw_tag_match"
+      },
+      "classificationEvidence": [
+        {
+          "name": "杭州文晖中学",
+          "rawCategoryTags": [
+            "教育培训;中学;初中",
+            "教育培训;中学"
+          ],
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "retrievedAt": "2026-10-08T11:18:51.666Z"
+        }
+      ],
+      "retrievalEvidence": [
+        {
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "subtypeId": "secondary_school",
+          "shardId": "root",
+          "pageNum": 0,
+          "retrievedAt": "2026-10-08T11:18:51.666Z"
+        }
+      ],
+      "destinationVariants": [
+        {
+          "location": {
+            "lat": 30.28479844288201,
+            "lng": 120.15894550575838
+          },
+          "naviLocation": {
+            "lat": 30.28434205813739,
+            "lng": 120.15876531438664
+          }
+        }
+      ],
+      "retrievedAt": "2026-10-08T11:18:51.666Z",
+      "coordinateSystem": "BD-09LL"
+    },
+    {
+      "categoryMappingVersion": "facility-categories-v4",
+      "uid": "22fb8e42faed2ac121f01792",
+      "name": "保俶塔实验学校",
+      "address": "浙江省杭州市西湖区天目山路81号",
+      "location": {
+        "lat": 30.276770003117573,
+        "lng": 120.15578634494089
+      },
+      "naviLocation": {
+        "lat": 30.277945371782728,
+        "lng": 120.15531511942714
+      },
+      "rawCategory": "教育培训;九年一贯制学校",
+      "rawCategoryTags": [
+        "教育培训;九年一贯制学校",
+        "教育培训;其他"
+      ],
+      "classifiedPoiTag": "教育培训;九年一贯制学校",
+      "categoryId": "education",
+      "queriedSubtypeIds": [
+        "secondary_school"
+      ],
+      "matchedQueries": [
+        "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校"
+      ],
+      "parentUid": null,
+      "entranceStatus": "navigation_hint_unverified",
+      "identityStatus": "provider_uid",
+      "classification": {
+        "categoryId": "education",
+        "subtypeId": "secondary_school",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v4",
+        "classificationVersion": "six-group-rule-evidence-v2",
+        "candidateStatus": "pending_review",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "insufficient_classification_evidence"
+      },
+      "classificationEvidence": [
+        {
+          "name": "保俶塔实验学校",
+          "rawCategoryTags": [
+            "教育培训;九年一贯制学校",
+            "教育培训;其他"
+          ],
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "retrievedAt": "2026-10-08T11:18:51.666Z"
+        }
+      ],
+      "retrievalEvidence": [
+        {
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "subtypeId": "secondary_school",
+          "shardId": "root",
+          "pageNum": 0,
+          "retrievedAt": "2026-10-08T11:18:51.666Z"
+        }
+      ],
+      "destinationVariants": [
+        {
+          "location": {
+            "lat": 30.276770003117573,
+            "lng": 120.15578634494089
+          },
+          "naviLocation": {
+            "lat": 30.277945371782728,
+            "lng": 120.15531511942714
+          }
+        }
+      ],
+      "retrievedAt": "2026-10-08T11:18:51.666Z",
+      "coordinateSystem": "BD-09LL"
+    },
+    {
+      "categoryMappingVersion": "facility-categories-v4",
+      "uid": "34e48508af7efde3d8d89101",
+      "name": "杭州市行知小学(学院校区)",
+      "address": "浙江省杭州市西湖区学院路行知巷6号",
+      "location": {
+        "lat": 30.29020418663027,
+        "lng": 120.13704984793597
+      },
+      "naviLocation": {
+        "lat": 30.290957165324304,
+        "lng": 120.13698566549847
+      },
+      "rawCategory": "教育培训;小学",
+      "rawCategoryTags": [
+        "教育培训;小学"
+      ],
+      "classifiedPoiTag": "教育培训;小学",
+      "categoryId": "education",
+      "queriedSubtypeIds": [
+        "secondary_school"
+      ],
+      "matchedQueries": [
+        "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校"
+      ],
+      "parentUid": null,
+      "entranceStatus": "navigation_hint_unverified",
+      "identityStatus": "provider_uid",
+      "classification": {
+        "categoryId": "education",
+        "subtypeId": "secondary_school",
+        "subtypeIds": [],
+        "categoryMappingVersion": "facility-categories-v4",
+        "classificationVersion": "six-group-rule-evidence-v2",
+        "candidateStatus": "excluded_by_rule",
+        "excludedBy": "学院",
+        "ruleEvidence": {
+          "nameMatches": [],
+          "tagMatches": [],
+          "excludedName": "学院",
+          "excludedTag": null
+        },
+        "reason": "excluded_match"
+      },
+      "classificationEvidence": [
+        {
+          "name": "杭州市行知小学(学院校区)",
+          "rawCategoryTags": [
+            "教育培训;小学"
+          ],
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "retrievedAt": "2026-10-08T11:18:52.180Z"
+        }
+      ],
+      "retrievalEvidence": [
+        {
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "subtypeId": "secondary_school",
+          "shardId": "root",
+          "pageNum": 1,
+          "retrievedAt": "2026-10-08T11:18:52.180Z"
+        }
+      ],
+      "destinationVariants": [
+        {
+          "location": {
+            "lat": 30.29020418663027,
+            "lng": 120.13704984793597
+          },
+          "naviLocation": {
+            "lat": 30.290957165324304,
+            "lng": 120.13698566549847
+          }
+        }
+      ],
+      "retrievedAt": "2026-10-08T11:18:52.180Z",
+      "coordinateSystem": "BD-09LL"
+    },
+    {
+      "categoryMappingVersion": "facility-categories-v4",
+      "uid": "7a7f25494cc5e13a0aa8d426",
+      "name": "杭州学军中学(西溪校区)-东2门",
+      "address": "浙江省杭州市西湖区保俶北路35号附近",
+      "location": {
+        "lat": 30.28493098414934,
+        "lng": 120.14669414572164
+      },
+      "naviLocation": {
+        "lat": 30.28494224528368,
+        "lng": 120.14680132707052
+      },
+      "rawCategory": "出入口;门",
+      "rawCategoryTags": [
+        "出入口;门"
+      ],
+      "classifiedPoiTag": "出入口;门",
+      "categoryId": "education",
+      "queriedSubtypeIds": [
+        "secondary_school"
+      ],
+      "matchedQueries": [
+        "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校"
+      ],
+      "parentUid": "083a55faef94c378246e9801",
+      "entranceStatus": "navigation_hint_unverified",
+      "identityStatus": "provider_uid",
+      "classification": {
+        "categoryId": "education",
+        "subtypeId": "secondary_school",
+        "subtypeIds": [
+          "secondary_school"
+        ],
+        "categoryMappingVersion": "facility-categories-v4",
+        "classificationVersion": "six-group-rule-evidence-v2",
+        "candidateStatus": "confirmed_by_rule",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [
+            "中学"
+          ],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "name_or_raw_tag_match"
+      },
+      "classificationEvidence": [
+        {
+          "name": "杭州学军中学(西溪校区)-东2门",
+          "rawCategoryTags": [
+            "出入口;门"
+          ],
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "retrievedAt": "2026-10-08T11:18:52.180Z"
+        }
+      ],
+      "retrievalEvidence": [
+        {
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "subtypeId": "secondary_school",
+          "shardId": "root",
+          "pageNum": 1,
+          "retrievedAt": "2026-10-08T11:18:52.180Z"
+        }
+      ],
+      "destinationVariants": [
+        {
+          "location": {
+            "lat": 30.28493098414934,
+            "lng": 120.14669414572164
+          },
+          "naviLocation": {
+            "lat": 30.28494224528368,
+            "lng": 120.14680132707052
+          }
+        }
+      ],
+      "retrievedAt": "2026-10-08T11:18:52.180Z",
+      "coordinateSystem": "BD-09LL"
+    },
+    {
+      "categoryMappingVersion": "facility-categories-v4",
+      "uid": "0964ac1836dea94e43ab9aa9",
+      "name": "杭州学军中学(西溪校区)-东1门",
+      "address": "浙江省杭州市西湖区文三路188号",
+      "location": {
+        "lat": 30.285482821669998,
+        "lng": 120.14662892874162
+      },
+      "naviLocation": {
+        "lat": 30.28550498736932,
+        "lng": 120.14675186232677
+      },
+      "rawCategory": "出入口;门",
+      "rawCategoryTags": [
+        "出入口;门"
+      ],
+      "classifiedPoiTag": "出入口;门",
+      "categoryId": "education",
+      "queriedSubtypeIds": [
+        "secondary_school"
+      ],
+      "matchedQueries": [
+        "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校"
+      ],
+      "parentUid": "083a55faef94c378246e9801",
+      "entranceStatus": "navigation_hint_unverified",
+      "identityStatus": "provider_uid",
+      "classification": {
+        "categoryId": "education",
+        "subtypeId": "secondary_school",
+        "subtypeIds": [
+          "secondary_school"
+        ],
+        "categoryMappingVersion": "facility-categories-v4",
+        "classificationVersion": "six-group-rule-evidence-v2",
+        "candidateStatus": "confirmed_by_rule",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [
+            "中学"
+          ],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "name_or_raw_tag_match"
+      },
+      "classificationEvidence": [
+        {
+          "name": "杭州学军中学(西溪校区)-东1门",
+          "rawCategoryTags": [
+            "出入口;门"
+          ],
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "retrievedAt": "2026-10-08T11:18:52.180Z"
+        }
+      ],
+      "retrievalEvidence": [
+        {
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "subtypeId": "secondary_school",
+          "shardId": "root",
+          "pageNum": 1,
+          "retrievedAt": "2026-10-08T11:18:52.180Z"
+        }
+      ],
+      "destinationVariants": [
+        {
+          "location": {
+            "lat": 30.285482821669998,
+            "lng": 120.14662892874162
+          },
+          "naviLocation": {
+            "lat": 30.28550498736932,
+            "lng": 120.14675186232677
+          }
+        }
+      ],
+      "retrievedAt": "2026-10-08T11:18:52.180Z",
+      "coordinateSystem": "BD-09LL"
+    },
+    {
+      "categoryMappingVersion": "facility-categories-v4",
+      "uid": "aa266c371fe4d13fbd4842bc",
+      "name": "杭州学军中学(西溪校区)-南门",
+      "address": "杭州市西湖区文三路188号",
+      "location": {
+        "lat": 30.283695068794415,
+        "lng": 120.1460962335742
+      },
+      "naviLocation": {
+        "lat": 30.28365031514831,
+        "lng": 120.14610368999502
+      },
+      "rawCategory": "出入口;门",
+      "rawCategoryTags": [
+        "出入口;门"
+      ],
+      "classifiedPoiTag": "出入口;门",
+      "categoryId": "education",
+      "queriedSubtypeIds": [
+        "secondary_school"
+      ],
+      "matchedQueries": [
+        "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校"
+      ],
+      "parentUid": "083a55faef94c378246e9801",
+      "entranceStatus": "navigation_hint_unverified",
+      "identityStatus": "provider_uid",
+      "classification": {
+        "categoryId": "education",
+        "subtypeId": "secondary_school",
+        "subtypeIds": [
+          "secondary_school"
+        ],
+        "categoryMappingVersion": "facility-categories-v4",
+        "classificationVersion": "six-group-rule-evidence-v2",
+        "candidateStatus": "confirmed_by_rule",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [
+            "中学"
+          ],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "name_or_raw_tag_match"
+      },
+      "classificationEvidence": [
+        {
+          "name": "杭州学军中学(西溪校区)-南门",
+          "rawCategoryTags": [
+            "出入口;门"
+          ],
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "retrievedAt": "2026-10-08T11:18:52.180Z"
+        }
+      ],
+      "retrievalEvidence": [
+        {
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "subtypeId": "secondary_school",
+          "shardId": "root",
+          "pageNum": 1,
+          "retrievedAt": "2026-10-08T11:18:52.180Z"
+        }
+      ],
+      "destinationVariants": [
+        {
+          "location": {
+            "lat": 30.283695068794415,
+            "lng": 120.1460962335742
+          },
+          "naviLocation": {
+            "lat": 30.28365031514831,
+            "lng": 120.14610368999502
+          }
+        }
+      ],
+      "retrievedAt": "2026-10-08T11:18:52.180Z",
+      "coordinateSystem": "BD-09LL"
+    },
+    {
+      "categoryMappingVersion": "facility-categories-v4",
+      "uid": "303fcf5b7f8bdbdd16c9053e",
+      "name": "杭州文晖中学-北门",
+      "address": "杭州市拱墅区沈塘桥弄12号",
+      "location": {
+        "lat": 30.285240038496028,
+        "lng": 120.15861870221384
+      },
+      "naviLocation": {
+        "lat": 30.285284143730056,
+        "lng": 120.1586085353897
+      },
+      "rawCategory": "出入口;门",
+      "rawCategoryTags": [
+        "出入口;门"
+      ],
+      "classifiedPoiTag": "出入口;门",
+      "categoryId": "education",
+      "queriedSubtypeIds": [
+        "secondary_school"
+      ],
+      "matchedQueries": [
+        "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校"
+      ],
+      "parentUid": "d0b8923fa9d769e3b5f42fc9",
+      "entranceStatus": "navigation_hint_unverified",
+      "identityStatus": "provider_uid",
+      "classification": {
+        "categoryId": "education",
+        "subtypeId": "secondary_school",
+        "subtypeIds": [
+          "secondary_school"
+        ],
+        "categoryMappingVersion": "facility-categories-v4",
+        "classificationVersion": "six-group-rule-evidence-v2",
+        "candidateStatus": "confirmed_by_rule",
+        "excludedBy": null,
+        "ruleEvidence": {
+          "nameMatches": [
+            "中学"
+          ],
+          "tagMatches": [],
+          "excludedName": null,
+          "excludedTag": null
+        },
+        "reason": "name_or_raw_tag_match"
+      },
+      "classificationEvidence": [
+        {
+          "name": "杭州文晖中学-北门",
+          "rawCategoryTags": [
+            "出入口;门"
+          ],
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "retrievedAt": "2026-10-08T11:18:52.180Z"
+        }
+      ],
+      "retrievalEvidence": [
+        {
+          "query": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+          "subtypeId": "secondary_school",
+          "shardId": "root",
+          "pageNum": 1,
+          "retrievedAt": "2026-10-08T11:18:52.180Z"
+        }
+      ],
+      "destinationVariants": [
+        {
+          "location": {
+            "lat": 30.285240038496028,
+            "lng": 120.15861870221384
+          },
+          "naviLocation": {
+            "lat": 30.285284143730056,
+            "lng": 120.1586085353897
+          }
+        }
+      ],
+      "retrievedAt": "2026-10-08T11:18:52.180Z",
+      "coordinateSystem": "BD-09LL"
+    }
+  ]
+}

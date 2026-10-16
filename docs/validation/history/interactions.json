@@ -1,0 +1,3676 @@
+{
+  "checks": [
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "category→legend→card",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 12,
+      "specialKeys": [
+        "uid:69fcd6dfaf162a2eca2915c9",
+        "uid:850815e151c1309a43e19201",
+        "uid:e7c53475e80b7177f8dc851c",
+        "uid:f439e0e5c5f1cd49b23c81b1",
+        "uid:fbcb28b9916777321c389445"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "category→legend→card",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 5,
+      "specialKeys": [
+        "uid:69fcd6dfaf162a2eca2915c9",
+        "uid:850815e151c1309a43e19201",
+        "uid:e7c53475e80b7177f8dc851c",
+        "uid:f439e0e5c5f1cd49b23c81b1",
+        "uid:fbcb28b9916777321c389445"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "category→legend→card",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:f439e0e5c5f1cd49b23c81b1"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "category→card→legend",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 12,
+      "specialKeys": [
+        "uid:69fcd6dfaf162a2eca2915c9",
+        "uid:850815e151c1309a43e19201",
+        "uid:e7c53475e80b7177f8dc851c",
+        "uid:f439e0e5c5f1cd49b23c81b1",
+        "uid:fbcb28b9916777321c389445"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "category→card→legend",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:f439e0e5c5f1cd49b23c81b1"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "category→card→legend",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 5,
+      "specialKeys": [
+        "uid:69fcd6dfaf162a2eca2915c9",
+        "uid:850815e151c1309a43e19201",
+        "uid:e7c53475e80b7177f8dc851c",
+        "uid:f439e0e5c5f1cd49b23c81b1",
+        "uid:fbcb28b9916777321c389445"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "legend→category→card",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 0,
+      "specialKeys": [],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "legend→category→card",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 12,
+      "specialKeys": [
+        "uid:69fcd6dfaf162a2eca2915c9",
+        "uid:850815e151c1309a43e19201",
+        "uid:e7c53475e80b7177f8dc851c",
+        "uid:f439e0e5c5f1cd49b23c81b1",
+        "uid:fbcb28b9916777321c389445"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "legend→category→card",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:f439e0e5c5f1cd49b23c81b1"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "legend→card→category",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 5,
+      "specialKeys": [
+        "uid:69fcd6dfaf162a2eca2915c9",
+        "uid:850815e151c1309a43e19201",
+        "uid:e7c53475e80b7177f8dc851c",
+        "uid:f439e0e5c5f1cd49b23c81b1",
+        "uid:fbcb28b9916777321c389445"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "legend→card→category",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:f439e0e5c5f1cd49b23c81b1"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "legend→card→category",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 12,
+      "specialKeys": [
+        "uid:69fcd6dfaf162a2eca2915c9",
+        "uid:850815e151c1309a43e19201",
+        "uid:e7c53475e80b7177f8dc851c",
+        "uid:f439e0e5c5f1cd49b23c81b1",
+        "uid:fbcb28b9916777321c389445"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "card→category→legend",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:f439e0e5c5f1cd49b23c81b1"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "card→category→legend",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 12,
+      "specialKeys": [
+        "uid:69fcd6dfaf162a2eca2915c9",
+        "uid:850815e151c1309a43e19201",
+        "uid:e7c53475e80b7177f8dc851c",
+        "uid:f439e0e5c5f1cd49b23c81b1",
+        "uid:fbcb28b9916777321c389445"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "card→category→legend",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 5,
+      "specialKeys": [
+        "uid:69fcd6dfaf162a2eca2915c9",
+        "uid:850815e151c1309a43e19201",
+        "uid:e7c53475e80b7177f8dc851c",
+        "uid:f439e0e5c5f1cd49b23c81b1",
+        "uid:fbcb28b9916777321c389445"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "card→legend→category",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:f439e0e5c5f1cd49b23c81b1"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "card→legend→category",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 5,
+      "specialKeys": [
+        "uid:69fcd6dfaf162a2eca2915c9",
+        "uid:850815e151c1309a43e19201",
+        "uid:e7c53475e80b7177f8dc851c",
+        "uid:f439e0e5c5f1cd49b23c81b1",
+        "uid:fbcb28b9916777321c389445"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "education",
+      "specialty": "primary_school",
+      "order": "card→legend→category",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 12,
+      "specialKeys": [
+        "uid:69fcd6dfaf162a2eca2915c9",
+        "uid:850815e151c1309a43e19201",
+        "uid:e7c53475e80b7177f8dc851c",
+        "uid:f439e0e5c5f1cd49b23c81b1",
+        "uid:fbcb28b9916777321c389445"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "category→legend→card",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 31,
+      "specialKeys": [
+        "uid:15e1e85e3e6b0cdf58109350",
+        "uid:211f293811b21a445b109309",
+        "uid:39440c94c5c425e52dfaa7e5",
+        "uid:3dc9befd590ea617bea24007",
+        "uid:606289fd4177e74ca20464cc",
+        "uid:61fe4afdb0368177f9dc858c",
+        "uid:a6d90720fad488b41b94c603",
+        "uid:a7cde5033f69deff28d7abbf",
+        "uid:c21db9e5cd29dc9a00ff2d6b",
+        "uid:c8e8f6336b933d11ab0dd8e7",
+        "uid:f99bd06938a188ae4251c009"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "category→legend→card",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 11,
+      "specialKeys": [
+        "uid:15e1e85e3e6b0cdf58109350",
+        "uid:211f293811b21a445b109309",
+        "uid:39440c94c5c425e52dfaa7e5",
+        "uid:3dc9befd590ea617bea24007",
+        "uid:606289fd4177e74ca20464cc",
+        "uid:61fe4afdb0368177f9dc858c",
+        "uid:a6d90720fad488b41b94c603",
+        "uid:a7cde5033f69deff28d7abbf",
+        "uid:c21db9e5cd29dc9a00ff2d6b",
+        "uid:c8e8f6336b933d11ab0dd8e7",
+        "uid:f99bd06938a188ae4251c009"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "category→legend→card",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:a7cde5033f69deff28d7abbf"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "category→card→legend",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 31,
+      "specialKeys": [
+        "uid:15e1e85e3e6b0cdf58109350",
+        "uid:211f293811b21a445b109309",
+        "uid:39440c94c5c425e52dfaa7e5",
+        "uid:3dc9befd590ea617bea24007",
+        "uid:606289fd4177e74ca20464cc",
+        "uid:61fe4afdb0368177f9dc858c",
+        "uid:a6d90720fad488b41b94c603",
+        "uid:a7cde5033f69deff28d7abbf",
+        "uid:c21db9e5cd29dc9a00ff2d6b",
+        "uid:c8e8f6336b933d11ab0dd8e7",
+        "uid:f99bd06938a188ae4251c009"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "category→card→legend",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:a7cde5033f69deff28d7abbf"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "category→card→legend",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 11,
+      "specialKeys": [
+        "uid:15e1e85e3e6b0cdf58109350",
+        "uid:211f293811b21a445b109309",
+        "uid:39440c94c5c425e52dfaa7e5",
+        "uid:3dc9befd590ea617bea24007",
+        "uid:606289fd4177e74ca20464cc",
+        "uid:61fe4afdb0368177f9dc858c",
+        "uid:a6d90720fad488b41b94c603",
+        "uid:a7cde5033f69deff28d7abbf",
+        "uid:c21db9e5cd29dc9a00ff2d6b",
+        "uid:c8e8f6336b933d11ab0dd8e7",
+        "uid:f99bd06938a188ae4251c009"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "legend→category→card",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 0,
+      "specialKeys": [],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "legend→category→card",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 31,
+      "specialKeys": [
+        "uid:15e1e85e3e6b0cdf58109350",
+        "uid:211f293811b21a445b109309",
+        "uid:39440c94c5c425e52dfaa7e5",
+        "uid:3dc9befd590ea617bea24007",
+        "uid:606289fd4177e74ca20464cc",
+        "uid:61fe4afdb0368177f9dc858c",
+        "uid:a6d90720fad488b41b94c603",
+        "uid:a7cde5033f69deff28d7abbf",
+        "uid:c21db9e5cd29dc9a00ff2d6b",
+        "uid:c8e8f6336b933d11ab0dd8e7",
+        "uid:f99bd06938a188ae4251c009"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "legend→category→card",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:a7cde5033f69deff28d7abbf"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "legend→card→category",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 11,
+      "specialKeys": [
+        "uid:15e1e85e3e6b0cdf58109350",
+        "uid:211f293811b21a445b109309",
+        "uid:39440c94c5c425e52dfaa7e5",
+        "uid:3dc9befd590ea617bea24007",
+        "uid:606289fd4177e74ca20464cc",
+        "uid:61fe4afdb0368177f9dc858c",
+        "uid:a6d90720fad488b41b94c603",
+        "uid:a7cde5033f69deff28d7abbf",
+        "uid:c21db9e5cd29dc9a00ff2d6b",
+        "uid:c8e8f6336b933d11ab0dd8e7",
+        "uid:f99bd06938a188ae4251c009"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "legend→card→category",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:a7cde5033f69deff28d7abbf"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "legend→card→category",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 31,
+      "specialKeys": [
+        "uid:15e1e85e3e6b0cdf58109350",
+        "uid:211f293811b21a445b109309",
+        "uid:39440c94c5c425e52dfaa7e5",
+        "uid:3dc9befd590ea617bea24007",
+        "uid:606289fd4177e74ca20464cc",
+        "uid:61fe4afdb0368177f9dc858c",
+        "uid:a6d90720fad488b41b94c603",
+        "uid:a7cde5033f69deff28d7abbf",
+        "uid:c21db9e5cd29dc9a00ff2d6b",
+        "uid:c8e8f6336b933d11ab0dd8e7",
+        "uid:f99bd06938a188ae4251c009"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "card→category→legend",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:a7cde5033f69deff28d7abbf"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "card→category→legend",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 31,
+      "specialKeys": [
+        "uid:15e1e85e3e6b0cdf58109350",
+        "uid:211f293811b21a445b109309",
+        "uid:39440c94c5c425e52dfaa7e5",
+        "uid:3dc9befd590ea617bea24007",
+        "uid:606289fd4177e74ca20464cc",
+        "uid:61fe4afdb0368177f9dc858c",
+        "uid:a6d90720fad488b41b94c603",
+        "uid:a7cde5033f69deff28d7abbf",
+        "uid:c21db9e5cd29dc9a00ff2d6b",
+        "uid:c8e8f6336b933d11ab0dd8e7",
+        "uid:f99bd06938a188ae4251c009"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "card→category→legend",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 11,
+      "specialKeys": [
+        "uid:15e1e85e3e6b0cdf58109350",
+        "uid:211f293811b21a445b109309",
+        "uid:39440c94c5c425e52dfaa7e5",
+        "uid:3dc9befd590ea617bea24007",
+        "uid:606289fd4177e74ca20464cc",
+        "uid:61fe4afdb0368177f9dc858c",
+        "uid:a6d90720fad488b41b94c603",
+        "uid:a7cde5033f69deff28d7abbf",
+        "uid:c21db9e5cd29dc9a00ff2d6b",
+        "uid:c8e8f6336b933d11ab0dd8e7",
+        "uid:f99bd06938a188ae4251c009"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "card→legend→category",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:a7cde5033f69deff28d7abbf"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "card→legend→category",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 11,
+      "specialKeys": [
+        "uid:15e1e85e3e6b0cdf58109350",
+        "uid:211f293811b21a445b109309",
+        "uid:39440c94c5c425e52dfaa7e5",
+        "uid:3dc9befd590ea617bea24007",
+        "uid:606289fd4177e74ca20464cc",
+        "uid:61fe4afdb0368177f9dc858c",
+        "uid:a6d90720fad488b41b94c603",
+        "uid:a7cde5033f69deff28d7abbf",
+        "uid:c21db9e5cd29dc9a00ff2d6b",
+        "uid:c8e8f6336b933d11ab0dd8e7",
+        "uid:f99bd06938a188ae4251c009"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "medical",
+      "specialty": "pharmacy",
+      "order": "card→legend→category",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 31,
+      "specialKeys": [
+        "uid:15e1e85e3e6b0cdf58109350",
+        "uid:211f293811b21a445b109309",
+        "uid:39440c94c5c425e52dfaa7e5",
+        "uid:3dc9befd590ea617bea24007",
+        "uid:606289fd4177e74ca20464cc",
+        "uid:61fe4afdb0368177f9dc858c",
+        "uid:a6d90720fad488b41b94c603",
+        "uid:a7cde5033f69deff28d7abbf",
+        "uid:c21db9e5cd29dc9a00ff2d6b",
+        "uid:c8e8f6336b933d11ab0dd8e7",
+        "uid:f99bd06938a188ae4251c009"
+      ],
+      "markerCount": 104
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "category→legend→card",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 18,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "category→legend→card",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "category→legend→card",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "category→card→legend",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 18,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "category→card→legend",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "category→card→legend",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "legend→category→card",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 0,
+      "specialKeys": [],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "legend→category→card",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 18,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "legend→category→card",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "legend→card→category",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "legend→card→category",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "legend→card→category",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 18,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "card→category→legend",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "card→category→legend",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 18,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "card→category→legend",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "card→legend→category",
+      "entry": "card",
+      "mode": "nearest",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "card→legend→category",
+      "entry": "legend",
+      "mode": "all",
+      "routeCount": 1,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    },
+    {
+      "category": "commerce",
+      "specialty": "market",
+      "order": "card→legend→category",
+      "entry": "category",
+      "mode": "category",
+      "routeCount": 18,
+      "specialKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "markerCount": 60
+    }
+  ],
+  "errors": [],
+  "blocked": [],
+  "expected": {
+    "score": 90.27777777777776,
+    "all": {
+      "market": [],
+      "pharmacy": [
+        "uid:15e1e85e3e6b0cdf58109350",
+        "uid:211f293811b21a445b109309",
+        "uid:39440c94c5c425e52dfaa7e5",
+        "uid:3dc9befd590ea617bea24007",
+        "uid:606289fd4177e74ca20464cc",
+        "uid:61fe4afdb0368177f9dc858c",
+        "uid:a6d90720fad488b41b94c603",
+        "uid:a7cde5033f69deff28d7abbf",
+        "uid:c21db9e5cd29dc9a00ff2d6b",
+        "uid:c8e8f6336b933d11ab0dd8e7",
+        "uid:f99bd06938a188ae4251c009"
+      ],
+      "primary_school": [
+        "uid:69fcd6dfaf162a2eca2915c9",
+        "uid:850815e151c1309a43e19201",
+        "uid:e7c53475e80b7177f8dc851c",
+        "uid:f439e0e5c5f1cd49b23c81b1",
+        "uid:fbcb28b9916777321c389445"
+      ]
+    },
+    "nearest": {
+      "market": null,
+      "pharmacy": "uid:a7cde5033f69deff28d7abbf",
+      "primary_school": "uid:f439e0e5c5f1cd49b23c81b1"
+    }
+  },
+  "last": {
+    "s": {
+      "selected": null,
+      "mode": "category",
+      "nearestId": null,
+      "legendEnabled": [],
+      "enabled": [
+        "market"
+      ],
+      "shown": true,
+      "scopeShown": true,
+      "rangeStatus": "sampled_approximation",
+      "rangeSource": "production_radial_cost_model",
+      "rangeReason": null,
+      "rangeEvidenceIds": [
+        "route-cfb2f3d9eeca683779919859",
+        "route-02052bb3a12b1f770dcd6caa",
+        "route-0d91c173daf55c8fd6793daa",
+        "route-d24e13cb27802e4fdfb10c8e",
+        "route-585552c8986bde0867b6563d",
+        "route-996a4ebcf13156516d5bc4a2",
+        "route-47a9f5d34633527e68e53be7",
+        "route-f6ed92e6a165823c9751781c",
+        "route-82d9e4a163aba01bb66f11e9",
+        "route-a405e7f14e5a656e9827807b",
+        "route-e7205158c66ccec4ea118130",
+        "route-baf713f05f7b381dddaa48be",
+        "route-038977230a58a14d05ce8149",
+        "route-bbf877810742b3d59399ab8e",
+        "route-4d618b0a606cd9055c21adda",
+        "route-af08f834e86aa2e47ebb4621",
+        "route-5f5a2160d9d86bb9ff853fc7",
+        "route-7b2f11e5a8cc284a80fa13dd",
+        "route-5cd5e685c729036ec448934f",
+        "route-5958e7ec39edb4d0bf9a7c3e",
+        "route-e0c77f29e53f5158b18c74b6",
+        "route-823ffd9bffd48e000e04ea15",
+        "route-443c4391e5cd656b4987a712",
+        "route-22838f5643cf0f3f20a9d46c",
+        "route-b58cf994e698a3fb60e62aaa",
+        "route-0565ffc584863c1574906a32",
+        "route-845b0d7b70fab4d854b4834a",
+        "route-35d2e9c279c68c7b407a50ef",
+        "route-4773e3f7ff9830a0e458ebe1",
+        "route-f1f2e1a32c0a286bf51ca8e2",
+        "route-0be125e977c7390996d62214",
+        "route-0f0c35ccd016c7969f1d4c7d",
+        "route-af4b9824ffea31d28502abbb",
+        "route-57b521d8f1e11bf13b5dbe6b",
+        "route-69721032d96505f5c04af16e",
+        "route-11af9601b7bd17624839e3ca"
+      ],
+      "rangeValidDirections": 36,
+      "rangeSegments": 1,
+      "routeSegments": 1,
+      "outsideRoutes": 0,
+      "selectedKeys": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "rows": [
+        {
+          "label": "药店",
+          "color": "#42A888",
+          "icon": "✓",
+          "subtypeId": "pharmacy",
+          "categoryId": "medical",
+          "index": 1,
+          "status": "present",
+          "statusLabel": "1公里内已有服务",
+          "priority": 3,
+          "name": "宏扬大药房(理工路店)",
+          "location": {
+            "lat": 28.721860307929106,
+            "lng": 115.82773349437376
+          },
+          "identityKey": "uid:62c7d2af698af2a107026fe4",
+          "distanceMeters": 33,
+          "minutes": 0.4125,
+          "rawDurationSeconds": 27,
+          "reasons": [],
+          "reasonDescription": "",
+          "searchRadiusMeters": 1500,
+          "searchCenter": {
+            "lat": 28.722082834218497,
+            "lng": 115.82686707870968
+          },
+          "searchComplete": true,
+          "requiredSearch": {
+            "version": "specialty-search-v1",
+            "source": "independent_required_query_packets",
+            "hasTaskEvidence": true,
+            "requiredQueries": [
+              "药店",
+              "药房",
+              "大药房"
+            ],
+            "auxiliaryQueries": [
+              "医院",
+              "社区卫生服务中心",
+              "社区卫生服务站",
+              "诊所",
+              "卫生院",
+              "综合医院",
+              "专科医院",
+              "卫生服务站",
+              "门诊部"
+            ],
+            "requiredTasks": [
+              {
+                "taskId": "pharmacy:药店",
+                "query": "药店",
+                "status": "complete",
+                "complete": true,
+                "packets": [
+                  "药店$药房$大药房"
+                ],
+                "pages": [
+                  {
+                    "keyword": "药店$药房$大药房",
+                    "shardId": "root",
+                    "depth": 0,
+                    "pageNum": 0,
+                    "returned": 10,
+                    "reportedTotal": 10,
+                    "retrievedAt": "2026-10-14T16:16:16.269Z"
+                  }
+                ],
+                "errors": []
+              },
+              {
+                "taskId": "pharmacy:药房",
+                "query": "药房",
+                "status": "complete",
+                "complete": true,
+                "packets": [
+                  "药店$药房$大药房"
+                ],
+                "pages": [
+                  {
+                    "keyword": "药店$药房$大药房",
+                    "shardId": "root",
+                    "depth": 0,
+                    "pageNum": 0,
+                    "returned": 10,
+                    "reportedTotal": 10,
+                    "retrievedAt": "2026-10-14T16:16:16.269Z"
+                  }
+                ],
+                "errors": []
+              },
+              {
+                "taskId": "pharmacy:大药房",
+                "query": "大药房",
+                "status": "complete",
+                "complete": true,
+                "packets": [
+                  "药店$药房$大药房"
+                ],
+                "pages": [
+                  {
+                    "keyword": "药店$药房$大药房",
+                    "shardId": "root",
+                    "depth": 0,
+                    "pageNum": 0,
+                    "returned": 10,
+                    "reportedTotal": 10,
+                    "retrievedAt": "2026-10-14T16:16:16.269Z"
+                  }
+                ],
+                "errors": []
+              }
+            ],
+            "complete": true,
+            "status": "complete",
+            "pages": [
+              {
+                "keyword": "药店$药房$大药房",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 0,
+                "returned": 10,
+                "reportedTotal": 10,
+                "retrievedAt": "2026-10-14T16:16:16.269Z"
+              }
+            ],
+            "errors": [],
+            "auxiliaryPages": [
+              {
+                "keyword": "医院$综合医院$专科医院",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 0,
+                "returned": 2,
+                "reportedTotal": 2,
+                "retrievedAt": "2026-10-14T16:16:14.207Z"
+              },
+              {
+                "keyword": "社区卫生服务中心$社区卫生服务站$卫生服务站$诊所$卫生院$门诊部",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 0,
+                "returned": 20,
+                "reportedTotal": 25,
+                "retrievedAt": "2026-10-14T16:16:15.432Z"
+              },
+              {
+                "keyword": "社区卫生服务中心$社区卫生服务站$卫生服务站$诊所$卫生院$门诊部",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 1,
+                "returned": 5,
+                "reportedTotal": 25,
+                "retrievedAt": "2026-10-14T16:16:17.854Z"
+              }
+            ],
+            "auxiliaryErrors": [],
+            "unassignedErrors": [],
+            "invalidCandidateCount": 0,
+            "unassignedInvalidCandidateCount": 0
+          },
+          "facilityCount": 4,
+          "card": {
+            "near": {
+              "evidenceId": "route-755c8e4deb15f2d0937cabe1",
+              "facilityUid": "62c7d2af698af2a107026fe4",
+              "identityKey": "uid:62c7d2af698af2a107026fe4",
+              "categoryId": "medical",
+              "subtypeId": "pharmacy",
+              "name": "宏扬大药房(理工路店)",
+              "address": "南昌市新建区理工路与西区北路交叉路口往西约280米",
+              "location": {
+                "lat": 28.721860307929106,
+                "lng": 115.82773349437376
+              },
+              "destination": {
+                "lat": 28.721934690617644,
+                "lng": 115.82758283617912
+              },
+              "origin": {
+                "lat": 28.722082834218497,
+                "lng": 115.82686707870968
+              },
+              "originUid": "944ded0737b2a7ac17c8f628",
+              "destinationUid": "62c7d2af698af2a107026fe4",
+              "facilityEndpoint": {
+                "location": {
+                  "lat": 28.721934690617644,
+                  "lng": 115.82758283617912
+                },
+                "uid": "62c7d2af698af2a107026fe4",
+                "source": "existing_navigation_hint"
+              },
+              "entranceVerification": {
+                "knownTargets": 1,
+                "attempted": 1,
+                "reachableWitness": true,
+                "complete": true
+              },
+              "entranceStatus": "navigation_hint_unverified",
+              "destinationConflict": false,
+              "straightLineMeters": 88,
+              "durationSeconds": 27,
+              "distanceMeters": 33,
+              "routeStatus": "ok",
+              "walkingModelId": "walking80-v1",
+              "modelDurationSeconds": 24.75,
+              "source": "direction_v2",
+              "mode": "walking",
+              "coordinateSystem": "BD-09LL",
+              "retrievedAt": "2026-10-14T16:16:27.416Z",
+              "observedAt": "2026-10-15T02:04:39.832Z",
+              "apiStatus": null,
+              "httpStatus": null,
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    115.827369,
+                    28.721704
+                  ],
+                  [
+                    115.827429,
+                    28.721693
+                  ],
+                  [
+                    115.827469,
+                    28.721693
+                  ],
+                  [
+                    115.82751,
+                    28.721702
+                  ],
+                  [
+                    115.82753,
+                    28.721702
+                  ],
+                  [
+                    115.82756,
+                    28.721801
+                  ],
+                  [
+                    115.82757,
+                    28.721861
+                  ]
+                ]
+              },
+              "geometryStatus": "provider_path",
+              "geometryCompleteness": "continuous_provider_steps",
+              "geometryEndpointReference": "provider_destination",
+              "providerOrigin": {
+                "lat": 28.722078795489,
+                "lng": 115.82686564142
+              },
+              "providerDestination": {
+                "lat": 28.72192833292,
+                "lng": 115.82757530277
+              },
+              "originNavigation": "coordinates",
+              "requestOriginUidApplied": false,
+              "requestedOrigin": {
+                "location": {
+                  "lat": 28.722083,
+                  "lng": 115.826867
+                },
+                "uid": "944ded0737b2a7ac17c8f628"
+              },
+              "requestedDestination": {
+                "location": {
+                  "lat": 28.721935,
+                  "lng": 115.827583
+                },
+                "uid": "62c7d2af698af2a107026fe4"
+              },
+              "classification": {
+                "categoryId": "medical",
+                "subtypeId": "pharmacy",
+                "subtypeIds": [
+                  "pharmacy"
+                ],
+                "categoryMappingVersion": "facility-categories-v8",
+                "classificationVersion": "six-group-public-services-v8.3",
+                "candidateStatus": "confirmed_by_rule",
+                "excludedBy": null,
+                "ruleEvidence": {
+                  "nameMatches": [
+                    "药房"
+                  ],
+                  "tagMatches": [
+                    "药店"
+                  ],
+                  "excludedName": null,
+                  "excludedTag": null
+                },
+                "reason": "name_or_raw_tag_match"
+              },
+              "cached": false
+            },
+            "outside": false,
+            "label": "1公里内已有服务",
+            "count": 4,
+            "tag": "范围内",
+            "minutes": 0.4125
+          }
+        },
+        {
+          "label": "小学",
+          "color": "#42A888",
+          "icon": "✓",
+          "subtypeId": "primary_school",
+          "categoryId": "education",
+          "index": 2,
+          "status": "present",
+          "statusLabel": "1公里内已有服务",
+          "priority": 3,
+          "name": "新庐小学-南区",
+          "location": {
+            "lat": 28.71842170119122,
+            "lng": 115.82414647064307
+          },
+          "identityKey": "uid:34283d9b7482df5a4f6d46bd",
+          "distanceMeters": 676,
+          "minutes": 8.45,
+          "rawDurationSeconds": 577,
+          "reasons": [
+            "required_search_incomplete"
+          ],
+          "reasonDescription": "required_search_incomplete",
+          "searchRadiusMeters": 1500,
+          "searchCenter": {
+            "lat": 28.722082834218497,
+            "lng": 115.82686707870968
+          },
+          "searchComplete": false,
+          "requiredSearch": {
+            "version": "specialty-search-v1",
+            "source": "independent_required_query_packets",
+            "hasTaskEvidence": true,
+            "requiredQueries": [
+              "小学",
+              "小学部"
+            ],
+            "auxiliaryQueries": [
+              "学校",
+              "幼儿园",
+              "中学",
+              "社区学校",
+              "社区教育学校",
+              "初级中学",
+              "高级中学",
+              "普通高中",
+              "完全中学",
+              "初中",
+              "高中"
+            ],
+            "requiredTasks": [
+              {
+                "taskId": "primary_school:小学",
+                "query": "小学",
+                "status": "truncated",
+                "complete": false,
+                "packets": [
+                  "小学$小学部"
+                ],
+                "pages": [
+                  {
+                    "keyword": "小学$小学部",
+                    "shardId": "root",
+                    "depth": 0,
+                    "pageNum": 0,
+                    "returned": 7,
+                    "reportedTotal": 7,
+                    "retrievedAt": "2026-10-14T16:16:15.311Z"
+                  }
+                ],
+                "errors": []
+              },
+              {
+                "taskId": "primary_school:小学部",
+                "query": "小学部",
+                "status": "truncated",
+                "complete": false,
+                "packets": [
+                  "小学$小学部"
+                ],
+                "pages": [
+                  {
+                    "keyword": "小学$小学部",
+                    "shardId": "root",
+                    "depth": 0,
+                    "pageNum": 0,
+                    "returned": 7,
+                    "reportedTotal": 7,
+                    "retrievedAt": "2026-10-14T16:16:15.311Z"
+                  }
+                ],
+                "errors": []
+              }
+            ],
+            "complete": false,
+            "status": "partial",
+            "pages": [
+              {
+                "keyword": "小学$小学部",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 0,
+                "returned": 7,
+                "reportedTotal": 7,
+                "retrievedAt": "2026-10-14T16:16:15.311Z"
+              }
+            ],
+            "errors": [],
+            "auxiliaryPages": [
+              {
+                "keyword": "幼儿园",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 0,
+                "returned": 12,
+                "reportedTotal": 12,
+                "retrievedAt": "2026-10-14T16:16:13.423Z"
+              },
+              {
+                "keyword": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 0,
+                "returned": 20,
+                "reportedTotal": 50,
+                "retrievedAt": "2026-10-14T16:16:16.916Z"
+              },
+              {
+                "keyword": "社区学校$社区教育学校",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 0,
+                "returned": 17,
+                "reportedTotal": 17,
+                "retrievedAt": "2026-10-14T16:16:17.562Z"
+              },
+              {
+                "keyword": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 1,
+                "returned": 20,
+                "reportedTotal": 50,
+                "retrievedAt": "2026-10-14T16:16:18.470Z"
+              },
+              {
+                "keyword": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 2,
+                "returned": 10,
+                "reportedTotal": 50,
+                "retrievedAt": "2026-10-14T16:16:18.996Z"
+              },
+              {
+                "keyword": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 3,
+                "returned": 0,
+                "reportedTotal": 50,
+                "retrievedAt": "2026-10-14T16:16:19.671Z"
+              }
+            ],
+            "auxiliaryErrors": [
+              {
+                "keyword": "中学$初级中学$高级中学$普通高中$完全中学$初中$高中$学校",
+                "shardId": "root",
+                "pageNum": 3,
+                "code": "premature_page_end"
+              }
+            ],
+            "unassignedErrors": [],
+            "invalidCandidateCount": 0,
+            "unassignedInvalidCandidateCount": 0
+          },
+          "facilityCount": 5,
+          "card": {
+            "near": {
+              "evidenceId": "route-554c7b8b9eb9f38838d2ac43",
+              "facilityUid": "34283d9b7482df5a4f6d46bd",
+              "identityKey": "uid:34283d9b7482df5a4f6d46bd",
+              "categoryId": "education",
+              "subtypeId": "primary_school",
+              "name": "新庐小学-南区",
+              "address": "南昌市新建区黄家湖西路南天阳光-二期",
+              "location": {
+                "lat": 28.71842170119122,
+                "lng": 115.82414647064307
+              },
+              "destination": {
+                "lat": 28.719068734185555,
+                "lng": 115.82400589776029
+              },
+              "origin": {
+                "lat": 28.722082834218497,
+                "lng": 115.82686707870968
+              },
+              "originUid": "944ded0737b2a7ac17c8f628",
+              "destinationUid": "34283d9b7482df5a4f6d46bd",
+              "facilityEndpoint": {
+                "location": {
+                  "lat": 28.719068734185555,
+                  "lng": 115.82400589776029
+                },
+                "uid": "34283d9b7482df5a4f6d46bd",
+                "source": "existing_navigation_hint"
+              },
+              "entranceVerification": {
+                "knownTargets": 1,
+                "attempted": 1,
+                "reachableWitness": true,
+                "complete": true
+              },
+              "entranceStatus": "navigation_hint_unverified",
+              "destinationConflict": false,
+              "straightLineMeters": 486,
+              "durationSeconds": 577,
+              "distanceMeters": 676,
+              "routeStatus": "ok",
+              "walkingModelId": "walking80-v1",
+              "modelDurationSeconds": 507,
+              "source": "direction_v2",
+              "mode": "walking",
+              "coordinateSystem": "BD-09LL",
+              "retrievedAt": "2026-10-14T16:16:25.605Z",
+              "observedAt": "2026-10-15T02:04:39.816Z",
+              "apiStatus": null,
+              "httpStatus": null,
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    115.827379,
+                    28.721744
+                  ],
+                  [
+                    115.827429,
+                    28.721733
+                  ],
+                  [
+                    115.82753,
+                    28.721702
+                  ],
+                  [
+                    115.82754,
+                    28.721611
+                  ],
+                  [
+                    115.82756,
+                    28.721381
+                  ],
+                  [
+                    115.82756,
+                    28.721161
+                  ],
+                  [
+                    115.82756,
+                    28.720961
+                  ],
+                  [
+                    115.827279,
+                    28.720956
+                  ],
+                  [
+                    115.827209,
+                    28.720957
+                  ],
+                  [
+                    115.827118,
+                    28.720958
+                  ],
+                  [
+                    115.827018,
+                    28.72096
+                  ],
+                  [
+                    115.826968,
+                    28.720981
+                  ],
+                  [
+                    115.826606,
+                    28.720986
+                  ],
+                  [
+                    115.826064,
+                    28.720985
+                  ],
+                  [
+                    115.825914,
+                    28.720977
+                  ],
+                  [
+                    115.825924,
+                    28.720687
+                  ],
+                  [
+                    115.825864,
+                    28.720298
+                  ],
+                  [
+                    115.825803,
+                    28.720079
+                  ],
+                  [
+                    115.825773,
+                    28.719959
+                  ],
+                  [
+                    115.825783,
+                    28.719929
+                  ],
+                  [
+                    115.825753,
+                    28.71977
+                  ],
+                  [
+                    115.825703,
+                    28.71958
+                  ],
+                  [
+                    115.825683,
+                    28.719411
+                  ],
+                  [
+                    115.825563,
+                    28.719163
+                  ],
+                  [
+                    115.825533,
+                    28.718993
+                  ],
+                  [
+                    115.825492,
+                    28.718844
+                  ],
+                  [
+                    115.825472,
+                    28.718744
+                  ],
+                  [
+                    115.825021,
+                    28.718851
+                  ],
+                  [
+                    115.824519,
+                    28.718958
+                  ],
+                  [
+                    115.824358,
+                    28.718991
+                  ],
+                  [
+                    115.824278,
+                    28.718632
+                  ],
+                  [
+                    115.824158,
+                    28.718634
+                  ]
+                ]
+              },
+              "geometryStatus": "provider_path",
+              "geometryCompleteness": "continuous_provider_steps",
+              "geometryEndpointReference": "provider_destination",
+              "providerOrigin": {
+                "lat": 28.722078795489,
+                "lng": 115.82686564142
+              },
+              "providerDestination": {
+                "lat": 28.719061583233,
+                "lng": 115.82400004684
+              },
+              "originNavigation": "coordinates",
+              "requestOriginUidApplied": false,
+              "requestedOrigin": {
+                "location": {
+                  "lat": 28.722083,
+                  "lng": 115.826867
+                },
+                "uid": "944ded0737b2a7ac17c8f628"
+              },
+              "requestedDestination": {
+                "location": {
+                  "lat": 28.719069,
+                  "lng": 115.824006
+                },
+                "uid": "34283d9b7482df5a4f6d46bd"
+              },
+              "classification": {
+                "categoryId": "education",
+                "subtypeId": "primary_school",
+                "subtypeIds": [
+                  "primary_school"
+                ],
+                "categoryMappingVersion": "facility-categories-v8",
+                "classificationVersion": "six-group-public-services-v8.3",
+                "candidateStatus": "confirmed_by_rule",
+                "excludedBy": null,
+                "ruleEvidence": {
+                  "nameMatches": [
+                    "小学"
+                  ],
+                  "tagMatches": [
+                    "小学"
+                  ],
+                  "excludedName": null,
+                  "excludedTag": null
+                },
+                "reason": "name_or_raw_tag_match"
+              },
+              "cached": false
+            },
+            "outside": false,
+            "label": "1公里内已有服务",
+            "count": 5,
+            "tag": "范围内",
+            "minutes": 8.45
+          }
+        },
+        {
+          "label": "菜市场",
+          "color": "#42A888",
+          "icon": "✓",
+          "subtypeId": "market",
+          "categoryId": "commerce",
+          "index": 0,
+          "status": "present",
+          "statusLabel": "1公里内已有服务",
+          "priority": 2,
+          "name": "家门口的菜市场(南天·阳光西区店)",
+          "location": {
+            "lat": 28.716222868450764,
+            "lng": 115.82880472369406
+          },
+          "identityKey": "uid:aeb00d1aa5db6bc8eb1e976a",
+          "distanceMeters": 944,
+          "minutes": 11.8,
+          "rawDurationSeconds": 847,
+          "reasons": [
+            "required_search_incomplete"
+          ],
+          "reasonDescription": "required_search_incomplete",
+          "searchRadiusMeters": 1500,
+          "searchCenter": {
+            "lat": 28.722082834218497,
+            "lng": 115.82686707870968
+          },
+          "searchComplete": false,
+          "requiredSearch": {
+            "version": "specialty-search-v1",
+            "source": "independent_required_query_packets",
+            "hasTaskEvidence": true,
+            "requiredQueries": [
+              "菜市场",
+              "菜场",
+              "农贸市场",
+              "菜店"
+            ],
+            "auxiliaryQueries": [
+              "商超",
+              "超市",
+              "便利店",
+              "商场",
+              "生鲜超市",
+              "便利商店",
+              "购物中心",
+              "百货商店"
+            ],
+            "requiredTasks": [
+              {
+                "taskId": "market:菜市场",
+                "query": "菜市场",
+                "status": "truncated",
+                "complete": false,
+                "packets": [
+                  "菜市场$菜场$农贸市场$菜店"
+                ],
+                "pages": [
+                  {
+                    "keyword": "菜市场$菜场$农贸市场$菜店",
+                    "shardId": "root",
+                    "depth": 0,
+                    "pageNum": 0,
+                    "returned": 16,
+                    "reportedTotal": 16,
+                    "retrievedAt": "2026-10-14T16:16:14.410Z"
+                  }
+                ],
+                "errors": []
+              },
+              {
+                "taskId": "market:菜场",
+                "query": "菜场",
+                "status": "truncated",
+                "complete": false,
+                "packets": [
+                  "菜市场$菜场$农贸市场$菜店"
+                ],
+                "pages": [
+                  {
+                    "keyword": "菜市场$菜场$农贸市场$菜店",
+                    "shardId": "root",
+                    "depth": 0,
+                    "pageNum": 0,
+                    "returned": 16,
+                    "reportedTotal": 16,
+                    "retrievedAt": "2026-10-14T16:16:14.410Z"
+                  }
+                ],
+                "errors": []
+              },
+              {
+                "taskId": "market:农贸市场",
+                "query": "农贸市场",
+                "status": "truncated",
+                "complete": false,
+                "packets": [
+                  "菜市场$菜场$农贸市场$菜店"
+                ],
+                "pages": [
+                  {
+                    "keyword": "菜市场$菜场$农贸市场$菜店",
+                    "shardId": "root",
+                    "depth": 0,
+                    "pageNum": 0,
+                    "returned": 16,
+                    "reportedTotal": 16,
+                    "retrievedAt": "2026-10-14T16:16:14.410Z"
+                  }
+                ],
+                "errors": []
+              },
+              {
+                "taskId": "market:菜店",
+                "query": "菜店",
+                "status": "truncated",
+                "complete": false,
+                "packets": [
+                  "菜市场$菜场$农贸市场$菜店"
+                ],
+                "pages": [
+                  {
+                    "keyword": "菜市场$菜场$农贸市场$菜店",
+                    "shardId": "root",
+                    "depth": 0,
+                    "pageNum": 0,
+                    "returned": 16,
+                    "reportedTotal": 16,
+                    "retrievedAt": "2026-10-14T16:16:14.410Z"
+                  }
+                ],
+                "errors": []
+              }
+            ],
+            "complete": false,
+            "status": "partial",
+            "pages": [
+              {
+                "keyword": "菜市场$菜场$农贸市场$菜店",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 0,
+                "returned": 16,
+                "reportedTotal": 16,
+                "retrievedAt": "2026-10-14T16:16:14.410Z"
+              }
+            ],
+            "errors": [],
+            "auxiliaryPages": [
+              {
+                "keyword": "超市$生鲜超市",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 0,
+                "returned": 20,
+                "reportedTotal": 38,
+                "retrievedAt": "2026-10-14T16:16:15.235Z"
+              },
+              {
+                "keyword": "便利店$便利商店",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 0,
+                "returned": 17,
+                "reportedTotal": 17,
+                "retrievedAt": "2026-10-14T16:16:16.421Z"
+              },
+              {
+                "keyword": "商场$购物中心$百货商店",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 0,
+                "returned": 1,
+                "reportedTotal": 1,
+                "retrievedAt": "2026-10-14T16:16:17.393Z"
+              },
+              {
+                "keyword": "商超",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 0,
+                "returned": 20,
+                "reportedTotal": 37,
+                "retrievedAt": "2026-10-14T16:16:18.407Z"
+              },
+              {
+                "keyword": "超市$生鲜超市",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 1,
+                "returned": 18,
+                "reportedTotal": 38,
+                "retrievedAt": "2026-10-14T16:16:19.079Z"
+              },
+              {
+                "keyword": "商超",
+                "shardId": "root",
+                "depth": 0,
+                "pageNum": 1,
+                "returned": 17,
+                "reportedTotal": 37,
+                "retrievedAt": "2026-10-14T16:16:19.658Z"
+              }
+            ],
+            "auxiliaryErrors": [],
+            "unassignedErrors": [],
+            "invalidCandidateCount": 0,
+            "unassignedInvalidCandidateCount": 0
+          },
+          "facilityCount": 1,
+          "card": {
+            "near": {
+              "evidenceId": "route-f8010fb1ce5522b6570d3410",
+              "facilityUid": "aeb00d1aa5db6bc8eb1e976a",
+              "identityKey": "uid:aeb00d1aa5db6bc8eb1e976a",
+              "categoryId": "commerce",
+              "subtypeId": "market",
+              "name": "家门口的菜市场(南天·阳光西区店)",
+              "address": "南昌市新建区青岚大道南天阳光-二期",
+              "location": {
+                "lat": 28.716222868450764,
+                "lng": 115.82880472369406
+              },
+              "destination": {
+                "lat": 28.716129041670296,
+                "lng": 115.82879264945292
+              },
+              "origin": {
+                "lat": 28.722082834218497,
+                "lng": 115.82686707870968
+              },
+              "originUid": "944ded0737b2a7ac17c8f628",
+              "destinationUid": "aeb00d1aa5db6bc8eb1e976a",
+              "facilityEndpoint": {
+                "location": {
+                  "lat": 28.716129041670296,
+                  "lng": 115.82879264945292
+                },
+                "uid": "aeb00d1aa5db6bc8eb1e976a",
+                "source": "existing_navigation_hint"
+              },
+              "entranceVerification": {
+                "knownTargets": 1,
+                "attempted": 1,
+                "reachableWitness": true,
+                "complete": true
+              },
+              "entranceStatus": "navigation_hint_unverified",
+              "destinationConflict": false,
+              "straightLineMeters": 678,
+              "durationSeconds": 847,
+              "distanceMeters": 944,
+              "routeStatus": "ok",
+              "walkingModelId": "walking80-v1",
+              "modelDurationSeconds": 708,
+              "source": "direction_v2",
+              "mode": "walking",
+              "coordinateSystem": "BD-09LL",
+              "retrievedAt": "2026-10-14T16:16:28.651Z",
+              "observedAt": "2026-10-15T02:04:39.837Z",
+              "apiStatus": null,
+              "httpStatus": null,
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    115.827369,
+                    28.721704
+                  ],
+                  [
+                    115.827429,
+                    28.721693
+                  ],
+                  [
+                    115.827469,
+                    28.721693
+                  ],
+                  [
+                    115.82751,
+                    28.721702
+                  ],
+                  [
+                    115.82753,
+                    28.721702
+                  ],
+                  [
+                    115.82754,
+                    28.721611
+                  ],
+                  [
+                    115.82756,
+                    28.721381
+                  ],
+                  [
+                    115.82756,
+                    28.721161
+                  ],
+                  [
+                    115.82756,
+                    28.720961
+                  ],
+                  [
+                    115.828604,
+                    28.720994
+                  ],
+                  [
+                    115.829558,
+                    28.721058
+                  ],
+                  [
+                    115.829759,
+                    28.721025
+                  ],
+                  [
+                    115.8299,
+                    28.720962
+                  ],
+                  [
+                    115.829729,
+                    28.720915
+                  ],
+                  [
+                    115.829639,
+                    28.719927
+                  ],
+                  [
+                    115.829619,
+                    28.719767
+                  ],
+                  [
+                    115.829579,
+                    28.719348
+                  ],
+                  [
+                    115.829539,
+                    28.718938
+                  ],
+                  [
+                    115.829629,
+                    28.718857
+                  ],
+                  [
+                    115.829599,
+                    28.718397
+                  ],
+                  [
+                    115.829579,
+                    28.718078
+                  ],
+                  [
+                    115.829388,
+                    28.717941
+                  ],
+                  [
+                    115.829559,
+                    28.717688
+                  ],
+                  [
+                    115.829539,
+                    28.717588
+                  ],
+                  [
+                    115.829509,
+                    28.717419
+                  ],
+                  [
+                    115.829478,
+                    28.717239
+                  ],
+                  [
+                    115.829468,
+                    28.71704
+                  ],
+                  [
+                    115.829458,
+                    28.71697
+                  ],
+                  [
+                    115.829418,
+                    28.716801
+                  ],
+                  [
+                    115.829368,
+                    28.716591
+                  ],
+                  [
+                    115.829298,
+                    28.716403
+                  ],
+                  [
+                    115.829187,
+                    28.716064
+                  ],
+                  [
+                    115.829007,
+                    28.716087
+                  ],
+                  [
+                    115.828776,
+                    28.716121
+                  ]
+                ]
+              },
+              "geometryStatus": "provider_path",
+              "geometryCompleteness": "continuous_provider_steps",
+              "geometryEndpointReference": "provider_destination",
+              "providerOrigin": {
+                "lat": 28.722078795489,
+                "lng": 115.82686564142
+              },
+              "providerDestination": {
+                "lat": 28.716123478365,
+                "lng": 115.82878801521
+              },
+              "originNavigation": "coordinates",
+              "requestOriginUidApplied": false,
+              "requestedOrigin": {
+                "location": {
+                  "lat": 28.722083,
+                  "lng": 115.826867
+                },
+                "uid": "944ded0737b2a7ac17c8f628"
+              },
+              "requestedDestination": {
+                "location": {
+                  "lat": 28.716129,
+                  "lng": 115.828793
+                },
+                "uid": "aeb00d1aa5db6bc8eb1e976a"
+              },
+              "classification": {
+                "categoryId": "commerce",
+                "subtypeId": "market",
+                "subtypeIds": [
+                  "market"
+                ],
+                "categoryMappingVersion": "facility-categories-v8",
+                "classificationVersion": "six-group-public-services-v8.3",
+                "candidateStatus": "confirmed_by_rule",
+                "excludedBy": null,
+                "ruleEvidence": {
+                  "nameMatches": [
+                    "菜市场"
+                  ],
+                  "tagMatches": [
+                    "菜店"
+                  ],
+                  "excludedName": null,
+                  "excludedTag": null
+                },
+                "reason": "name_or_raw_tag_match"
+              },
+              "cached": false
+            },
+            "outside": false,
+            "label": "1公里内已有服务",
+            "count": 1,
+            "tag": "范围内",
+            "minutes": 11.8
+          }
+        }
+      ],
+      "plans": [
+        {
+          "subtypeId": "market",
+          "state": "within_1km",
+          "color": "#EA8E34",
+          "auto": false,
+          "enabled": true,
+          "identityKey": "uid:aeb00d1aa5db6bc8eb1e976a",
+          "candidateCount": 1,
+          "pathReady": true,
+          "distanceMeters": 944
+        },
+        {
+          "subtypeId": "pharmacy",
+          "state": "within_1km",
+          "color": "#08A887",
+          "auto": false,
+          "enabled": false,
+          "identityKey": "uid:62c7d2af698af2a107026fe4",
+          "candidateCount": 6,
+          "pathReady": true,
+          "distanceMeters": 33
+        },
+        {
+          "subtypeId": "primary_school",
+          "state": "within_1km",
+          "color": "#416DE1",
+          "auto": false,
+          "enabled": false,
+          "identityKey": "uid:34283d9b7482df5a4f6d46bd",
+          "candidateCount": 5,
+          "pathReady": true,
+          "distanceMeters": 676
+        }
+      ],
+      "allCounts": {
+        "market": 1,
+        "pharmacy": 6,
+        "primary_school": 5
+      },
+      "markerCount": 0,
+      "visibleMarkerCount": 1
+    },
+    "route": {
+      "clickGate": {
+        "gesture": 0,
+        "handledGesture": -1,
+        "dispatches": 0
+      },
+      "paintPlan": {
+        "totalSegments": 617,
+        "paintedSegments": 257,
+        "suppressedSegments": 360
+      },
+      "origin": {
+        "x": 568,
+        "y": 95
+      },
+      "projectionRevision": 27,
+      "particleCount": 0,
+      "particleLimit": 64,
+      "pulseIntervalMs": 2200,
+      "pulseRadius": 78,
+      "pulseRings": 2,
+      "sharedSegments": 0,
+      "particleSamples": [
+        {
+          "id": "uid:80e809d1655ea87cca2915ee",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 788.1471532329389,
+          "y": 312.3896350752958,
+          "shared": false
+        },
+        {
+          "id": "uid:80e809d1655ea87cca2915ee",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 629.3466968120088,
+          "y": 199.84837104144157,
+          "shared": false
+        },
+        {
+          "id": "uid:a447a8188ce25ba8b05c6ad6",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 405.9449741902757,
+          "y": 201.08220103238898,
+          "shared": false
+        },
+        {
+          "id": "uid:58fd4a7048610374acee7a59",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 625,
+          "y": -4.080256978763629,
+          "shared": false
+        },
+        {
+          "id": "uid:ccbb55ec0c1f4b286c20b951",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 627,
+          "y": 72.53293910746612,
+          "shared": false
+        },
+        {
+          "id": "uid:ae43eaf9a7de2351cd04eff3",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 625,
+          "y": -4.427847673064747,
+          "shared": false
+        },
+        {
+          "id": "uid:7c96d0070d2c0ca38f1a89ae",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 778.7481426724157,
+          "y": 191.85457144260133,
+          "shared": false
+        },
+        {
+          "id": "uid:7c96d0070d2c0ca38f1a89ae",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 795.9006922733766,
+          "y": 397.42341074826834,
+          "shared": false
+        },
+        {
+          "id": "uid:9dcf296048c3e450c6effbc0",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 802.8878058059004,
+          "y": 216.79023323214608,
+          "shared": false
+        },
+        {
+          "id": "uid:9dcf296048c3e450c6effbc0",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 790.7326966492756,
+          "y": 469.23166290396114,
+          "shared": false
+        },
+        {
+          "id": "uid:bb2be3fe783bbfbec42ba1a8",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 625,
+          "y": 173.01484752053028,
+          "shared": false
+        },
+        {
+          "id": "uid:bb2be3fe783bbfbec42ba1a8",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 801.4546965739787,
+          "y": 233.27098939924494,
+          "shared": false
+        },
+        {
+          "id": "uid:6dea5324bff1c0fa2a06ce79",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 688.9389349839358,
+          "y": 197.7695720354441,
+          "shared": false
+        },
+        {
+          "id": "uid:6dea5324bff1c0fa2a06ce79",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 793.4368177937896,
+          "y": 326.24102651055193,
+          "shared": false
+        },
+        {
+          "id": "uid:ad18ba345625ebcec1f1cf0a",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 765.5294893784029,
+          "y": 633.7840377656787,
+          "shared": false
+        },
+        {
+          "id": "uid:ad18ba345625ebcec1f1cf0a",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 546.1965114576752,
+          "y": 207.445351050222,
+          "shared": false
+        },
+        {
+          "id": "uid:8470104945904a186140a99b",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 918.7033856443154,
+          "y": 569.6563921696267,
+          "shared": false
+        },
+        {
+          "id": "uid:8470104945904a186140a99b",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 707.057162266098,
+          "y": 197.13754085118262,
+          "shared": false
+        },
+        {
+          "id": "uid:f31c3ca4b36236ecb6f42f09",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 209.21841442285898,
+          "y": 373.15558275412246,
+          "shared": false
+        },
+        {
+          "id": "uid:f31c3ca4b36236ecb6f42f09",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 625,
+          "y": 176.7214491072506,
+          "shared": false
+        },
+        {
+          "id": "uid:83c0f66213b13f6828b97cff",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 820.6321024749808,
+          "y": -7.075487128560463,
+          "shared": false
+        },
+        {
+          "id": "uid:aeb00d1aa5db6bc8eb1e976a",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 768.992484939658,
+          "y": 622.1879593376359,
+          "shared": false
+        },
+        {
+          "id": "uid:aeb00d1aa5db6bc8eb1e976a",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 737.432824920895,
+          "y": 194.99244367689406,
+          "shared": false
+        },
+        {
+          "id": "uid:80e809d1655ea87cca2915ee",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 787.1420048928507,
+          "y": 191.21706291953032,
+          "shared": false
+        },
+        {
+          "id": "uid:80e809d1655ea87cca2915ee",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 788.1471532329389,
+          "y": 312.3896350752958,
+          "shared": false
+        },
+        {
+          "id": "uid:a447a8188ce25ba8b05c6ad6",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 504.2963094878758,
+          "y": 197.94897090026942,
+          "shared": false
+        },
+        {
+          "id": "uid:a447a8188ce25ba8b05c6ad6",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 405.9449741902757,
+          "y": 201.08220103238898,
+          "shared": false
+        },
+        {
+          "id": "uid:ccbb55ec0c1f4b286c20b951",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 234.7584814344849,
+          "y": -26.72353541343009,
+          "shared": false
+        },
+        {
+          "id": "uid:ccbb55ec0c1f4b286c20b951",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 627,
+          "y": 72.53293910746744,
+          "shared": false
+        },
+        {
+          "id": "uid:ae43eaf9a7de2351cd04eff3",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 625,
+          "y": -4.427847673063411,
+          "shared": false
+        },
+        {
+          "id": "uid:7c96d0070d2c0ca38f1a89ae",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 756.4154348866557,
+          "y": 620.6557880824959,
+          "shared": false
+        },
+        {
+          "id": "uid:7c96d0070d2c0ca38f1a89ae",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 778.7481426724144,
+          "y": 191.85457144260144,
+          "shared": false
+        },
+        {
+          "id": "uid:9dcf296048c3e450c6effbc0",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 625,
+          "y": 165.3570178021756,
+          "shared": false
+        },
+        {
+          "id": "uid:9dcf296048c3e450c6effbc0",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 802.8878058059004,
+          "y": 216.79023323214608,
+          "shared": false
+        },
+        {
+          "id": "uid:bb2be3fe783bbfbec42ba1a8",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 779.0845094626713,
+          "y": 487.06740840296,
+          "shared": false
+        },
+        {
+          "id": "uid:bb2be3fe783bbfbec42ba1a8",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 625,
+          "y": 173.0148475205289,
+          "shared": false
+        },
+        {
+          "id": "uid:6dea5324bff1c0fa2a06ce79",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 779.7134757958048,
+          "y": 578.8614624223745,
+          "shared": false
+        },
+        {
+          "id": "uid:6dea5324bff1c0fa2a06ce79",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "alpha": 1,
+          "diameter": 4,
+          "trailLength": 16,
+          "x": 688.9389349839345,
+          "y": 197.76957203544416,
+          "shared": false
+        }
+      ],
+      "frames": 84,
+      "paused": false,
+      "drawMs": 2.4895983437706835,
+      "maskedFacilities": 18,
+      "overlays": 60,
+      "routeLayers": [
+        {
+          "id": "uid:80e809d1655ea87cca2915ee",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.2112
+        },
+        {
+          "id": "uid:80e809d1655ea87cca2915ee",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8832
+        },
+        {
+          "id": "uid:80e809d1655ea87cca2915ee",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.96
+        },
+        {
+          "id": "uid:a447a8188ce25ba8b05c6ad6",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:a447a8188ce25ba8b05c6ad6",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:a447a8188ce25ba8b05c6ad6",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:58fd4a7048610374acee7a59",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:58fd4a7048610374acee7a59",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:58fd4a7048610374acee7a59",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:ccbb55ec0c1f4b286c20b951",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:ccbb55ec0c1f4b286c20b951",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:ccbb55ec0c1f4b286c20b951",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:ccbb55ec0c1f4b286c20b951",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:ccbb55ec0c1f4b286c20b951",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:ccbb55ec0c1f4b286c20b951",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:ae43eaf9a7de2351cd04eff3",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:ae43eaf9a7de2351cd04eff3",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:ae43eaf9a7de2351cd04eff3",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:7c96d0070d2c0ca38f1a89ae",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:7c96d0070d2c0ca38f1a89ae",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:7c96d0070d2c0ca38f1a89ae",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:9dcf296048c3e450c6effbc0",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:9dcf296048c3e450c6effbc0",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:9dcf296048c3e450c6effbc0",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:bb2be3fe783bbfbec42ba1a8",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:bb2be3fe783bbfbec42ba1a8",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:bb2be3fe783bbfbec42ba1a8",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:6dea5324bff1c0fa2a06ce79",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:6dea5324bff1c0fa2a06ce79",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:6dea5324bff1c0fa2a06ce79",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:ad18ba345625ebcec1f1cf0a",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:ad18ba345625ebcec1f1cf0a",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:ad18ba345625ebcec1f1cf0a",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:ad18ba345625ebcec1f1cf0a",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:ad18ba345625ebcec1f1cf0a",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:ad18ba345625ebcec1f1cf0a",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:8470104945904a186140a99b",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:8470104945904a186140a99b",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:8470104945904a186140a99b",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:f31c3ca4b36236ecb6f42f09",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:f31c3ca4b36236ecb6f42f09",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:f31c3ca4b36236ecb6f42f09",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:26564b4079c524ba373a71f3",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:26564b4079c524ba373a71f3",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:26564b4079c524ba373a71f3",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:83c0f66213b13f6828b97cff",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:83c0f66213b13f6828b97cff",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:83c0f66213b13f6828b97cff",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        },
+        {
+          "id": "uid:7a8cc7a1587d748a2fb908e1",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.11
+        },
+        {
+          "id": "uid:7a8cc7a1587d748a2fb908e1",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.46
+        },
+        {
+          "id": "uid:7a8cc7a1587d748a2fb908e1",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.5
+        },
+        {
+          "id": "uid:fa165fc894188a8d882fb579",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.11
+        },
+        {
+          "id": "uid:fa165fc894188a8d882fb579",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.46
+        },
+        {
+          "id": "uid:fa165fc894188a8d882fb579",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.5
+        },
+        {
+          "id": "uid:f572285ba9a511a0c61b7562",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.11
+        },
+        {
+          "id": "uid:f572285ba9a511a0c61b7562",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.46
+        },
+        {
+          "id": "uid:f572285ba9a511a0c61b7562",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.5
+        },
+        {
+          "id": "uid:aeb00d1aa5db6bc8eb1e976a",
+          "categoryId": "commerce",
+          "layer": "halo",
+          "width": 12,
+          "color": "#E99032",
+          "opacity": 0.1936
+        },
+        {
+          "id": "uid:aeb00d1aa5db6bc8eb1e976a",
+          "categoryId": "commerce",
+          "layer": "white_outline",
+          "width": 6.5,
+          "color": "#FFFFFF",
+          "opacity": 0.8096
+        },
+        {
+          "id": "uid:aeb00d1aa5db6bc8eb1e976a",
+          "categoryId": "commerce",
+          "layer": "core",
+          "width": 3.6,
+          "color": "#E99032",
+          "opacity": 0.88
+        }
+      ],
+      "routes": [
+        {
+          "id": "uid:80e809d1655ea87cca2915ee",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": true,
+          "total": 474.19278988380097,
+          "pieces": [
+            {
+              "first": {
+                "x": 609,
+                "y": 130
+              },
+              "last": {
+                "x": 745,
+                "y": 350
+              },
+              "vertices": 22,
+              "total": 474.19278988380097
+            }
+          ]
+        },
+        {
+          "id": "uid:a447a8188ce25ba8b05c6ad6",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 605.3426373441941,
+          "pieces": [
+            {
+              "first": {
+                "x": 609,
+                "y": 130
+              },
+              "last": {
+                "x": 279,
+                "y": 131
+              },
+              "vertices": 36,
+              "total": 605.3426373441941
+            }
+          ]
+        },
+        {
+          "id": "uid:58fd4a7048610374acee7a59",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 742.2143273781548,
+          "pieces": [
+            {
+              "first": {
+                "x": 609,
+                "y": 130
+              },
+              "last": {
+                "x": 825,
+                "y": -357
+              },
+              "vertices": 32,
+              "total": 742.2143273781548
+            }
+          ]
+        },
+        {
+          "id": "uid:ccbb55ec0c1f4b286c20b951",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 739.8265359378423,
+          "pieces": [
+            {
+              "first": {
+                "x": 610,
+                "y": 127
+              },
+              "last": {
+                "x": 66,
+                "y": 9
+              },
+              "vertices": 23,
+              "total": 739.8265359378423
+            }
+          ]
+        },
+        {
+          "id": "uid:ae43eaf9a7de2351cd04eff3",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 743.6201915528309,
+          "pieces": [
+            {
+              "first": {
+                "x": 610,
+                "y": 127
+              },
+              "last": {
+                "x": 825,
+                "y": -359
+              },
+              "vertices": 30,
+              "total": 743.6201915528309
+            }
+          ]
+        },
+        {
+          "id": "uid:7c96d0070d2c0ca38f1a89ae",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 759.8910029535365,
+          "pieces": [
+            {
+              "first": {
+                "x": 609,
+                "y": 130
+              },
+              "last": {
+                "x": 749,
+                "y": 630
+              },
+              "vertices": 33,
+              "total": 759.8910029535365
+            }
+          ]
+        },
+        {
+          "id": "uid:9dcf296048c3e450c6effbc0",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 771.050277047902,
+          "pieces": [
+            {
+              "first": {
+                "x": 609,
+                "y": 130
+              },
+              "last": {
+                "x": 747,
+                "y": 641
+              },
+              "vertices": 33,
+              "total": 771.050277047902
+            }
+          ]
+        },
+        {
+          "id": "uid:bb2be3fe783bbfbec42ba1a8",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 797.7056316552093,
+          "pieces": [
+            {
+              "first": {
+                "x": 610,
+                "y": 127
+              },
+              "last": {
+                "x": 738,
+                "y": 670
+              },
+              "vertices": 32,
+              "total": 797.7056316552093
+            }
+          ]
+        },
+        {
+          "id": "uid:6dea5324bff1c0fa2a06ce79",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 804.7766994670749,
+          "pieces": [
+            {
+              "first": {
+                "x": 610,
+                "y": 127
+              },
+              "last": {
+                "x": 731,
+                "y": 669
+              },
+              "vertices": 33,
+              "total": 804.7766994670749
+            }
+          ]
+        },
+        {
+          "id": "uid:ad18ba345625ebcec1f1cf0a",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 820.8727197077501,
+          "pieces": [
+            {
+              "first": {
+                "x": 610,
+                "y": 127
+              },
+              "last": {
+                "x": 682,
+                "y": 645
+              },
+              "vertices": 37,
+              "total": 820.8727197077501
+            }
+          ]
+        },
+        {
+          "id": "uid:8470104945904a186140a99b",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 822.3416433231992,
+          "pieces": [
+            {
+              "first": {
+                "x": 609,
+                "y": 130
+              },
+              "last": {
+                "x": 967,
+                "y": 637
+              },
+              "vertices": 40,
+              "total": 822.3416433231992
+            }
+          ]
+        },
+        {
+          "id": "uid:f31c3ca4b36236ecb6f42f09",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 933.2432156436251,
+          "pieces": [
+            {
+              "first": {
+                "x": 610,
+                "y": 127
+              },
+              "last": {
+                "x": 11,
+                "y": 424
+              },
+              "vertices": 40,
+              "total": 933.2432156436251
+            }
+          ]
+        },
+        {
+          "id": "uid:26564b4079c524ba373a71f3",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 977.7275081661484,
+          "pieces": [
+            {
+              "first": {
+                "x": 609,
+                "y": 130
+              },
+              "last": {
+                "x": -52,
+                "y": 114
+              },
+              "vertices": 34,
+              "total": 977.7275081661484
+            }
+          ]
+        },
+        {
+          "id": "uid:83c0f66213b13f6828b97cff",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 1015.2662840728758,
+          "pieces": [
+            {
+              "first": {
+                "x": 610,
+                "y": 127
+              },
+              "last": {
+                "x": 1184,
+                "y": -248
+              },
+              "vertices": 42,
+              "total": 1015.2662840728758
+            }
+          ]
+        },
+        {
+          "id": "uid:7a8cc7a1587d748a2fb908e1",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 1030.6890164313072,
+          "pieces": [
+            {
+              "first": {
+                "x": 610,
+                "y": 127
+              },
+              "last": {
+                "x": -56,
+                "y": 169
+              },
+              "vertices": 32,
+              "total": 1030.6890164313072
+            }
+          ]
+        },
+        {
+          "id": "uid:fa165fc894188a8d882fb579",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 1114.0787920962262,
+          "pieces": [
+            {
+              "first": {
+                "x": 610,
+                "y": 127
+              },
+              "last": {
+                "x": 604,
+                "y": 755
+              },
+              "vertices": 53,
+              "total": 1114.0787920962262
+            }
+          ]
+        },
+        {
+          "id": "uid:f572285ba9a511a0c61b7562",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 1127.8505189679972,
+          "pieces": [
+            {
+              "first": {
+                "x": 609,
+                "y": 130
+              },
+              "last": {
+                "x": 456,
+                "y": 662
+              },
+              "vertices": 49,
+              "total": 1127.8505189679972
+            }
+          ]
+        },
+        {
+          "id": "uid:aeb00d1aa5db6bc8eb1e976a",
+          "categoryId": "commerce",
+          "color": "#E99032",
+          "focused": true,
+          "selected": false,
+          "total": 799.0109115011921,
+          "pieces": [
+            {
+              "first": {
+                "x": 609,
+                "y": 130
+              },
+              "last": {
+                "x": 725,
+                "y": 652
+              },
+              "vertices": 34,
+              "total": 799.0109115011921
+            }
+          ]
+        }
+      ]
+    },
+    "visible": 18,
+    "markers": [
+      "uid:62c7d2af698af2a107026fe4",
+      "uid:37560a88dbb70ae835b06c22",
+      "uid:b8b5c3af3502bac975e5b6fa",
+      "uid:80e809d1655ea87cca2915ee",
+      "uid:91a2c918edb0545ac16c1463",
+      "uid:24da97cf2a4a1f9896f08c64",
+      "uid:a82e1aae2b03a1035abbbcab",
+      "uid:34283d9b7482df5a4f6d46bd",
+      "uid:f83c0c0e85eff545213bf24f",
+      "uid:a447a8188ce25ba8b05c6ad6",
+      "uid:b82501ae2caad87ad72ce2e4",
+      "uid:d992fe9976e3cea131870ad7",
+      "uid:6817fe743738bc9e3b221c3c",
+      "uid:733542a9206c2c73f03cba91",
+      "uid:17c4b02394ffcc69b05c6a00",
+      "uid:6e83dc43cc5b91d50b69d9d0",
+      "uid:8d96925cc0be2145c1f1cf33",
+      "uid:294da5495fe66ced8b2fb53f",
+      "uid:416fc3bb8224971b8f1a89c2",
+      "uid:24cc809c19942df4455726ad",
+      "uid:5f93b0477823331959bbbcfd",
+      "uid:a3004d6e483d228a931fc977",
+      "uid:57d1b997fdf986afb52655a5",
+      "uid:58fd4a7048610374acee7a59",
+      "uid:ccbb55ec0c1f4b286c20b951",
+      "uid:ae43eaf9a7de2351cd04eff3",
+      "uid:a5467dbd4b997a400869d915",
+      "uid:7c96d0070d2c0ca38f1a89ae",
+      "uid:9e35fb222f8f4e43b21e3640",
+      "uid:9dcf296048c3e450c6effbc0",
+      "uid:61f37d516e1322376d20b96f",
+      "uid:b455271af44a086cad080fbd",
+      "uid:13fdaa4f8b2bbe2303ff2d67",
+      "uid:bb2be3fe783bbfbec42ba1a8",
+      "uid:aeb00d1aa5db6bc8eb1e976a",
+      "uid:6dea5324bff1c0fa2a06ce79",
+      "uid:86d8533fc53ccf58c03644d4",
+      "uid:ad18ba345625ebcec1f1cf0a",
+      "uid:0b23bb4e3cb200244354d7d6",
+      "uid:8470104945904a186140a99b",
+      "uid:253e5a858f0421ce1f3894e6",
+      "uid:5f796c40a25fa5cfd6b74e04",
+      "uid:b557299ca332aa194d2fdf23",
+      "uid:880d0a35cbbca99dd2f49e39",
+      "uid:995d2f09f78183deb45f1e1b",
+      "uid:f31c3ca4b36236ecb6f42f09",
+      "uid:34e87591534e9919704b871d",
+      "uid:d7b6cdf4789cb0d015a19015",
+      "uid:47c913e7c924de8102897277",
+      "uid:decc5662d5b937179de321f6",
+      "uid:26564b4079c524ba373a71f3",
+      "uid:28aedb8d6c4af20dcafa5f3d",
+      "uid:83c0f66213b13f6828b97cff",
+      "uid:7a8cc7a1587d748a2fb908e1",
+      "uid:73296991947ebb6f1d580038",
+      "uid:fa165fc894188a8d882fb579",
+      "uid:f572285ba9a511a0c61b7562",
+      "uid:d2329835c7d4bb99260bd024",
+      "uid:ae4b7c7a1f77aaac93114ccf",
+      "uid:c5a8f1b65034474c430245f8"
+    ],
+    "score": 82.14285714285714,
+    "total": 55
+  },
+  "marketExpected": {
+    "score": 82.14285714285714,
+    "all": {
+      "market": [
+        "uid:aeb00d1aa5db6bc8eb1e976a"
+      ],
+      "pharmacy": [
+        "uid:13fdaa4f8b2bbe2303ff2d67",
+        "uid:17c4b02394ffcc69b05c6a00",
+        "uid:28aedb8d6c4af20dcafa5f3d",
+        "uid:57d1b997fdf986afb52655a5",
+        "uid:62c7d2af698af2a107026fe4",
+        "uid:d7b6cdf4789cb0d015a19015"
+      ],
+      "primary_school": [
+        "uid:34283d9b7482df5a4f6d46bd",
+        "uid:6e83dc43cc5b91d50b69d9d0",
+        "uid:8d96925cc0be2145c1f1cf33",
+        "uid:a5467dbd4b997a400869d915",
+        "uid:b82501ae2caad87ad72ce2e4"
+      ]
+    },
+    "nearest": {
+      "market": "uid:aeb00d1aa5db6bc8eb1e976a",
+      "pharmacy": "uid:62c7d2af698af2a107026fe4",
+      "primary_school": "uid:34283d9b7482df5a4f6d46bd"
+    }
+  },
+  "tooltip": "养老\n17.1%\n菜市场\n17.1%",
+  "popup": {
+    "width": 157,
+    "height": 52,
+    "title": "康宇堂大药房(七里店)",
+    "fit": true
+  },
+  "gaps": {
+    "state": {
+      "version": "independent-blindspots-v1",
+      "status": "available",
+      "visible": true,
+      "targets": [
+        {
+          "type": "category",
+          "categoryId": "eldercare"
+        },
+        {
+          "type": "specialty",
+          "categoryId": "market"
+        }
+      ],
+      "models": [
+        {
+          "target": {
+            "type": "category",
+            "categoryId": "eldercare"
+          },
+          "label": "养老",
+          "area": 68223.27389831743,
+          "componentCount": 1,
+          "basis": "confirmed_poi_straight_distance_screening"
+        },
+        {
+          "target": {
+            "type": "specialty",
+            "categoryId": "market"
+          },
+          "label": "菜市场",
+          "area": 68223.27389831743,
+          "componentCount": 1,
+          "basis": "independent_origin_walking_1km_service_set"
+        }
+      ],
+      "area": 68223.27389831743,
+      "hoverEntries": [],
+      "componentCount": 2,
+      "renderMode": "union_fill_outer_boundary",
+      "defaultBoundaryCount": 1,
+      "highlightedTargets": [],
+      "projectionRevision": 7,
+      "cellMeters": 200,
+      "newApiRequests": 0,
+      "affectsScore": false
+    },
+    "summary": {
+      "version": "service-gap-summary-v1",
+      "status": "available",
+      "allCategoriesPresent": false,
+      "totalArea": 977760.6216393464,
+      "gapArea": 68223.27389831743,
+      "ratio": 0.06977502712671328,
+      "combinations": [
+        {
+          "mask": 80,
+          "area": 68223.27389831743,
+          "categoryIds": [
+            "eldercare",
+            "specialty:market"
+          ],
+          "labels": [
+            "养老",
+            "菜市场"
+          ],
+          "compound": true
+        }
+      ],
+      "determinateArea": 400000.0000000011,
+      "determinateGapArea": 68223.27389831743,
+      "determinateRatio": 0.17055818474579312,
+      "determinateCombinations": [
+        {
+          "mask": 80,
+          "area": 68223.27389831743,
+          "categoryIds": [
+            "eldercare",
+            "specialty:market"
+          ],
+          "labels": [
+            "养老",
+            "菜市场"
+          ],
+          "compound": true
+        }
+      ],
+      "unknownCategoryIds": [],
+      "lowerBound": false,
+      "source": "existing_grid200_rendered_contours",
+      "newApiRequests": 0,
+      "affectsScore": false,
+      "computeMs": 51.800000071525574,
+      "chartType": "rounded_stacked_bar",
+      "displayArea": 68223.27389831743,
+      "displayRatio": 0.17055818474579312,
+      "segments": [
+        {
+          "kind": "covered",
+          "categoryIds": [],
+          "area": 331776.7261016837,
+          "fraction": 0.8294418152542069,
+          "compound": false
+        },
+        {
+          "kind": "gap",
+          "categoryIds": [
+            "eldercare",
+            "specialty:market"
+          ],
+          "area": 68223.27389831743,
+          "fraction": 0.17055818474579312,
+          "compound": true
+        }
+      ]
+    },
+    "preparation": {
+      "hits": 60,
+      "misses": 2,
+      "computeMs": 0.6000000238418579
+    }
+  },
+  "passed": true
+}

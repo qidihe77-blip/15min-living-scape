@@ -1,0 +1,30 @@
+import test from'node:test';import assert from'node:assert/strict';
+import{computeCircleCosts}from'../server/circle-costs.mjs';
+import{createFacilityBudget}from'../server/facility-budget.mjs';
+import{buildFacilityDisplay}from'../server/facility-display.mjs';
+import{evaluateSubtypeAccess}from'../server/nearest-facility.mjs';
+const origin={id:'start',uid:'origin',location:{lng:120,lat:30}},geometry={geometrySource:'walking_sampling_fallback',geojson:{features:[{properties:{featureType:'sampled_boundary'},geometry:{type:'Polygon',coordinates:[[[119.99,29.99],[120.01,29.99],[120.01,30.01],[119.99,30.01],[119.99,29.99]]]}}]}};
+const poi=(i)=>({uid:'poi-'+i,identityKey:'uid:poi-'+i,name:'小学'+i,rawCategory:'教育培训;小学',location:{lng:120+i*.00001,lat:30.001},subtypeIds:['primary_school'],pendingSubtypeIds:[],queriedSubtypeIds:['primary_school'],candidateStatus:'confirmed_by_rule'});
+test('confirmed circle UIDs get one bound cost/path; unclassified candidates retain diagnostics without route calls',async()=>{
+ const candidates=Array.from({length:35},(_,i)=>poi(i));candidates[34]={...candidates[34],subtypeIds:[],pendingSubtypeIds:['hospital'],candidateStatus:'pending_review'};candidates.push(poi(0),{...poi(40),location:{lng:121,lat:30}});
+ let calls=0;const progress=[],provider={route:async(a,b,o)=>{calls++;return{mode:'walking',routeStatus:'ok',source:'offline_route',coordinateSystem:'BD-09LL',distanceMeters:o.destinationUid==='poi-1'?1201:1200,durationSeconds:980,requestedOrigin:{location:a,uid:o.originUid},requestedDestination:{location:b,uid:o.destinationUid},geometry:{type:'LineString',coordinates:[[a.lng,a.lat],[a.lng,b.lat],[b.lng,b.lat]]}};}};
+ const memo=new Map(),r=await computeCircleCosts({candidates,geometry,origin,provider,routeMemo:memo,walkingModelId:'walking80-v1',onProgress:p=>progress.push(p)});
+ assert.equal(calls,34);assert.equal(r.selectedCount,34);assert.equal(r.validCostCount,34);assert.equal(r.facilities.find(p=>p.uid==='poi-1').routeEvidence.modelDurationSeconds,900.75);assert.equal(r.facilities[0].routeEvidence.modelDurationSeconds,900);assert.deepEqual(r.skippedUnclassified,[{identityKey:'uid:poi-34',uid:'poi-34',reasonCode:'classification_not_confirmed'}]);
+ const sub=await evaluateSubtypeAccess({demandPoint:origin,categoryMappingVersion:'facility-categories-v7',subtypeId:'primary_school',facilities:candidates.slice(0,34),provider,routeMemo:memo,maxRouteCandidates:1000,captureGeometry:true,walkingModelId:'walking80-v1',searchComplete:true});assert.equal(calls,34);assert.equal(sub.candidatesRouted,34);assert.equal(sub.reachableCountLowerBound,33);assert.equal(progress.at(-1).completed,34);
+ const j={analysis:{origin,categories:[{categoryId:'education',subtypeResults:[sub]}],poiMarkers:candidates.slice(0,35).map(p=>({...p,circleRouteEvidence:r.facilities.find(c=>c.uid===p.uid)?.routeEvidence??null}))},...geometry};
+ const display=buildFacilityDisplay(j),pending=display.facilities.find(p=>p.uid==='poi-34');assert.equal(pending.displayStatus,'classification_uncertain');assert.equal(pending.distanceMeters,null);assert.equal(pending.drawable,false);
+});
+test('circle allocation replaces 25-route task cap while preserving explicit ceiling and cached calls',async()=>{
+ const signal=new AbortController().signal,processBudget={routeDecisions:0,placeRequests:0};let calls=0;
+ const b=createFacilityBudget({input:{version:7,routeScope:'circle_candidates',categoryMappingVersion:'facility-categories-v7',maxRouteCandidatesPerSubtype:3},processBudget,signal,limits:{route:96,circleRoute:30,taskCost:25,taskRoute:31,taskDetail:6,taskPlace:30,place:64},placeProvider:{searchAround:async()=>({})},routeProvider:{peek:(a,b,o)=>o.destinationUid==='cached'?{routeStatus:'ok'}:null,route:async()=>{calls++;return{routeStatus:'ok'};}}});
+ b.route.allocateCircleCosts(35);for(let i=0;i<31;i++)await b.route.route(origin.location,poi(i).location,{destinationUid:'poi-'+i,captureGeometry:true});assert.equal(calls,30);assert.equal(b.stats.costRoutes,30);assert.equal(b.stats.circleAllocation.uniqueCandidates,35);assert.equal(b.stats.limits.cost,30);await b.route.route(origin.location,origin.location,{destinationUid:'cached'});assert.equal(calls,30);
+});
+test('missing geometry, origin mismatch, quota failure remain explicit unknown costs',async()=>{
+ assert.equal((await computeCircleCosts({candidates:[poi(0)],geometry:null,origin,provider:{route:async()=>assert.fail()}})).reasonCode,'walking_range_unavailable');
+ const provider={route:async(a,b,o)=>o.destinationUid==='poi-0'?{routeStatus:'quota_exhausted'}:{mode:'walking',coordinateSystem:'BD-09LL',routeStatus:'ok',distanceMeters:100,durationSeconds:80,requestedOrigin:{location:a,uid:'different-origin'},requestedDestination:{location:b,uid:o.destinationUid}}};
+ const r=await computeCircleCosts({candidates:[poi(0),poi(1)],geometry,origin,provider});assert.equal(r.status,'partial');assert.equal(r.validCostCount,0);assert.equal(r.facilities[0].routeEvidence.routeStatus,'quota_exhausted');assert.equal(r.facilities[1].routeEvidence.routeStatus,'invalid_route');assert.equal(r.facilities[1].routeEvidence.distanceMeters,null);
+});
+test('unclassified candidates remain classification unknown when circle routing is skipped, with zero calls',async()=>{
+ const pending={...poi(0),name:'社区服务点',rawCategory:'',subtypeIds:[],pendingSubtypeIds:['hospital'],queriedSubtypeIds:['hospital'],candidateStatus:'pending_review'},provider={route:async()=>assert.fail('unclassified POI must not route')},r=await computeCircleCosts({candidates:[pending],geometry,origin,provider});assert.equal(r.selectedCount,0);assert.equal(r.skippedUnclassified.length,1);
+ const subtype=await evaluateSubtypeAccess({demandPoint:origin,categoryMappingVersion:'facility-categories-v8',subtypeId:'hospital',facilities:[pending],provider,walkingModelId:'walking80-v1',searchComplete:true});assert.equal(subtype.accessStatus,'unknown');assert.equal(subtype.candidatesRouted,0);assert.ok(subtype.reasonDetails.some(r=>r.reasonCode==='classification_pending'));
+});

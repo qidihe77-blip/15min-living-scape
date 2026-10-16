@@ -1,0 +1,676 @@
+[
+  {
+    "key": "wuhan",
+    "mapRows": 75,
+    "states": {
+      "inside_reachable": 52,
+      "inside_over_threshold": 1,
+      "pending_verification": 20,
+      "outside_reachable": 2
+    },
+    "noPath": 20,
+    "anomalies": [
+      {
+        "identityKey": "uid:05d6a9b8378114398c1a8994",
+        "name": "武汉市汉阳区疾病预防控制中心艾滋病自愿咨询检测门诊",
+        "location": {
+          "lat": 30.563024899013918,
+          "lng": 114.23980901058776
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:0928be657b84a1f98bfc067e",
+        "name": "武汉市汉阳区疾病预防控制中心",
+        "location": {
+          "lat": 30.563025443202694,
+          "lng": 114.23980892075721
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:1584f2c02086a371901fc95d",
+        "name": "武汉市汉阳区疾病预防控制中心-南门",
+        "location": {
+          "lat": 30.562888229791355,
+          "lng": 114.23959153082379
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:25409d836be90ff088db7386",
+        "name": "欣兴美食店",
+        "location": {
+          "lat": 30.5630231887063,
+          "lng": 114.24037296678692
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:2f41a02b503334b594031925",
+        "name": "公共厕所",
+        "location": {
+          "lat": 30.56365693333339,
+          "lng": 114.2371297245737
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:422c451df5c4514352e5c5b8",
+        "name": "老兵副食(汉阳大道店)",
+        "location": {
+          "lat": 30.562705304185183,
+          "lng": 114.240745673743
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:4299f7154036eb8979dbd26e",
+        "name": "武汉时代桥司机服务中心",
+        "location": {
+          "lat": 30.561882173517855,
+          "lng": 114.2360631664417
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:5aa89b3396e6267e0f0e6bfd",
+        "name": "五福里社区党员群众服务中心",
+        "location": {
+          "lat": 30.55991030064621,
+          "lng": 114.24308333417163
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:5dc250f0e2744fcd8505bf3a",
+        "name": "武汉市汉阳区卫生监督所",
+        "location": {
+          "lat": 30.562926089828675,
+          "lng": 114.2397816122697
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:67d8e89c99be17d1a2046407",
+        "name": "兆麟·锦桦豪庭营销中心",
+        "location": {
+          "lat": 30.561786239620762,
+          "lng": 114.236828163414
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:81652d19510b0b85f7e73b67",
+        "name": "汉阳区总工会农民工维权工作服务中心",
+        "location": {
+          "lat": 30.560369454284018,
+          "lng": 114.24449286534734
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:9872f724e2d5bb791811d5bf",
+        "name": "人社服务窗口(武汉市汉阳区五里墩街街政务服务中心)",
+        "location": {
+          "lat": 30.563110647579308,
+          "lng": 114.23464725729687
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:a6caf1cabf33226df7eafc00",
+        "name": "卓宝防水极质家装防水系统武汉技术服务中心",
+        "location": {
+          "lat": 30.561666594212905,
+          "lng": 114.24448513991993
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:aaa3a81c9be12a8945e274cf",
+        "name": "科源刻章照相复印",
+        "location": {
+          "lat": 30.56304822138742,
+          "lng": 114.2401233276857
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:ae60743121532c5eca1b956d",
+        "name": "殡仪馆服务中心",
+        "location": {
+          "lat": 30.561785306713677,
+          "lng": 114.24418986689882
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:af40330a973c64b16849f3e9",
+        "name": "武汉国际文化商业中心",
+        "location": {
+          "lat": 30.562247716549194,
+          "lng": 114.24950523043191
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:bbee9295fc8f065f2fb90871",
+        "name": "汉阳红光颐景苑-东南门",
+        "location": {
+          "lat": 30.562939461337272,
+          "lng": 114.24681597322669
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:ce72969ea99e58aa1d5800f9",
+        "name": "邻家美食(花前树下店)",
+        "location": {
+          "lat": 30.563098442212485,
+          "lng": 114.24415303637291
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:f382bbee1e4f740a451a32bb",
+        "name": "汉阳红光颐景苑",
+        "location": {
+          "lat": 30.563653745962878,
+          "lng": 114.24672048335098
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:f952eac815cef1ace81e97c5",
+        "name": "小重庆江湖菜(五合路店)",
+        "location": {
+          "lat": 30.560948951865324,
+          "lng": 114.24516120464676
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      }
+    ]
+  },
+  {
+    "key": "hangzhou",
+    "mapRows": 127,
+    "states": {
+      "inside_reachable": 99,
+      "inside_over_threshold": 5,
+      "pending_verification": 23
+    },
+    "noPath": 23,
+    "anomalies": [
+      {
+        "identityKey": "uid:099ea7fbb28ab805c6effb01",
+        "name": "文教社区",
+        "location": {
+          "lat": 30.288328578808812,
+          "lng": 120.1431302982719
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:226461a65d0292838e7727dc",
+        "name": "步步高(杭州市文三路售后服务中心)",
+        "location": {
+          "lat": 30.283869011655263,
+          "lng": 120.15032895930668
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:24555182f61f8f24b45f1e2e",
+        "name": "省直机关工会服务中心",
+        "location": {
+          "lat": 30.290435341209523,
+          "lng": 120.14171411963544
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:2a2aea9a98a7d56df03cbacc",
+        "name": "西溪街道党群服务中心",
+        "location": {
+          "lat": 30.282368227703433,
+          "lng": 120.15433306628685
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:352fc4d0f33ae03f931fc925",
+        "name": "浙江省遥感数据处理服务中心",
+        "location": {
+          "lat": 30.290760048146147,
+          "lng": 120.14779995980443
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:42768181920d60ebab175a3c",
+        "name": "杭州市中队离休退休干部第四服务管理中心",
+        "location": {
+          "lat": 30.29083886640085,
+          "lng": 120.15152729885698
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:44595417663c821e00ec011b",
+        "name": "浙江会议中心",
+        "location": {
+          "lat": 30.2914422020395,
+          "lng": 120.15462977659679
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:48a0bad6dfbcaae46cc02c53",
+        "name": "浙江省退役军人服务中心",
+        "location": {
+          "lat": 30.291072124401968,
+          "lng": 120.14777804114999
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:621ef03512fe0a434207c133",
+        "name": "杭州最佳西方梅苑宾馆-会议厅",
+        "location": {
+          "lat": 30.294015477270186,
+          "lng": 120.15152810733194
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:6c2d58ed08a073691df74d5a",
+        "name": "浙江电视台中国蓝少儿体验中心",
+        "location": {
+          "lat": 30.28487952697292,
+          "lng": 120.15555278550829
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:6eda009585f67c834e2fdf18",
+        "name": "浙江省科技交流和人才服务中心",
+        "location": {
+          "lat": 30.289466905093587,
+          "lng": 120.14034411390216
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:6eee16711368594a4107c1dd",
+        "name": "爱普生认证服务中心(文二路高新大厦店)",
+        "location": {
+          "lat": 30.28976814885521,
+          "lng": 120.14071610221384
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:790765e50380871d3617dc79",
+        "name": "杭州市外资协会管理服务中心",
+        "location": {
+          "lat": 30.290792557760437,
+          "lng": 120.15335903362237
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:a3468ce835ab4a0fd2f49edb",
+        "name": "松子宠物诊所(潮王分院)",
+        "location": {
+          "lat": 30.2916765500311,
+          "lng": 120.1590736041241
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:af837d0a6788dddb373a7110",
+        "name": "红石中央花苑生活服务中心",
+        "location": {
+          "lat": 30.29093670697422,
+          "lng": 120.16015731989134
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:bcd59c84217f9b0180a12ef3",
+        "name": "浙江国家交通物流公共信息平台管理中心",
+        "location": {
+          "lat": 30.285301630945074,
+          "lng": 120.153401523473
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:c18b5d6d87722c77b34c499f",
+        "name": "浙江名中医馆",
+        "location": {
+          "lat": 30.28356821739468,
+          "lng": 120.15788496627329
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:c6dfc6eeca02de49b03c8117",
+        "name": "新宇酒店-会议室",
+        "location": {
+          "lat": 30.285817134822594,
+          "lng": 120.14262482176144
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:d23208f19d385133f72310d9",
+        "name": "锦华苑会议中心",
+        "location": {
+          "lat": 30.287494452611906,
+          "lng": 120.14520250942232
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:d817b55887d963ddb34c4943",
+        "name": "浙江工商大学后勤服务中心(保俶北路)",
+        "location": {
+          "lat": 30.292118192330307,
+          "lng": 120.14549167396599
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:ef4e15f0f4af40923fe231ef",
+        "name": "浙江省药品信息宣传和发展服务中心",
+        "location": {
+          "lat": 30.29161207710378,
+          "lng": 120.15063591029943
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:f34fac9883635f5185420eed",
+        "name": "东园汽车美容服务中心",
+        "location": {
+          "lat": 30.286939585933215,
+          "lng": 120.15337798786864
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:fb29b6869a176e769d82eadb",
+        "name": "苹果维修服务中心(湖墅南路店)",
+        "location": {
+          "lat": 30.2934018670862,
+          "lng": 120.15741946435801
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      }
+    ]
+  },
+  {
+    "key": "nanchang",
+    "mapRows": 70,
+    "states": {
+      "inside_reachable": 53,
+      "inside_over_threshold": 5,
+      "pending_verification": 10,
+      "outside_reachable": 2
+    },
+    "noPath": 10,
+    "anomalies": [
+      {
+        "identityKey": "uid:17381a44af8642b6cd04efcc",
+        "name": "蛟桥街道知爱社区退役军人服务站",
+        "location": {
+          "lat": 28.722774404859738,
+          "lng": 115.82120856247364
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:1ccbf84eeb54833b36b06c51",
+        "name": "黄家湖社区退役军人服务站",
+        "location": {
+          "lat": 28.72638066535777,
+          "lng": 115.82622748518679
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:260233d654b17c596140a964",
+        "name": "车掌柜服务中心",
+        "location": {
+          "lat": 28.72231034903672,
+          "lng": 115.81951112438254
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:28230a79fab6d3a10782c208",
+        "name": "养车堂技术服务中心(南天阳光东区店)",
+        "location": {
+          "lat": 28.716929842026957,
+          "lng": 115.83025189387017
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:2aa1ca2789f0890d4bfd3f85",
+        "name": "小万粮油批发",
+        "location": {
+          "lat": 28.71750146785348,
+          "lng": 115.82738665861648
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:505267b9f190b503a20464c6",
+        "name": "茅原桥社区退役军人服务站",
+        "location": {
+          "lat": 28.717889519053834,
+          "lng": 115.82547326788087
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:5426a859662af0836d20b9cd",
+        "name": "东华理工大学青岚校园活动中心",
+        "location": {
+          "lat": 28.723890901972275,
+          "lng": 115.82942967483714
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:77d664b0c388547800ff2dc4",
+        "name": "范家村党群服务中心",
+        "location": {
+          "lat": 28.71821072931414,
+          "lng": 115.82897621021586
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:8aa99d2983ab4d1f28b97cce",
+        "name": "公共厕所",
+        "location": {
+          "lat": 28.719530405188134,
+          "lng": 115.82284859884268
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      },
+      {
+        "identityKey": "uid:e6460f6a9ec46c431894c6e0",
+        "name": "公共厕所",
+        "location": {
+          "lat": 28.719517180003304,
+          "lng": 115.81921639034483
+        },
+        "status": "pending_verification",
+        "routeStatus": null,
+        "rangeMembership": "inside",
+        "subtypes": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "version": "facility-categories-v2",
+  "updatedAt": "2026-09-29",
+  "coordinateSystem": "BD-09LL",
+  "classificationPolicy": "Queries generate candidates only. Exclusion and subtype matching remain auditable; ambiguous POIs require review before confirmed category coverage.",
+  "categories": [
+    {
+      "id": "medical", "label": "医疗健康",
+      "searchQueries": ["医院", "社区卫生服务中心", "诊所", "卫生院", "药店"],
+      "rawCategoryHints": ["医疗", "医院", "诊所", "药店"],
+      "excludeNamePatterns": ["美容", "培训"],
+      "subtypes": [{ "id": "pharmacy", "namePatterns": ["药店", "大药房", "药房"], "excludeNamePatterns": ["医院", "诊所"] }],
+      "reviewRule": "药店需核查实体零售与入口；医院、卫生站、诊所按服务属性人工复核。"
+    },
+    {
+      "id": "education", "label": "教育托育",
+      "searchQueries": ["幼儿园", "托儿所", "小学", "中学", "早教中心"],
+      "rawCategoryHints": ["教育", "学校", "幼儿园", "托育"],
+      "excludeNamePatterns": ["招生代理", "家教中介"],
+      "subtypes": [{ "id": "primary_school", "namePatterns": ["小学"], "excludeNamePatterns": ["培训", "辅导", "幼儿园", "中学"] }],
+      "reviewRule": "小学需核查办学类型与校门；可达不代表学区资格或入学容量。"
+    },
+    {
+      "id": "commerce", "label": "社区商业",
+      "searchQueries": ["便利店", "超市", "菜市场", "商场", "社区商业"],
+      "rawCategoryHints": ["购物", "超市", "市场", "商场"],
+      "excludeNamePatterns": ["批发公司", "仓储中心"],
+      "subtypes": [{ "id": "market", "namePatterns": ["菜市场", "农贸市场"], "excludeNamePatterns": ["批发", "培训"] }],
+      "reviewRule": "菜场与超市、便利店分开标记；检索候选需核查日常对居民开放。"
+    },
+    {
+      "id": "eldercare", "label": "养老服务",
+      "searchQueries": ["养老院", "养老服务中心", "日间照料中心", "老年活动中心"],
+      "rawCategoryHints": ["养老", "福利", "老年"],
+      "excludeNamePatterns": ["养老保险", "招聘"],
+      "subtypes": [], "reviewRule": "核查是否面向居民提供现场服务。"
+    },
+    {
+      "id": "culture", "label": "文化休闲",
+      "searchQueries": ["图书馆", "文化馆", "文化中心", "博物馆", "社区文化活动中心"],
+      "rawCategoryHints": ["文化", "图书馆", "博物馆"],
+      "excludeNamePatterns": ["文化传媒公司", "广告公司"],
+      "subtypes": [], "reviewRule": "核查开放时间及可进入性。"
+    },
+    {
+      "id": "sports", "label": "体育健身",
+      "searchQueries": ["体育馆", "健身房", "运动场", "体育活动中心", "健身广场"],
+      "rawCategoryHints": ["体育", "健身", "运动"],
+      "excludeNamePatterns": ["健身器材公司", "体育用品店"],
+      "subtypes": [], "reviewRule": "核查公共开放条件，商业健身与公益场地保留原始属性。"
+    },
+    {
+      "id": "parks", "label": "公园绿地",
+      "searchQueries": ["公园", "城市绿地", "街心公园", "广场"],
+      "rawCategoryHints": ["公园", "绿地", "广场"],
+      "excludeNamePatterns": ["公园地产", "广场置业"],
+      "subtypes": [], "reviewRule": "核查实际入口和公众开放性，POI 点不代表整个公园面。"
+    },
+    {
+      "id": "public", "label": "公共服务",
+      "searchQueries": ["社区服务中心", "街道办事处", "政务服务中心", "公共服务中心"],
+      "rawCategoryHints": ["政府", "社区服务", "政务"],
+      "excludeNamePatterns": ["物业公司", "中介"],
+      "subtypes": [], "reviewRule": "核查服务受理功能与具体办事入口。"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+.topbar .brand-copy>small,.topbar .weather-card small,.topbar .analysis-time>span,.topbar .analysis-time time,.topbar .report-actions .download-report{font-size:var(--top-info-size)!important;font-family:var(--top-info-family)!important;line-height:1.45}
+.topbar .weather-card{max-width:none!important;flex:0 0 auto}.topbar .brand{min-width:0}.topbar .report-actions .download-report{font-weight:500}
+.facility-detail-track{border-radius:8px;box-shadow:inset 0 0 0 1px #FFFFFF80,0 0 7px color-mix(in srgb,var(--group-color) 20%,transparent)!important}.facility-detail-track i{box-shadow:inset 0 0 0 1px #FFFFFF55;border-radius:8px}.facility-detail-track:hover{box-shadow:inset 0 0 0 1px #FFFFFFA0,0 0 10px color-mix(in srgb,var(--group-color) 26%,transparent)!important}
+#report-drawer .diagnosis-card{min-height:145px!important;grid-template-areas:'heading status' 'count status' 'distance distance' 'service service'!important}.diagnosis-card .diagnosis-nearest{font-size:var(--report-font-auxiliary);line-height:var(--report-line-height)}
+#report-drawer .facility-detail-group>summary{grid-template-columns:26px 46px minmax(0,1fr) 57px 16px!important}

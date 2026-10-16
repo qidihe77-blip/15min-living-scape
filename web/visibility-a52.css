@@ -1,0 +1,33 @@
+/* Safety space is expressed on the fixed desktop canvas. Mobile alone may reflow. */
+.report-chart-pair .report-echart{height:400px;min-height:400px}
+#report-drawer .report-chart-pair #report-main-chart,#report-drawer .report-chart-pair #report-contribution-chart{height:400px!important;min-height:400px!important}
+.map-legend-panel{width:184px!important;padding:12px!important;box-sizing:border-box;max-height:calc(100% - 180px)!important}
+.map-legend-panel button{min-width:0;min-height:38px;max-height:none!important;height:auto!important;white-space:normal!important;line-height:1.45;gap:8px}
+.map-legend-panel button span{min-width:0;overflow-wrap:anywhere}
+.map-legend-panel button img,.map-legend-panel button svg{flex-shrink:0}
+.report-section-head{gap:12px;flex-wrap:wrap}
+.report-section-head h2{flex-shrink:0}
+.report-section-head>span{min-width:0;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.score-community-badge span{white-space:normal!important;text-overflow:clip!important;overflow:visible!important;overflow-wrap:anywhere}
+#report-drawer .score-summary small{white-space:normal!important;overflow:visible!important;text-overflow:clip!important;line-height:1.45}
+#report-drawer .score-summary>div{min-width:0;padding:0 6px!important;column-gap:5px}
+.facility-detail-group summary>strong{white-space:normal;min-width:0}
+.facility-subtype-details th,.facility-subtype-details td{overflow-wrap:anywhere;white-space:normal}
+.facility-subtype-details td button{white-space:normal;text-align:left;line-height:1.5}
+#report-drawer .diagnosis-card{overflow:visible!important;min-width:0;grid-template-rows:auto auto auto!important}
+#report-drawer .diagnosis-heading{min-width:0}
+#report-drawer .diagnosis-heading strong{white-space:normal;overflow-wrap:anywhere}
+#report-drawer .diagnosis-heading .diagnosis-icon{background:color-mix(in srgb,var(--diagnostic-color) 12%,white)!important;border:1px solid color-mix(in srgb,var(--diagnostic-color) 22%,white);box-shadow:none!important;flex-shrink:0}
+#report-drawer .diagnosis-poi{white-space:normal!important;overflow:visible!important;text-overflow:clip!important;overflow-wrap:anywhere;line-height:1.5}
+#report-drawer .diagnosis-distance{min-width:0;align-items:flex-start}
+#report-drawer .diagnosis-nearest{flex-shrink:0;white-space:nowrap}
+.facility-popup-header strong,.facility-popup-address span{overflow-wrap:anywhere}
+.facility-popup-metric{min-width:0}
+.facility-popup-metric strong{white-space:normal}
+.heat-legend strong{white-space:normal;overflow-wrap:anywhere}
+#poi-name-label{max-width:min(280px,calc(100% - 24px));white-space:normal!important;overflow-wrap:anywhere;text-overflow:clip!important;line-height:1.5}
+@media(max-width:767px){
+  .report-chart-pair{grid-template-columns:minmax(0,1fr)!important}
+  .specialty-cards{grid-template-columns:minmax(0,1fr)!important}
+  .map-legend-panel{width:176px!important;max-height:calc(100% - 180px)!important}
+}
