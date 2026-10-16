@@ -7,6 +7,12 @@
 **[三地测试验证 →](docs/validation/README.md)** · [技术设计](docs/TECHNICAL_DESIGN.md) · [API](docs/API.md) · [项目审查](docs/PROJECT_AUDIT.md) · [MIT许可](LICENSE)
 
 ![武汉真实记录运行界面](docs/assets/wuhan-dashboard.png)
+![南昌某社区](docs/images/overview_nanchang.png)
+![杭州某社区](docs/images/overview_%E6%9D%AD%E5%B7%9E.png)
+![初始界面](docs/images/overview.png)
+![分析界面](docs/images/analyse.png)
+![图表](docs/images/chart1.png)
+![图表](docs/images/chart2.png)
 
 > 截图来自本项目实际BMapGL页面与保存的真实分析，数据时间、来源和局限见三地报告。当前版本没有报告导出、天气或生鲜替代服务入口。
 
@@ -23,6 +29,8 @@
 | 可追溯性 | 起终点绑定、证据指纹、归档校验、缓存与OD/HTTP分别计量 |
 
 ### 技术亮点
+![图表](docs/images/chart2.png)
+![初始界面](docs/images/overview.png)
 
 - **边界与评分解耦**：圈外但真实Walking可达仍计入；多边形内的超距设施不误计分。
 - **POI引导的少量真实补点**：复用已知成本找漏包，最多默认18 OD；自交、误包、外扩异常回退。
